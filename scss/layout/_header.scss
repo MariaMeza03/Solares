@@ -1,0 +1,294 @@
+.header {
+	width: 100%;
+	height: 118px;
+	background-color: $heavy_metal;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+
+	@media(min-width:1199px){
+		position:absolute;
+		height: 475px;
+	}
+
+	&__mobile {
+		width: 100%;
+		display: block;
+
+		@media(min-width: 1200px) {
+			display: none;
+		}
+
+		.container{
+			padding:15px;
+		}
+
+		&__top{
+			@include flex-center-between;
+			
+			&__logo {
+				width: 171px;
+				height:88px ;
+	
+				img{
+					width: 100%;
+				}
+	
+			}
+	
+			&__toggle {
+				width: 43px;
+				height: 43px;
+				@include flex-center-center;
+				cursor: pointer;
+				border: 1px solid $saffron_mango;
+				border-radius: 4px;
+				padding: 10px;
+	
+				&__bar {
+					width: 100%;
+					height: 2px;
+					background-color: $storm_dust;
+					position: relative;
+					transition: 0.3s;
+	
+					&::before {
+						content: "";
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						top: -8px;
+						left: 0;
+						background-color: $storm_dust;
+						transition: 0.3s;
+					}
+	
+					&::after {
+						content: "";
+						position: absolute;
+						width: 100%;
+						height: 100%;
+						bottom: -8px;
+						left: 0;
+						background-color: $storm_dust;
+						transition: 0.3s;
+					}
+	
+				}
+	
+				&--active {
+					border: 1px solid transparent;
+				
+					.header__mobile__top__toggle__bar {
+						background-color: transparent;
+	
+						&::before {
+							top: 0;
+							left: 0;
+							transform: rotate(315deg);
+						}
+	
+						&::after {
+							top: 0;
+							left: 0;
+							transform: rotate(-315deg);
+						}
+					}
+	
+				}
+			}
+		}
+		
+		&__contact{
+			padding-top: 10px;
+			
+			&__item{
+				padding-top: 20px;
+				@include flex-center-center;
+				gap: 10px;
+				color: $white;
+				font-size: 18px;
+				text-decoration: underline;
+				
+				&__icon{
+					svg{
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+
+			p{
+				padding-top: 5px;
+				color: $white;
+				text-align: center;
+				font-size: 18px;
+				text-decoration: underline;
+			}
+
+		}
+
+		&__bottom{
+			padding-top: 60px;
+			width: 100%;
+			margin: auto;
+
+			p{
+			
+				color:$mikado_yellow;
+				font-size: 20px;
+				text-align: center;
+				font-weight: bold;
+				line-height: 1.8em;
+				letter-spacing: 0em;
+			}
+
+			p.green{
+				color:$vibrant_green;
+			}
+
+		}
+
+	}
+
+	&__desktop {
+		width: 100%;
+		height: 100%;
+		display: none;
+
+		@media(min-width: 1200px) {
+			display: block;
+		}
+
+		&__top{
+			display: flex;
+			justify-content:space-between;
+			gap: 50px;
+			padding: 33px 0;
+
+			&__logo{
+				width: 269px;
+	
+				img{
+					width: 100%;
+				}
+			}
+
+			&__contact{
+				
+				h1{
+					width: 100%;
+					font-size: 16px;
+					color: $white;
+					letter-spacing: normal;
+					line-height: normal;
+					font-weight: normal;
+				}
+
+				&__form{
+					width: 100%;
+					padding-top: 30px;
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+
+					&__item{
+						@include flex-a-center;
+						gap: 10px;
+						color: $white;
+						font-size: 18px;
+						text-decoration: underline;
+					
+						&__icon{
+
+							svg{
+								width: 100%;
+								height: 100%;
+							}
+		
+						}
+					}
+
+					&__item_line{
+						@include flex-center-center;
+						gap: 10px;
+						color: $white;
+						font-size: 18px;
+						text-decoration: underline;
+						border-left: 1px solid $mikado_yellow;
+						border-right:1px solid $mikado_yellow ;
+						&__icon{
+
+							svg{
+								width: 100%;
+								height: 100%;
+							}
+		
+						}
+
+					}
+				}
+
+			}
+
+		}
+
+		&__medium{
+			@include flex-j-center;
+			
+			width: 100%;
+			background-color: $cobalt;
+			padding: 5px 0;
+
+			&__bottom{
+				border-right: 1px solid $mikado_yellow;
+				color: $white;
+				font-size: 22px;
+				padding: 20px 70px;
+				
+				&--active{
+					border-right: 1px solid $mikado_yellow;
+					color: $white;
+					font-size: 22px;
+					padding: 20px 70px;
+					background-color: $heavy_metal;
+
+					&:hover{
+						background-color: $white;
+					}
+				}
+
+				&:hover{
+					background-color: $white;
+				}
+
+			}
+
+		}
+
+		&__bottom{
+			padding: 20px 0;
+			width: 100%;
+			margin: auto;
+
+			p{
+			
+				color:$mikado_yellow;
+				font-size: 28px;
+				text-align: center;
+				font-weight: bold;
+				line-height: 1.8em;
+				letter-spacing: 0em;
+			}
+
+			p.green{
+				color:$vibrant_green;
+			}
+
+		}
+
+
+
+	}
+
+}

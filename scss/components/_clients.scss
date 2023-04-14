@@ -1,0 +1,52 @@
+.clients{
+    width: 100%;
+    height:auto;
+   @include flex-center-center;
+    flex-direction: column;
+    padding: 20px 0;
+
+    @media(min-width:1199px){
+        height:900px;
+    }
+
+
+    h1{
+        font-size: 23px;
+        color: black;
+        letter-spacing: normal;
+        line-height: normal;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+
+    hr{
+        width: 98px;
+        margin: auto;
+        border: 8px solid $mikado_yellow;
+    }
+
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding-top: 20px;
+
+        @media(min-width:1199px){
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+        }
+
+        img{
+            width: 100%;
+            margin: auto;
+
+            @media(min-width:1199px){
+                width: 175px;
+            }
+
+        }
+
+
+    }
+}

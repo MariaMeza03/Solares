@@ -1,0 +1,10 @@
+.information{
+    width: 100%;
+	height: auto;
+	background-color: $heavy_metal;
+    margin-top: 118px;
+
+    @media(min-width: 992px){
+        display: none;
+    }
+}
