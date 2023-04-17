@@ -9,7 +9,7 @@
 
 	@media(min-width:1199px){
 		position:absolute;
-		height: 475px;
+		height: auto;
 	}
 
 	&__mobile {
@@ -244,7 +244,12 @@
 				border-right: 1px solid $mikado_yellow;
 				color: $white;
 				font-size: 22px;
-				padding: 20px 70px;
+				padding: 20px;
+				padding: 20px;
+
+				@media(min-width:1400px){
+					padding: 20px 70px
+				}
 				
 				&--active{
 					border-right: 1px solid $mikado_yellow;

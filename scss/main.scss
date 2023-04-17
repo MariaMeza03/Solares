@@ -17,6 +17,10 @@
 @import 'components/service';
 @import 'components/information';
 @import 'components/clients';
+@import 'components/we_ensure';
+@import 'components/price';
+@import 'components/experts';
+
 
 
 *{
@@ -29,7 +33,7 @@
 html{
 	scroll-behavior: smooth;
 }
-
+ 
 button{
 	border: 0;
 	outline: none;
