@@ -1,0 +1,63 @@
+.urgent{
+    width: 100%;
+    height: 100%;
+    background-color:$mariner ;
+    padding: 30px 0;
+
+    @media(min-width: 1199px){
+        padding: 44px 0;
+        position: relative;
+    }
+
+    .container-sm{
+        @include flex-center-center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__logo{
+        width: 90px;
+
+        @media(min-width: 1199px){
+            width: 130px;
+        }
+
+        svg{
+            width: 100%;
+        }
+
+    }
+
+    h1{
+        font-size: 24px;
+        color:$white;
+        letter-spacing: normal;
+        line-height: 1em;
+        text-align: center;
+        font-weight:1000;
+
+        @media(min-width: 1199px){
+            font-size: 54px;
+            width: 60%;
+            margin: auto;
+        }
+
+    }
+
+    &__button{
+        @include flex-center-center;
+        width: 160px;
+        height: 100%;
+        padding: 10px;
+        color: $black;
+        font-size: 15px;
+        background-color: $mikado_yellow;
+        font-weight: bold;
+
+        &:hover{
+            background-color: $white;
+            border:1px solid $black;
+
+        }
+    }
+}
