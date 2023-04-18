@@ -721,17 +721,16 @@
       animation-name: sub;
       animation-duration: 5s;
       z-index: 0; }
-
-@keyframes sub {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
       @media (min-width: 1199px) {
         .we_ensure__title p {
           width: 70%;
           font-size: 27px;
-          padding-bottom: 80px; } }
+          padding-bottom: 80px; }
+        @keyframes sub {
+          0% {
+            opacity: 0; }
+          100% {
+            opacity: 1; } } }
 
 .price {
   width: 100%;
@@ -1203,12 +1202,20 @@
       letter-spacing: normal;
       color: #000000;
       padding-bottom: 20px;
-      margin: auto; }
+      margin: auto;
+      animation-name: text;
+      animation-duration: 4s;
+      animation-iteration-count: initial; }
       @media (min-width: 1199px) {
         .hero__banner_top h1 {
           width: 100%;
           font-size: 100px;
-          line-height: 90px; } }
+          line-height: 90px; }
+        @keyframes text {
+          0% {
+            opacity: 0; }
+          100% {
+            opacity: 1; } } }
     .hero__banner_top hr {
       width: 98px;
       margin: auto;

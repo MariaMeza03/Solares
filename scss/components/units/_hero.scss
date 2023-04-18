@@ -40,11 +40,25 @@
             color: $black;
             padding-bottom: 20px;
             margin: auto;
+            animation-name: text;
+            animation-duration: 4s;
+            animation-iteration-count:initial;
 
             @media(min-width: 1199px){
                 width: 100%;
                 font-size: 100px;
                 line-height: 90px;
+
+                @keyframes text {
+                    0%{
+                        opacity: 0; 
+                    }
+                  
+                    100%{
+                        opacity: 1;
+                    }
+                    
+                }
             }
 
         }
