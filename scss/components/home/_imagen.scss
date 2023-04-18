@@ -5,6 +5,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+
     filter:brightness(60%);
 
     @media(min-width: 1199px){
