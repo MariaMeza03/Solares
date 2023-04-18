@@ -33,6 +33,22 @@
         width: 98px;
         margin: auto;
         border: 5px solid $mikado_yellow;
+        animation-name: line;
+        animation-duration: 4s;
+        animation-iteration-count:initial;
+
+        @media(min-width:1199px){
+            @keyframes line {
+                0%{
+                    width: 0%
+                }
+    
+                100%{
+                    width: 98px;
+                }
+                
+            }
+        }
     }
 
     &__grid{
@@ -45,16 +61,18 @@
         animation-name: animation;
         animation-duration: 4s;
         animation-iteration-count:initial;
-        @keyframes animation {
-            0%{
-                transform: scale(0.1)
-            }
-            
-        }
+       
 
         @media(min-width:1199px){
             grid-template-columns: repeat(4, 1fr);
             gap: 20px;
+
+            @keyframes animation {
+                0%{
+                    transform: scale(0.1)
+                }
+                
+            }
         }
 
         @media(min-width:1400px){
