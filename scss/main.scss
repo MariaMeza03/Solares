@@ -26,9 +26,14 @@
 @import 'components/home/imagen';
 
 //*Components Units
-@import 'components/units/hero';
+@import 'components/units/hero_units';
 @import 'components/units/catalog';
 
+//*Components services
+@import 'components/services/hero_services';
+@import 'components/services/we_services';
+@import 'components/services/contact';
+@import 'components/services/image_services';
 
 
 

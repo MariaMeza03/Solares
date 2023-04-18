@@ -1,16 +1,16 @@
-.hero{
+.hero_services{
     width: 100%;
     height: 100%;
     
      @media(min-width: 1199px){
-        background-image: url("https://static.wixstatic.com/media/914e21_58575822193d4c4fb1773e92c871fc0f~mv2.jpg/v1/fill/w_1350,h_383,al_c,q_85,usm_1.20_1.00_0.01,enc_auto/914e21_58575822193d4c4fb1773e92c871fc0f~mv2.jpg");
+        background-image: url("https://static.wixstatic.com/media/914e21_d35a86a1b60c4abb853683eb5844e42f~mv2.png/v1/fill/w_1350,h_444,al_b,q_90,usm_1.20_1.00_0.01,enc_auto/914e21_d35a86a1b60c4abb853683eb5844e42f~mv2.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;  
         margin-top: 470px;
         position: relative;
-        height: 600px;
+        height: 300px;
     }
 
     img{
@@ -84,81 +84,6 @@
                 }
             }
     
-        }
-    }
-
-    &__banner_bottom{
-        width: 100%;
-        height: auto;
-        background-color: $heavy_metal;
-        padding: 20px 0;
-    
-        @media(min-width: 1199px){
-            position: relative;
-            bottom:-25%;
-            padding: 30px 0;
-            z-index: 1;
-        }
-
-        .container-sm{
-            @include flex-center-center;
-            flex-direction: column;
-        }
-
-        h2{
-            width: 90%;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 31px;
-            line-height: normal;
-            text-align: center;
-            color: $white;
-            margin-bottom: 20px;
-
-            @media(min-width: 1199px){
-                font-size: 75px;
-            }
-        }
-
-        h3{
-            letter-spacing: 0em;
-            text-align: center;
-            font-size: 16px;
-            color:$mikado_yellow;
-            font-weight: normal;
-
-            @media(min-width: 1199px){
-                font-size: 21px;
-            }
-        }
-
-        a{
-            letter-spacing: 0em;
-            text-align: center;
-            font-size: 20px;
-            color:$mikado_yellow;
-            font-weight: 900;
-            text-decoration: underline;
-            padding-bottom: 20px;
-
-            @media(min-width: 1199px){
-                font-size: 29px;
-            }
-        }
-
-        p{
-            width: 80%;
-            text-align: center;
-            font-size: 20px;
-            color: $white;
-            font-weight: 900;
-            text-decoration: underline;
-            line-height: normal;
-
-            @media(min-width: 1199px){
-                font-size: 29px;
-            }
-
         }
     }
 }
