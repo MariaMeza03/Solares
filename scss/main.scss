@@ -13,17 +13,19 @@
 @import 'layout/menu';
 @import 'layout/footer';
 
-//*Components
-@import 'components/service';
-@import 'components/information';
-@import 'components/clients';
-@import 'components/we_ensure';
-@import 'components/price';
-@import 'components/experts';
-@import 'components/quote';
-@import 'components/why_we';
-@import 'components/urgent';
-@import 'components/imagen';
+//*Components home
+@import 'components/home/service';
+@import 'components/home/information';
+@import 'components/home/clients';
+@import 'components/home/we_ensure';
+@import 'components/home/price';
+@import 'components/home/experts';
+@import 'components/home/quote';
+@import 'components/home/why_we';
+@import 'components/home/urgent';
+@import 'components/home/imagen';
+
+//*Components Units
 
 
 
