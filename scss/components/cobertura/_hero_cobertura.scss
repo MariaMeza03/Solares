@@ -30,25 +30,27 @@
             font-size: 36px;
             letter-spacing: normal;
             color: $white;
-            padding-bottom: 20px;
             margin: auto;
-            animation-name: text;
-            animation-duration: 4s;
+            animation: typing;
+            animation-duration: 2s;
             animation-iteration-count:initial;
+            overflow: hidden;
+            white-space: nowrap;
+          
 
             @media(min-width: 1199px){
                 width: 100%;
                 font-size: 100px;
                 line-height: 90px;
-                color: $black;
+                color:$heavy_metal;
 
-                @keyframes text {
-                    0%{
-                        opacity: 0; 
+                @keyframes typing  {
+                    from{
+                        width: 0; 
                     }
                   
-                    100%{
-                        opacity: 1;
+                    to{
+                        width: 100%;
                     }
                     
                 }

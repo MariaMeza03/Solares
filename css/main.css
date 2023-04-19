@@ -1200,22 +1200,24 @@
       text-align: center;
       font-size: 36px;
       letter-spacing: normal;
-      color: #000000;
+      color: #2F2E2E;
       padding-bottom: 20px;
       margin: auto;
       animation-name: text;
-      animation-duration: 4s;
-      animation-iteration-count: initial; }
+      animation-duration: 2s;
+      animation-iteration-count: initial;
+      overflow: hidden;
+      white-space: nowrap; }
       @media (min-width: 1199px) {
         .hero_units__banner_top h1 {
           width: 100%;
           font-size: 100px;
           line-height: 90px; }
         @keyframes text {
-          0% {
-            opacity: 0; }
-          100% {
-            opacity: 1; } } }
+          from {
+            width: 0; }
+          to {
+            width: 100%; } } }
     .hero_units__banner_top hr {
       width: 98px;
       margin: auto;
@@ -1356,22 +1358,24 @@
       text-align: center;
       font-size: 36px;
       letter-spacing: normal;
-      color: #000000;
+      color: #2F2E2E;
       padding-bottom: 20px;
       margin: auto;
       animation-name: text;
-      animation-duration: 4s;
-      animation-iteration-count: initial; }
+      animation-duration: 2s;
+      animation-iteration-count: initial;
+      overflow: hidden;
+      white-space: nowrap; }
       @media (min-width: 1199px) {
         .hero_services__banner_top h1 {
           width: 100%;
           font-size: 100px;
           line-height: 90px; }
         @keyframes text {
-          0% {
-            opacity: 0; }
-          100% {
-            opacity: 1; } } }
+          from {
+            width: 0; }
+          to {
+            width: 100%; } } }
     .hero_services__banner_top hr {
       width: 98px;
       margin: auto;
@@ -1524,22 +1528,23 @@
       font-size: 36px;
       letter-spacing: normal;
       color: #FFFFFF;
-      padding-bottom: 20px;
       margin: auto;
-      animation-name: text;
-      animation-duration: 4s;
-      animation-iteration-count: initial; }
+      animation: typing;
+      animation-duration: 2s;
+      animation-iteration-count: initial;
+      overflow: hidden;
+      white-space: nowrap; }
       @media (min-width: 1199px) {
         .hero_cobertura__banner_top h1 {
           width: 100%;
           font-size: 100px;
           line-height: 90px;
-          color: #000000; }
-        @keyframes text {
-          0% {
-            opacity: 0; }
-          100% {
-            opacity: 1; } } }
+          color: #2F2E2E; }
+        @keyframes typing {
+          from {
+            width: 0; }
+          to {
+            width: 100%; } } }
     .hero_cobertura__banner_top hr {
       width: 98px;
       margin: auto;

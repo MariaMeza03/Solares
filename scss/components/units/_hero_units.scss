@@ -37,12 +37,14 @@
             text-align: center;
             font-size: 36px;
             letter-spacing: normal;
-            color: $black;
+            color:$heavy_metal;
             padding-bottom: 20px;
             margin: auto;
             animation-name: text;
-            animation-duration: 4s;
+            animation-duration: 2s;
             animation-iteration-count:initial;
+            overflow: hidden;
+            white-space: nowrap;
 
             @media(min-width: 1199px){
                 width: 100%;
@@ -50,12 +52,12 @@
                 line-height: 90px;
 
                 @keyframes text {
-                    0%{
-                        opacity: 0; 
+                    from{
+                        width: 0; 
                     }
                   
-                    100%{
-                        opacity: 1;
+                    to{
+                        width: 100%;
                     }
                     
                 }
@@ -70,6 +72,7 @@
             animation-name: line;
             animation-duration: 4s;
             animation-iteration-count:initial;
+            
     
             @media(min-width:1199px){
                 @keyframes line {
