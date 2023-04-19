@@ -1,0 +1,460 @@
+.location_movil{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0 ;
+
+    @media(min-width:1199px){
+        display: none;
+    }
+    .container-sm{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        
+    }
+
+   &__target{
+        width: 100%;
+        box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
+        background-color:$naples_yellow;
+        padding: 10px;
+
+
+        h1{
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+            font-size: 28px;
+            font-weight:900;
+            color: $heavy_metal;
+            padding-bottom: 10px;
+        }
+
+        p{
+            font-size: 11px;
+            letter-spacing: normal;
+            line-height: normal;
+            color: $heavy_metal;
+        }
+
+        &__icon{
+            margin: auto;
+            width: 60px;
+            svg{
+                width: 100%;
+            }
+        }
+
+   }
+}
+
+.location_desktop{
+    width: 100%;
+    height: 1200px;
+    display: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://static.wixstatic.com/media/914e21_c91f8e3941ac4fd58d3b5a8f24e9a1a0~mv2.png/v1/fill/w_721,h_398,al_c,lg_1,q_85,usm_1.20_1.00_0.01,enc_auto/NicePng_mapa-png_3532183.png");
+    animation-name: animationhero;
+    animation-duration: 4s;
+    animation-iteration-count:initial;
+
+    @keyframes animationhero {
+        0%{
+            opacity: 0; 
+        }
+      
+        100%{
+            opacity: 1;
+        }
+        
+    }
+    
+    @media(min-width:1199px){
+        display: flex;
+    }
+
+    .container-sm{
+        @include flex-center-center;
+        
+    }
+
+    &__pacifico{
+        transform: translate(70%,90%);
+        @include flex-center-center;
+
+
+        &__hero{
+            @include flex-center-center;
+            flex-direction: column;
+            width: 250px;
+            height: 182px;
+            box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
+            background-color:$naples_yellow;
+
+            &__icon{
+                width: 70px;
+
+                svg{
+                    width: 100%;
+                    height: 100%;
+               }
+
+            }
+
+            h1{
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: center;
+                font-size: 28px;
+                font-weight:900;
+                color: $heavy_metal;
+                padding-bottom: 10px;
+            }
+
+        }
+
+        &__banner{
+            width: 250px;
+            height: 257px;
+            padding: 10px;
+            box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
+            background-color:$light_tan;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+
+
+            p{
+                font-size: 11px;
+                letter-spacing: normal;
+                line-height: normal;
+                color: $heavy_metal;
+            }
+        }
+
+        &:hover{
+            .location_desktop__pacifico__hero{
+                background-color:transparent;
+                box-shadow: none; 
+                opacity: 0;
+            }
+
+            .location_desktop__pacifico__banner{
+                opacity: 1;
+                transform: scale(120%);
+                transition: 1s;
+            }
+        }
+
+
+
+    }
+
+    &__arrow_pacifico{
+        width: 131px;
+        transform: translate(160%,160%);
+        animation-name: animation1;
+        animation-duration: 4s;
+        animation-iteration-count:initial;
+
+        @keyframes animation1 {
+            0%{
+                opacity: 0; 
+            }
+          
+            100%{
+                opacity: 1;
+            }
+            
+        }
+
+        svg{
+            width: 131px;
+        }
+    }
+
+    &__centro{
+        transform: translate(260%,-40%);
+        @include flex-center-center;
+
+
+        &__hero{
+            @include flex-center-center;
+            flex-direction: column;
+            width: 250px;
+            height: 182px;
+            box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
+            background-color:$naples_yellow;
+
+            &__icon{
+                width: 70px;
+
+                svg{
+                    width: 100%;
+                    height: 100%;
+               }
+
+            }
+
+            h1{
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: center;
+                font-size: 28px;
+                font-weight:900;
+                color: $heavy_metal;
+                padding-bottom: 10px;
+            }
+
+        }
+
+        &__banner{
+            width: 250px;
+            height: 185px;
+            padding: 10px;
+            box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
+            background-color:$light_tan;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+
+
+            p{
+                font-size: 11px;
+                letter-spacing: normal;
+                line-height: normal;
+                color: $heavy_metal;
+            }
+        }
+
+        &:hover{
+            .location_desktop__centro__hero{
+                background-color:transparent;
+                box-shadow: none; 
+                opacity: 0;
+            }
+
+            .location_desktop__centro__banner{
+                opacity: 1;
+                transform: scale(120%);
+                transition: 1s;
+            }
+        }
+
+
+
+    }
+
+    &__arrow_centro{
+        transform: translate(185%,10%);
+        animation-name: animation2;
+        animation-duration: 4s;
+        animation-iteration-count:initial;
+
+        @keyframes animation2 {
+            0%{
+                opacity: 0; 
+            }
+          
+            100%{
+                opacity: 1;
+            }
+            
+        }
+
+        svg{
+            transform: rotate(170deg);
+            width: 131px;
+        }
+    }
+
+    &__norte{
+        transform: translate(13%,-190%);
+        @include flex-center-center;
+
+        &__hero{
+            @include flex-center-center;
+            flex-direction: column;
+            width: 250px;
+            height: 182px;
+            box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
+            background-color:$naples_yellow;
+
+            &__icon{
+                width: 70px;
+
+                svg{
+                    width: 100%;
+                    height: 100%;
+               }
+
+            }
+
+            h1{
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: center;
+                font-size: 28px;
+                font-weight:900;
+                color: $heavy_metal;
+                padding-bottom: 10px;
+            }
+
+        }
+
+        &__banner{
+            width: 250px;
+            height: 150px;
+            padding: 10px;
+            box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
+            background-color:$light_tan;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+
+
+            p{
+                font-size: 11px;
+                letter-spacing: normal;
+                line-height: normal;
+                color: $heavy_metal;
+            }
+        }
+
+        &:hover{
+            .location_desktop__norte__hero{
+                background-color:transparent;
+                box-shadow: none; 
+                opacity: 0;
+            }
+
+            .location_desktop__norte__banner{
+                opacity: 1;
+                transform: scale(120%);
+                transition: 1s;
+            }
+        }
+
+
+
+    }
+
+    &__arrow_norte{
+        transform: translate(-280%,-210%);
+        animation-name: animation3;
+        animation-duration: 4s;
+        animation-iteration-count:initial;
+
+        @keyframes animation3 {
+            0%{
+                opacity: 0; 
+            }
+          
+            100%{
+                opacity: 1;
+            }
+            
+        }
+
+        svg{
+            transform: rotate(160deg);
+            width: 131px;
+
+        }
+    }
+
+    &__sureste{
+        transform: translate(-220%,200%);
+        @include flex-center-center;
+
+        &__hero{
+            @include flex-center-center;
+            flex-direction: column;
+            width: 250px;
+            height: 182px;
+            box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
+            background-color:$naples_yellow;
+
+            &__icon{
+                width: 70px;
+
+                svg{
+                    width: 100%;
+                    height: 100%;
+               }
+
+            }
+
+            h1{
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: center;
+                font-size: 28px;
+                font-weight:900;
+                color: $heavy_metal;
+                padding-bottom: 10px;
+            }
+
+        }
+
+        &__banner{
+            width: 250px;
+            height: 330px;
+            padding: 10px;
+            box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
+            background-color:$light_tan;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+
+
+            p{
+                font-size: 11px;
+                letter-spacing: normal;
+                line-height: normal;
+                color: $heavy_metal;
+            }
+        }
+
+        &:hover{
+            .location_desktop__sureste__hero{
+                background-color:transparent;
+                box-shadow: none; 
+                opacity: 0;
+            }
+
+            .location_desktop__sureste__banner{
+                opacity: 1;
+                transform: scale(120%);
+                transition: 1s;
+            }
+        }
+
+
+
+    }
+
+    &__arrow_sureste{
+        transform: translate(-395%,250%);
+        animation-name: animation4;
+        animation-duration: 4s;
+        animation-iteration-count:initial;
+
+        @keyframes animation4 {
+            0%{
+                opacity: 0; 
+            }
+          
+            100%{
+                opacity: 1;
+            }
+            
+        }
+
+        svg{
+            width: 131px;
+        }
+    }
+
+}
