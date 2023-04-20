@@ -115,8 +115,10 @@
         }
 
         &__banner{
+            @include flex-j-center;
+            flex-direction: column;
             width: 250px;
-            height: 257px;
+            height: 300px;
             padding: 10px;
             box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
             background-color:$light_tan;
@@ -211,8 +213,10 @@
         }
 
         &__banner{
+            @include flex-j-center;
+            flex-direction: column;
             width: 250px;
-            height: 185px;
+            height: 250px;
             padding: 10px;
             box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
             background-color:$light_tan;
@@ -305,8 +309,10 @@
         }
 
         &__banner{
+            @include flex-j-center;
+            flex-direction: column;
             width: 250px;
-            height: 150px;
+            height: 200px;
             padding: 10px;
             box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
             background-color:$light_tan;
@@ -400,8 +406,10 @@
         }
 
         &__banner{
+            @include flex-j-center;
+            flex-direction: column;
             width: 250px;
-            height: 330px;
+            height: 380px;
             padding: 10px;
             box-shadow: rgba(219, 186, 59, 1) 5px 5px; 
             background-color:$light_tan;

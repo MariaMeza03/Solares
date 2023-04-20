@@ -1677,8 +1677,11 @@
         color: #2F2E2E;
         padding-bottom: 10px; }
     .location_desktop__pacifico__banner {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       width: 250px;
-      height: 257px;
+      height: 300px;
       padding: 10px;
       box-shadow: #dbba3b 5px 5px;
       background-color: #FBEBA3;
@@ -1740,8 +1743,11 @@
         color: #2F2E2E;
         padding-bottom: 10px; }
     .location_desktop__centro__banner {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       width: 250px;
-      height: 185px;
+      height: 250px;
       padding: 10px;
       box-shadow: #dbba3b 5px 5px;
       background-color: #FBEBA3;
@@ -1803,8 +1809,11 @@
         color: #2F2E2E;
         padding-bottom: 10px; }
     .location_desktop__norte__banner {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       width: 250px;
-      height: 150px;
+      height: 200px;
       padding: 10px;
       box-shadow: #dbba3b 5px 5px;
       background-color: #FBEBA3;
@@ -1866,8 +1875,11 @@
         color: #2F2E2E;
         padding-bottom: 10px; }
     .location_desktop__sureste__banner {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       width: 250px;
-      height: 330px;
+      height: 380px;
       padding: 10px;
       box-shadow: #dbba3b 5px 5px;
       background-color: #FBEBA3;
