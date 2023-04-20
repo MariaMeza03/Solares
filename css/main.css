@@ -232,7 +232,6 @@
         .header__desktop__medium__bottom:hover {
           background-color: #FFFFFF; }
     .header__desktop__bottom {
-      display: none;
       padding: 20px 0;
       width: 100%;
       margin: auto; }
@@ -911,13 +910,13 @@
     width: 50%;
     line-height: 25px;
     text-align: center;
-    font-size: 34px;
+    font-size: 24px;
     letter-spacing: -0.05em;
     color: #2F2E2E; }
     @media (min-width: 1199px) {
       .quote h1 {
-        font-size: 92px;
-        line-height: 85px; } }
+        font-size: 52px;
+        line-height: 52px; } }
   .quote p {
     width: 80%;
     line-height: 1.5em;
