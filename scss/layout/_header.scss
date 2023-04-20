@@ -197,7 +197,7 @@
 						@include flex-a-center;
 						gap: 10px;
 						color: $white;
-						font-size: 18px;
+						font-size:22px;
 						text-decoration: underline;
 					
 						&__icon{
@@ -235,8 +235,7 @@
 		}
 
 		&__medium{
-			@include flex-j-center;
-			
+			@include flex-j-center;		
 			width: 100%;
 			background-color: $cobalt;
 			padding: 5px 0;
@@ -244,19 +243,19 @@
 			&__bottom{
 				border-right: 1px solid $mikado_yellow;
 				color: $white;
-				font-size: 22px;
-				padding: 20px;
-				padding: 20px;
+				font-size: 18px;
+				padding: 10px;
+
 
 				@media(min-width:1400px){
-					padding: 20px 70px
+					padding: 10px 50px
 				}
 				
 				&--active{
 					border-right: 1px solid $mikado_yellow;
 					color: $white;
-					font-size: 22px;
-					padding: 20px 70px;
+					font-size: 18px;
+					padding: 10px 50px;
 					background-color: $heavy_metal;
 
 					&:hover{
@@ -273,6 +272,7 @@
 		}
 
 		&__bottom{
+			display: none;
 			padding: 20px 0;
 			width: 100%;
 			margin: auto;

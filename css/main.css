@@ -188,7 +188,7 @@
           align-items: center;
           gap: 10px;
           color: #FFFFFF;
-          font-size: 18px;
+          font-size: 22px;
           text-decoration: underline; }
           .header__desktop__top__contact__form__item__icon svg {
             width: 100%;
@@ -215,23 +215,23 @@
       .header__desktop__medium__bottom {
         border-right: 1px solid #FFCB00;
         color: #FFFFFF;
-        font-size: 22px;
-        padding: 20px;
-        padding: 20px; }
+        font-size: 18px;
+        padding: 10px; }
         @media (min-width: 1400px) {
           .header__desktop__medium__bottom {
-            padding: 20px 70px; } }
+            padding: 10px 50px; } }
         .header__desktop__medium__bottom--active {
           border-right: 1px solid #FFCB00;
           color: #FFFFFF;
-          font-size: 22px;
-          padding: 20px 70px;
+          font-size: 18px;
+          padding: 10px 50px;
           background-color: #2F2E2E; }
           .header__desktop__medium__bottom--active:hover {
             background-color: #FFFFFF; }
         .header__desktop__medium__bottom:hover {
           background-color: #FFFFFF; }
     .header__desktop__bottom {
+      display: none;
       padding: 20px 0;
       width: 100%;
       margin: auto; }
@@ -405,7 +405,6 @@
   @media (min-width: 1200px) {
     .service_home {
       height: 870px;
-      margin-top: 470px;
       background-color: transparent; } }
   .service_home video {
     height: 100%;
@@ -787,7 +786,8 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  height: 500px; }
+  height: 500px;
+  margin-top: 220px; }
   @media (min-width: 1199px) {
     .experts {
       height: 600px; } }
@@ -1179,7 +1179,7 @@
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
-      margin-top: 470px;
+      margin-top: 220px;
       position: relative;
       height: 600px; } }
   .hero_units img {
@@ -1337,7 +1337,7 @@
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
-      margin-top: 470px;
+      margin-top: 220px;
       position: relative;
       height: 300px; } }
   .hero_services img {
@@ -1511,7 +1511,7 @@
   @media (min-width: 1199px) {
     .hero_cobertura {
       background-attachment: fixed;
-      margin-top: 470px;
+      margin-top: 220px;
       position: relative;
       height: 220px; } }
   .hero_cobertura__banner_top {
