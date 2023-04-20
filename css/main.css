@@ -788,7 +788,7 @@
   overflow: hidden;
   position: relative;
   height: 500px;
-  margin-top: 220px; }
+  margin-top: 230px; }
   @media (min-width: 1199px) {
     .experts {
       height: 600px; } }
@@ -1180,7 +1180,7 @@
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
-      margin-top: 220px;
+      margin-top: 230px;
       position: relative;
       height: 600px; } }
   .hero_units img {
@@ -1338,7 +1338,7 @@
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
-      margin-top: 220px;
+      margin-top: 230px;
       position: relative;
       height: 300px; } }
   .hero_services img {
@@ -1512,7 +1512,7 @@
   @media (min-width: 1199px) {
     .hero_cobertura {
       background-attachment: fixed;
-      margin-top: 220px;
+      margin-top: 230px;
       position: relative;
       height: 220px; } }
   .hero_cobertura__banner_top {
