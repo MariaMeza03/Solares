@@ -173,8 +173,8 @@
           width: 100%; }
       .header__desktop__top__contact h1 {
         width: 100%;
-        font-size: 16px;
-        color: #FFFFFF;
+        font-size: 19px;
+        color: #FFCB00;
         letter-spacing: normal;
         line-height: normal;
         font-weight: normal; }
@@ -1206,11 +1206,11 @@
       margin: auto;
       animation-name: text;
       animation-duration: 2s;
-      animation-iteration-count: initial;
-      overflow: hidden;
-      white-space: nowrap; }
+      animation-iteration-count: initial; }
       @media (min-width: 1199px) {
         .hero_units__banner_top h1 {
+          overflow: hidden;
+          white-space: nowrap;
           width: 100%;
           font-size: 100px;
           line-height: 90px; }
