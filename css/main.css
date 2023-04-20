@@ -199,7 +199,7 @@
           justify-content: center;
           gap: 10px;
           color: #FFFFFF;
-          font-size: 18px;
+          font-size: 22px;
           text-decoration: underline;
           border-left: 1px solid #FFCB00;
           border-right: 1px solid #FFCB00; }
@@ -216,15 +216,16 @@
         border-right: 1px solid #FFCB00;
         color: #FFFFFF;
         font-size: 18px;
-        padding: 10px; }
+        line-height: 16px;
+        padding: 15px; }
         @media (min-width: 1400px) {
           .header__desktop__medium__bottom {
-            padding: 10px 50px; } }
+            padding: 15px 50px; } }
         .header__desktop__medium__bottom--active {
           border-right: 1px solid #FFCB00;
           color: #FFFFFF;
           font-size: 18px;
-          padding: 10px 50px;
+          padding: 15px 50px;
           background-color: #2F2E2E; }
           .header__desktop__medium__bottom--active:hover {
             background-color: #FFFFFF; }

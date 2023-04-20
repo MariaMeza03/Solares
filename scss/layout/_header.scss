@@ -214,7 +214,7 @@
 						@include flex-center-center;
 						gap: 10px;
 						color: $white;
-						font-size: 18px;
+						font-size: 22px;
 						text-decoration: underline;
 						border-left: 1px solid $mikado_yellow;
 						border-right:1px solid $mikado_yellow ;
@@ -244,18 +244,18 @@
 				border-right: 1px solid $mikado_yellow;
 				color: $white;
 				font-size: 18px;
-				padding: 10px;
-
+				line-height:16px;
+				padding: 15px;
 
 				@media(min-width:1400px){
-					padding: 10px 50px
+					padding: 15px 50px
 				}
 				
 				&--active{
 					border-right: 1px solid $mikado_yellow;
 					color: $white;
 					font-size: 18px;
-					padding: 10px 50px;
+					padding: 15px 50px;
 					background-color: $heavy_metal;
 
 					&:hover{
