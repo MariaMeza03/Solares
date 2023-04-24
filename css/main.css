@@ -1256,7 +1256,7 @@
           overflow: hidden;
           white-space: nowrap;
           width: 100%;
-          font-size: 100px;
+          font-size: 80px;
           line-height: 90px; }
         @keyframes text {
           from {
@@ -1414,7 +1414,7 @@
       @media (min-width: 1199px) {
         .hero_services__banner_top h1 {
           width: 100%;
-          font-size: 100px;
+          font-size: 80px;
           line-height: 90px; }
         @keyframes text {
           from {
@@ -1557,7 +1557,7 @@
       background-attachment: fixed;
       margin-top: 230px;
       position: relative;
-      height: 220px; } }
+      height: 300px; } }
   .hero_cobertura__banner_top {
     width: 100%;
     height: auto;
@@ -1582,7 +1582,7 @@
       @media (min-width: 1199px) {
         .hero_cobertura__banner_top h1 {
           width: 100%;
-          font-size: 100px;
+          font-size: 80px;
           line-height: 90px;
           color: #2F2E2E; }
         @keyframes typing {
