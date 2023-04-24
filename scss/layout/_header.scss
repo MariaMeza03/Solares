@@ -184,7 +184,7 @@
 					color: $mikado_yellow;
 					letter-spacing: normal;
 					line-height: normal;
-					font-weight: normal;
+					font-weight: bold;
 				}
 
 				&__form{
@@ -290,11 +290,14 @@
 
 					&:hover{
 						background-color: $white;
+						color: $heavy_metal;
 					}
 				}
 
 				&:hover{
 					background-color: $white;
+					color: $heavy_metal;
+					
 				}
 
 			}

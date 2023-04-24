@@ -177,7 +177,7 @@
         color: #FFCB00;
         letter-spacing: normal;
         line-height: normal;
-        font-weight: normal; }
+        font-weight: bold; }
       .header__desktop__top__contact__form {
         width: 100%;
         padding-top: 30px;
@@ -246,9 +246,11 @@
           padding: 15px 50px;
           background-color: #2F2E2E; }
           .header__desktop__medium__bottom--active:hover {
-            background-color: #FFFFFF; }
+            background-color: #FFFFFF;
+            color: #2F2E2E; }
         .header__desktop__medium__bottom:hover {
-          background-color: #FFFFFF; }
+          background-color: #FFFFFF;
+          color: #2F2E2E; }
     .header__desktop__bottom {
       padding: 20px 0;
       width: 100%;
@@ -839,7 +841,7 @@
   height: 500px; }
   @media (min-width: 1199px) {
     .experts {
-      height: 600px; } }
+      height: 800px; } }
   .experts--prev {
     position: absolute;
     left: 15px;
@@ -1227,7 +1229,8 @@
       background-position: center;
       background-attachment: fixed;
       position: relative;
-      height: 600px; } }
+      height: 600px;
+      margin-top: 250px; } }
   .hero_units img {
     width: 100%; }
     @media (min-width: 1199px) {
@@ -1384,7 +1387,8 @@
       background-position: center;
       background-attachment: fixed;
       position: relative;
-      height: 300px; } }
+      height: 300px;
+      margin-top: 250px; } }
   .hero_services img {
     width: 100%; }
     @media (min-width: 1199px) {
@@ -1557,7 +1561,8 @@
     .hero_cobertura {
       background-attachment: fixed;
       position: relative;
-      height: 300px; } }
+      height: 300px;
+      margin-top: 250px; } }
   .hero_cobertura__banner_top {
     width: 100%;
     height: auto;
