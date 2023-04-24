@@ -255,11 +255,14 @@
       margin: auto; }
       .header__desktop__bottom p {
         color: #FFCB00;
-        font-size: 28px;
+        font-size: 18px;
         text-align: center;
         font-weight: bold;
         line-height: 1.8em;
         letter-spacing: 0em; }
+        @media (min-width: 1199px) {
+          .header__desktop__bottom p {
+            font-size: 28px; } }
       .header__desktop__bottom p.green {
         color: #0EE62F; }
 
@@ -510,7 +513,8 @@
   width: 100%;
   height: auto;
   background-color: #2F2E2E;
-  margin-top: 118px; }
+  margin-top: 118px;
+  padding-bottom: 10px; }
   @media (min-width: 1199px) {
     .information {
       display: none; } }
@@ -832,8 +836,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  height: 500px;
-  margin-top: 230px; }
+  height: 500px; }
   @media (min-width: 1199px) {
     .experts {
       height: 600px; } }
@@ -1223,7 +1226,6 @@
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
-      margin-top: 230px;
       position: relative;
       height: 600px; } }
   .hero_units img {
@@ -1381,7 +1383,6 @@
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
-      margin-top: 230px;
       position: relative;
       height: 300px; } }
   .hero_services img {
@@ -1408,11 +1409,11 @@
       margin: auto;
       animation-name: text;
       animation-duration: 2s;
-      animation-iteration-count: initial;
-      overflow: hidden;
-      white-space: nowrap; }
+      animation-iteration-count: initial; }
       @media (min-width: 1199px) {
         .hero_services__banner_top h1 {
+          overflow: hidden;
+          white-space: nowrap;
           width: 100%;
           font-size: 80px;
           line-height: 90px; }
@@ -1555,7 +1556,6 @@
   @media (min-width: 1199px) {
     .hero_cobertura {
       background-attachment: fixed;
-      margin-top: 230px;
       position: relative;
       height: 300px; } }
   .hero_cobertura__banner_top {

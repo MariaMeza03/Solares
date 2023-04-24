@@ -309,11 +309,15 @@
 			p{
 			
 				color:$mikado_yellow;
-				font-size: 28px;
+				font-size: 18px;
 				text-align: center;
 				font-weight: bold;
 				line-height: 1.8em;
 				letter-spacing: 0em;
+
+				@media(min-width: 1199px){
+					font-size: 28px;
+				}
 			}
 
 			p.green{

@@ -8,7 +8,6 @@
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;  
-        margin-top: 230px;
         position: relative;
         height: 300px;
     }
@@ -43,10 +42,10 @@
             animation-name: text;
             animation-duration: 2s;
             animation-iteration-count:initial;
-            overflow: hidden;
-            white-space: nowrap;
 
             @media(min-width: 1199px){
+                overflow: hidden;
+                white-space: nowrap;
                 width: 100%;
                 font-size: 80px;
                 line-height: 90px;
