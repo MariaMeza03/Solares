@@ -10,91 +10,99 @@
     }
 
     .container-sm{
-        @include flex-center-center;
-        flex-direction: column;
-        gap: 15px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+         @media(min-width: 1199px){
+            grid-template-columns: repeat(2, 1fr);
+         }
     }
 
-    &__logo{
-        width: 90px;
-        animation-name: icon;
-        animation-duration: 4s;
-        animation-iteration-count:initial;
+    &__text{
 
-        @media(min-width:1199px){
-            width: 130px;
-            @keyframes icon {
-                0%{
-                    transform: translateX(-50%);
-                    opacity: 1;
-                }
-    
-                100%{
-                    opacity: 1;
-                }
-                
-            }
-        }
-
-        svg{
-            width: 100%;
-        }
-
-    }
-
-    h1{
-        font-size: 24px;
-        color:$white;
-        letter-spacing: normal;
-        line-height: 1em;
-        text-align: center;
-        font-weight:1000;
-
-        @media(min-width: 1199px){
-            font-size: 54px;
-            width: 60%;
+        &__logo{
             margin: auto;
-        }
-
-    }
-
-    &__button{
-        @include flex-center-center;
-        width: 160px;
-        height: 100%;
-        padding: 10px;
-        color: $black;
-        font-size: 15px;
-        background-color: $mikado_yellow;
-        font-weight: bold;
-        animation-name:butt;
-        animation-duration: 2s;
-        animation-iteration-count:initial;
+            width: 90px;
+            animation-name: icon;
+            animation-duration: 4s;
+            animation-iteration-count:initial;
 
             @media(min-width:1199px){
-                @keyframes butt {
+                width: 130px;
+                @keyframes icon {
                     0%{
-                        opacity: 0;
-                        width: 0%;
-                        color: transparent;
+                        transform: translateX(-50%);
+                        opacity: 1;
                     }
         
-                    90%{
-                        opacity: 1;
-                        width: 160px;
-                    }
-    
                     100%{
-                        color: $black;
+                        opacity: 1;
                     }
                     
                 }
             }
 
-        &:hover{
-            background-color: $white;
-            border:1px solid $black;
+            svg{
+                width: 100%;
+            }
 
         }
+
+        h1{
+            font-size: 24px;
+            color:$white;
+            letter-spacing: normal;
+            line-height: 1em;
+            text-align: center;
+            font-weight:1000;
+
+            @media(min-width: 1199px){
+                font-size: 54px;
+                margin: auto;
+            }
+
+        }
+
     }
+
+    &__contact{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding-top: 30px;
+
+        @media(min-width:1199px){
+            padding-top: 0px;
+        }
+
+        p{
+            color: white;
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+
+        &__link{
+            display: flex;
+            gap: 5px;
+            font-size: 20px;
+            color: $mikado_yellow;
+            letter-spacing: normal;
+            line-height: normal;
+            font-weight: bold;
+            text-decoration: underline;
+
+            &__icon{
+                width: 16px;
+                
+                svg{
+                    width: 100%;
+                }
+            }
+
+        }
+
+        
+    }
+
 }

@@ -9,11 +9,13 @@
     }
 
     .container-sm{
-        @include flex-center-center;
-        flex-direction: column;
-        @media(min-width: 1199px){
-            flex-direction: row;
-            gap: 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+       text-align: center;
+
+        @media(min-width: 1428px){
+           grid-template-columns: repeat(2, 1fr);
         }
     }
 
@@ -50,13 +52,60 @@
             }
         }
 
-        a{
-            font-size: 29px;
-            color: $mikado_yellow;
-            letter-spacing: normal;
-            line-height: normal;
-            font-weight: bold;
-            text-decoration: underline;
+        &__contact{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            text-align: center;
+
+            @media(min-width:1700px){
+                text-align: left;
+            }
+
+            @media(min-width:1199px){
+                grid-template-columns: repeat(3, 1fr); 
+            }
+
+            p{
+                color: white;
+                font-size: 18px;
+                padding-bottom: 10px;
+
+            }
+
+            &__link{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                font-size: 18px;
+                color: $mikado_yellow;
+                letter-spacing: normal;
+                line-height: normal;
+                font-weight: bold;
+                text-decoration: underline;
+
+                @media(min-width:1700px){
+                    flex-direction: row;
+                }
+
+                &__icon{
+					width: 16px;
+                    margin: auto;
+
+                    @media(min-width:1700px){
+                       margin: 0 0 0 0;
+                    }
+					
+					svg{
+						width: 100%;
+					}
+				}
+
+            }
+    
+            
         }
+
+
     }
 }

@@ -38,10 +38,10 @@
       max-width: 560px; } }
   @media (min-width: 1200px) {
     .container-sm {
-      max-width: 740px; } }
+      max-width: 1000px; } }
   @media (min-width: 1400px) {
     .container-sm {
-      max-width: 980px; } }
+      max-width: 1080px; } }
   @media (min-width: 1700px) {
     .container-sm {
       max-width: 1252px; } }
@@ -185,27 +185,45 @@
         grid-template-columns: repeat(3, 1fr); }
         .header__desktop__top__contact__form__item {
           display: flex;
-          align-items: center;
-          gap: 10px;
-          color: #FFFFFF;
-          font-size: 22px;
-          text-decoration: underline; }
-          .header__desktop__top__contact__form__item__icon svg {
-            width: 100%;
-            height: 100%; }
+          flex-direction: column; }
+          .header__desktop__top__contact__form__item p {
+            color: #FFFFFF;
+            font-size: 14px;
+            padding-bottom: 10px; }
+          .header__desktop__top__contact__form__item__text {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #FFFFFF;
+            font-size: 22px;
+            text-decoration: underline; }
+            .header__desktop__top__contact__form__item__text__icon {
+              width: 16px; }
+              .header__desktop__top__contact__form__item__text__icon svg {
+                width: 100%;
+                height: 100%; }
         .header__desktop__top__contact__form__item_line {
           display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 10px;
-          color: #FFFFFF;
-          font-size: 22px;
-          text-decoration: underline;
+          flex-direction: column;
           border-left: 1px solid #FFCB00;
-          border-right: 1px solid #FFCB00; }
-          .header__desktop__top__contact__form__item_line__icon svg {
-            width: 100%;
-            height: 100%; }
+          border-right: 1px solid #FFCB00;
+          padding: 0 20px; }
+          .header__desktop__top__contact__form__item_line p {
+            color: #FFFFFF;
+            font-size: 14px;
+            padding-bottom: 10px; }
+          .header__desktop__top__contact__form__item_line__text {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #FFFFFF;
+            font-size: 22px;
+            text-decoration: underline; }
+            .header__desktop__top__contact__form__item_line__text__icon {
+              width: 16px; }
+              .header__desktop__top__contact__form__item_line__text__icon svg {
+                width: 100%;
+                height: 100%; }
     .header__desktop__medium {
       display: flex;
       justify-content: center;
@@ -741,14 +759,13 @@
     .price {
       padding: 53px 0; } }
   .price .container-sm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; }
-    @media (min-width: 1199px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    text-align: center; }
+    @media (min-width: 1428px) {
       .price .container-sm {
-        flex-direction: row;
-        gap: 40px; } }
+        grid-template-columns: repeat(2, 1fr); } }
   .price h1 {
     font-size: 28px;
     color: #FFFFFF;
@@ -774,13 +791,42 @@
       @media (min-width: 1199px) {
         .price__text h1 {
           padding-bottom: 30px; } }
-    .price__text a {
-      font-size: 29px;
-      color: #FFCB00;
-      letter-spacing: normal;
-      line-height: normal;
-      font-weight: bold;
-      text-decoration: underline; }
+    .price__text__contact {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+      text-align: center; }
+      @media (min-width: 1700px) {
+        .price__text__contact {
+          text-align: left; } }
+      @media (min-width: 1199px) {
+        .price__text__contact {
+          grid-template-columns: repeat(3, 1fr); } }
+      .price__text__contact p {
+        color: white;
+        font-size: 18px;
+        padding-bottom: 10px; }
+      .price__text__contact__link {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 18px;
+        color: #FFCB00;
+        letter-spacing: normal;
+        line-height: normal;
+        font-weight: bold;
+        text-decoration: underline; }
+        @media (min-width: 1700px) {
+          .price__text__contact__link {
+            flex-direction: row; } }
+        .price__text__contact__link__icon {
+          width: 16px;
+          margin: auto; }
+          @media (min-width: 1700px) {
+            .price__text__contact__link__icon {
+              margin: 0 0 0 0; } }
+          .price__text__contact__link__icon svg {
+            width: 100%; }
 
 .experts {
   width: 100%;
@@ -831,16 +877,16 @@
         z-index: -1;
         object-fit: cover; }
       .experts__form--video h1 {
+        width: 70%;
         position: absolute;
-        font-size: 52px;
+        font-size: 15px;
         color: #FFFFFF;
         text-align: center; }
         @media (min-width: 1199px) {
           .experts__form--video h1 {
-            font-size: 108px;
-            width: 50%;
+            font-size: 50px;
             margin: auto;
-            line-height: 90px; } }
+            line-height: 50px; } }
       .experts__form--video span {
         color: #FFCB00; }
     .experts__form__button {
@@ -1092,18 +1138,19 @@
       padding: 44px 0;
       position: relative; } }
   .urgent .container-sm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 15px; }
-  .urgent__logo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    @media (min-width: 1199px) {
+      .urgent .container-sm {
+        grid-template-columns: repeat(2, 1fr); } }
+  .urgent__text__logo {
+    margin: auto;
     width: 90px;
     animation-name: icon;
     animation-duration: 4s;
     animation-iteration-count: initial; }
     @media (min-width: 1199px) {
-      .urgent__logo {
+      .urgent__text__logo {
         width: 130px; }
       @keyframes icon {
         0% {
@@ -1111,9 +1158,9 @@
           opacity: 1; }
         100% {
           opacity: 1; } } }
-    .urgent__logo svg {
+    .urgent__text__logo svg {
       width: 100%; }
-  .urgent h1 {
+  .urgent__text h1 {
     font-size: 24px;
     color: #FFFFFF;
     letter-spacing: normal;
@@ -1121,38 +1168,35 @@
     text-align: center;
     font-weight: 1000; }
     @media (min-width: 1199px) {
-      .urgent h1 {
+      .urgent__text h1 {
         font-size: 54px;
-        width: 60%;
         margin: auto; } }
-  .urgent__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 160px;
-    height: 100%;
-    padding: 10px;
-    color: #000000;
-    font-size: 15px;
-    background-color: #FFCB00;
-    font-weight: bold;
-    animation-name: butt;
-    animation-duration: 2s;
-    animation-iteration-count: initial; }
+  .urgent__contact {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding-top: 30px; }
     @media (min-width: 1199px) {
-      @keyframes butt {
-        0% {
-          opacity: 0;
-          width: 0%;
-          color: transparent; }
-        90% {
-          opacity: 1;
-          width: 160px; }
-        100% {
-          color: #000000; } } }
-    .urgent__button:hover {
-      background-color: #FFFFFF;
-      border: 1px solid #000000; }
+      .urgent__contact {
+        padding-top: 0px; } }
+    .urgent__contact p {
+      color: white;
+      font-size: 18px;
+      padding-bottom: 10px; }
+    .urgent__contact__link {
+      display: flex;
+      gap: 5px;
+      font-size: 20px;
+      color: #FFCB00;
+      letter-spacing: normal;
+      line-height: normal;
+      font-weight: bold;
+      text-decoration: underline; }
+      .urgent__contact__link__icon {
+        width: 16px; }
+        .urgent__contact__link__icon svg {
+          width: 100%; }
 
 .imagen {
   width: 100%;

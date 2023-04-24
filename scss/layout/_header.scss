@@ -194,38 +194,68 @@
 					grid-template-columns: repeat(3, 1fr);
 
 					&__item{
-						@include flex-a-center;
-						gap: 10px;
-						color: $white;
-						font-size:22px;
-						text-decoration: underline;
-					
-						&__icon{
+						display: flex;
+						flex-direction: column;
 
-							svg{
-								width: 100%;
-								height: 100%;
-							}
-		
+						p{
+							color: $white;
+							font-size: 14px;	
+							padding-bottom: 10px;
 						}
+
+						&__text{
+							@include flex-a-center;
+							gap: 10px;
+							color: $white;
+							font-size:22px;
+							text-decoration: underline;
+
+							&__icon{
+								width: 16px;
+
+								svg{
+									width: 100%;
+									height: 100%;
+								}
+			
+							}
+						}
+					
+						
 					}
 
 					&__item_line{
-						@include flex-center-center;
-						gap: 10px;
-						color: $white;
-						font-size: 22px;
-						text-decoration: underline;
+						display: flex;
+						flex-direction: column;
 						border-left: 1px solid $mikado_yellow;
 						border-right:1px solid $mikado_yellow ;
-						&__icon{
+						padding: 0 20px;
 
-							svg{
-								width: 100%;
-								height: 100%;
-							}
-		
+						p{
+							color: $white;
+							font-size: 14px;	
+							padding-bottom: 10px;
 						}
+
+
+						&__text{
+							@include flex-a-center;
+							gap: 10px;
+							color: $white;
+							font-size:22px;
+							text-decoration: underline;
+
+							&__icon{
+								width: 16px;
+
+								svg{
+									width: 100%;
+									height: 100%;
+								}
+			
+							}
+						}
+						
 
 					}
 				}
