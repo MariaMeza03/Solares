@@ -1010,32 +1010,32 @@
     .quote__grid__modal_form {
       width: 100%; }
       .quote__grid__modal_form--one {
-        background-image: url("../../../img/trailer1.jpg");
+        background-image: url("../trailer1.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
       .quote__grid__modal_form--two {
-        background-image: url("../../../img/trailer2.jpg");
+        background-image: url("../img/trailer2.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
       .quote__grid__modal_form--three {
-        background-image: url("../../../img/trailer3.jpg");
+        background-image: url("../img/trailer3.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
       .quote__grid__modal_form--four {
-        background-image: url("../../../img/trailer4.jpg");
+        background-image: url("../img/trailer4.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
       .quote__grid__modal_form--five {
-        background-image: url("../../../img/trailer5.jpg");
+        background-image: url("../img/trailer5.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
       .quote__grid__modal_form--six {
-        background-image: url("../../../img/trailer6.jpg");
+        background-image: url("../img/trailer6.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat; }
@@ -1206,7 +1206,7 @@
 .imagen {
   width: 100%;
   height: 200px;
-  background-image: url("../../../img/fletes-torton.png");
+  background-image: url("../img/fletes-torton.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1223,7 +1223,7 @@
   height: 100%; }
   @media (min-width: 1199px) {
     .hero_units {
-      background-image: url("../../../img/FLETES URGENTES.png");
+      background-image: url("../img/FLETES URGENTES.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -1381,7 +1381,7 @@
   height: 100%; }
   @media (min-width: 1199px) {
     .hero_services {
-      background-image: url("https://static.wixstatic.com/media/914e21_d35a86a1b60c4abb853683eb5844e42f~mv2.png/v1/fill/w_1350,h_444,al_b,q_90,usm_1.20_1.00_0.01,enc_auto/914e21_d35a86a1b60c4abb853683eb5844e42f~mv2.png");
+      background-image: url("../img/NUESTROS SERVICIOS.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -1540,7 +1540,7 @@
 .image_services {
   width: 100%;
   height: 200px;
-  background-image: url("../../../img/FLETES URGENTES.png");
+  background-image: url("../img/FLETES URGENTES.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1553,7 +1553,7 @@
 .hero_cobertura {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(29, 62, 153, 0.5), rgba(29, 62, 153, 0.3)), url("../../../img/COBERTURA DE FLETES.png");
+  background-image: linear-gradient(rgba(29, 62, 153, 0.5), rgba(29, 62, 153, 0.3)), url("../img/COBERTURA DE FLETES.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -1680,7 +1680,7 @@
   display: none;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../../../img/NicePng_mapa-png_3532183.png");
+  background-image: url("../img/NicePng_mapa-png_3532183.png");
   animation-name: animationhero;
   animation-duration: 4s;
   animation-iteration-count: initial; }
