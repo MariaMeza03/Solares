@@ -1218,6 +1218,35 @@
       z-index: -2;
       height: 500px; } }
 
+.aviso_de_privacidad {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 90px 0; }
+  .aviso_de_privacidad .container-sm {
+    margin-top: 77px; }
+    @media (min-width: 1199px) {
+      .aviso_de_privacidad .container-sm {
+        margin-top: 250px; } }
+  .aviso_de_privacidad h1 {
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 40px;
+    color: #000000;
+    text-align: center; }
+    @media (min-width: 1199px) {
+      .aviso_de_privacidad h1 {
+        font-size: 47px; } }
+  .aviso_de_privacidad p {
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #000000;
+    font-weight: normal;
+    padding-top: 29px; }
+  .aviso_de_privacidad span {
+    font-weight: bold; }
+
 .hero_units {
   width: 100%;
   height: 100%; }

@@ -1,0 +1,41 @@
+.aviso_de_privacidad{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 90px 0;
+
+
+    .container-sm{
+        margin-top: 77px;
+
+        @media(min-width: 1199px){
+            margin-top: 250px;
+        }
+    }
+
+    h1{
+        letter-spacing: normal;
+        line-height: normal;
+        font-size: 40px;
+        color: $black;
+        text-align: center;
+
+        @media(min-width:1199px ){
+            font-size: 47px;
+        }
+    
+    }
+
+    p{
+        text-align: justify;
+        letter-spacing: normal;
+        line-height: normal;
+        color: $black;
+        font-weight: normal;
+        padding-top: 29px;
+    }
+
+    span{
+        font-weight:bold;
+    }
+}
