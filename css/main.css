@@ -168,7 +168,8 @@
       gap: 50px;
       padding: 33px 0; }
       .header__desktop__top__logo {
-        width: 269px; }
+        width: 269px;
+        margin-top: 36px; }
         .header__desktop__top__logo img {
           width: 100%; }
       .header__desktop__top__contact h1 {
@@ -267,6 +268,9 @@
             font-size: 28px; } }
       .header__desktop__bottom p.green {
         color: #0EE62F; }
+    .header__desktop .whtas {
+      flex-direction: column !important;
+      width: 143px; }
 
 .layout_whatsapp {
   position: fixed;
@@ -1100,7 +1104,7 @@
   .why_we h1 {
     width: 50%;
     color: #FFCB00;
-    line-height: 0.8em;
+    line-height: 40px;
     text-align: center;
     font-size: 34px;
     letter-spacing: -0.05em;
@@ -1430,7 +1434,7 @@
       background-attachment: fixed;
       position: relative;
       height: 300px;
-      margin-top: 250px; } }
+      margin-top: 231px; } }
   .hero_services img {
     width: 100%; }
     @media (min-width: 1199px) {
