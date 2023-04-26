@@ -136,7 +136,7 @@
 			@include flex-center-center;
 			flex-direction: column;
 			gap: 10px;
-			color: $carbon_grey;
+			color: #fff;
 			font-size: 18px;
 
 			@media(min-width:1199px){
@@ -145,14 +145,14 @@
 			}
 			
 			a{
-				color: $carbon_grey;
+				color: #fff;
 				text-decoration: underline;
 			}
 
 		}
 
 		p.text{
-			color: $carbon_grey;
+			color: #fff;
 			font-size: 9px;
 			padding-top: 20px;
 
