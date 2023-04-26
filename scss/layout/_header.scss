@@ -170,6 +170,7 @@
 
 			&__logo{
 				width: 269px;
+				margin-top: 36px;
 	
 				img{
 					width: 100%;
@@ -329,7 +330,10 @@
 
 		}
 
-
+		.whtas {
+			flex-direction: column !important;
+			width: 143px;
+		}
 
 	}
 
