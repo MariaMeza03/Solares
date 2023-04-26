@@ -77,12 +77,13 @@
                 display: flex;
                 flex-direction: column;
                 gap: 5px;
-                font-size: 18px;
-                color: $mikado_yellow;
+                font-size: 23px;
+                color: #FFCB00;
                 letter-spacing: normal;
                 line-height: normal;
                 font-weight: bold;
                 text-decoration: underline;
+                text-align: center;
 
                 @media(min-width:1700px){
                     flex-direction: row;

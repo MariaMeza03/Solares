@@ -5,7 +5,7 @@
     padding: 30px 0;
 
     @media(min-width: 1199px){
-        padding: 44px 0;
+        padding: 60px 0 60px;
         position: relative;
     }
 
@@ -28,6 +28,7 @@
             animation-iteration-count:initial;
 
             @media(min-width:1199px){
+                margin-top: -26px;
                 width: 130px;
                 @keyframes icon {
                     0%{
@@ -78,19 +79,22 @@
 
         p{
             color: white;
-            font-size: 18px;
+            font-size: 23px;
             padding-bottom: 10px;
+            text-align: center
         }
 
         &__link{
             display: flex;
+            flex-direction: column;
             gap: 5px;
-            font-size: 20px;
-            color: $mikado_yellow;
+            font-size: 23px;
+            color: #FFCB00;
             letter-spacing: normal;
             line-height: normal;
             font-weight: bold;
             text-decoration: underline;
+            text-align: center;
 
             &__icon{
                 width: 16px;

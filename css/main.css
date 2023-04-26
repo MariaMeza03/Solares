@@ -407,17 +407,17 @@
       justify-content: center;
       flex-direction: column;
       gap: 10px;
-      color: #605E5E;
+      color: #fff;
       font-size: 18px; }
       @media (min-width: 1199px) {
         .footer__information__legal {
           gap: 20px;
           flex-direction: row; } }
       .footer__information__legal a {
-        color: #605E5E;
+        color: #fff;
         text-decoration: underline; }
     .footer__information p.text {
-      color: #605E5E;
+      color: #fff;
       font-size: 9px;
       padding-top: 20px; }
 
@@ -816,12 +816,13 @@
         display: flex;
         flex-direction: column;
         gap: 5px;
-        font-size: 18px;
+        font-size: 23px;
         color: #FFCB00;
         letter-spacing: normal;
         line-height: normal;
         font-weight: bold;
-        text-decoration: underline; }
+        text-decoration: underline;
+        text-align: center; }
         @media (min-width: 1700px) {
           .price__text__contact__link {
             flex-direction: row; } }
@@ -841,6 +842,7 @@
   height: 500px; }
   @media (min-width: 1199px) {
     .experts {
+      margin-top: 95px;
       height: 800px; } }
   .experts--prev {
     position: absolute;
@@ -889,19 +891,24 @@
         text-align: center; }
         @media (min-width: 1199px) {
           .experts__form--video h1 {
-            font-size: 50px;
+            font-size: 44px;
             margin: auto;
-            line-height: 50px; } }
+            line-height: 56px;
+            text-shadow: 2px 2px 2px #000; } }
       .experts__form--video span {
         color: #FFCB00; }
     .experts__form__button {
       position: absolute;
-      bottom: 15%;
+      bottom: 26%;
       margin-top: 60px;
       background-color: #FFCB00;
-      font-size: 21px;
-      padding: 10px;
+      font-size: 23px;
+      color: #000;
+      font-weight: 700;
+      padding: 13px 81px;
+      border-radius: 12px;
       animation-name: butt;
+      width: 308px;
       animation-duration: 2s;
       animation-iteration-count: initial; }
       @media (min-width: 1199px) {
@@ -1071,10 +1078,11 @@
   .quote__button {
     margin-top: 30px;
     background-color: #FFCB00;
-    padding: 10px;
+    padding: 14px 50px;
     color: black;
-    font-size: 18px;
-    font-weight: bold; }
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px; }
     .quote__button:hover {
       background-color: #FFFFFF;
       border: 1px solid black; }
@@ -1083,7 +1091,7 @@
   width: 100%;
   height: 100%;
   background-color: #000000;
-  padding: 30px 0; }
+  padding: 83px 0; }
   .why_we .container-sm {
     display: flex;
     align-items: center;
@@ -1140,7 +1148,7 @@
   padding: 30px 0; }
   @media (min-width: 1199px) {
     .urgent {
-      padding: 44px 0;
+      padding: 60px 0 60px;
       position: relative; } }
   .urgent .container-sm {
     display: grid;
@@ -1156,6 +1164,7 @@
     animation-iteration-count: initial; }
     @media (min-width: 1199px) {
       .urgent__text__logo {
+        margin-top: -26px;
         width: 130px; }
       @keyframes icon {
         0% {
@@ -1187,17 +1196,20 @@
         padding-top: 0px; } }
     .urgent__contact p {
       color: white;
-      font-size: 18px;
-      padding-bottom: 10px; }
+      font-size: 23px;
+      padding-bottom: 10px;
+      text-align: center; }
     .urgent__contact__link {
       display: flex;
+      flex-direction: column;
       gap: 5px;
-      font-size: 20px;
+      font-size: 23px;
       color: #FFCB00;
       letter-spacing: normal;
       line-height: normal;
       font-weight: bold;
-      text-decoration: underline; }
+      text-decoration: underline;
+      text-align: center; }
       .urgent__contact__link__icon {
         width: 16px; }
         .urgent__contact__link__icon svg {
@@ -1259,7 +1271,7 @@
       background-attachment: fixed;
       position: relative;
       height: 600px;
-      margin-top: 250px; } }
+      margin-top: 231px; } }
   .hero_units img {
     width: 100%; }
     @media (min-width: 1199px) {
@@ -1376,7 +1388,8 @@
   padding: 20px 0; }
   @media (min-width: 1199px) {
     .catalog {
-      padding: 30px 0; } }
+      padding: 30px 0;
+      margin-top: 78px; } }
   .catalog .container-sm {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

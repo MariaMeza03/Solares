@@ -176,11 +176,12 @@
 
     &__button{
         margin-top: 30px;
-        background-color:$mikado_yellow ; 
-        padding: 10px;
-        color: black;
-        font-size: 18px;
-        font-weight: bold;
+    background-color: #FFCB00;
+    padding: 14px 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
 
         &:hover{ 
             background-color: $white;

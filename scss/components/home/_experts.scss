@@ -5,6 +5,7 @@
 	height: 500px;
 
     @media(min-width: 1199px){
+        margin-top: 95px;
         height: 800px;
 
     }
@@ -70,9 +71,10 @@
                 text-align: center;
 
                 @media(min-width: 1199px){
-                    font-size: 50px;
+                    font-size: 44px;
                     margin: auto;
-                    line-height: 50px;
+                    line-height: 56px;
+                    text-shadow: 2px 2px 2px #000;
                 }
             }
     
@@ -84,14 +86,18 @@
 
         &__button{
             position: absolute;
-            bottom: 15%;
+            bottom: 26%;
             margin-top: 60px;
             background-color: $mikado_yellow;
-            font-size: 21px;
-            padding: 10px;
-            animation-name:butt;
+            font-size: 23px;
+            color: #000;
+            font-weight: 700;
+            padding: 13px 81px;
+            border-radius: 12px;
+            animation-name: butt;
+            width: 308px;
             animation-duration: 2s;
-            animation-iteration-count:initial;
+            animation-iteration-count: initial;
 
             @media(min-width:1199px){
                 @keyframes butt {
