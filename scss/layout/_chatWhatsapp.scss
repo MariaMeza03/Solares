@@ -1,45 +1,34 @@
 .chat_whatsApp{
-    width: 80%;
-	height: 300px;
-    overflow-y: scroll;
+    width: 90%;
+    margin: auto;
+	height: 320px;
 	position: fixed;
 	top: 200%;
-    right: 10%;
-	background-color: $white;
+    right: 5%;
 	z-index: 100;
 	transition: 0.3s;
     border-radius: 10px;
 
-    &::-webkit-scrollbar-thumb{
-        background-color:#2DB742;    /* color of the scroll thumb */
-        border-radius: 20px;       /* roundness of the scroll thumb *//* creates padding around scroll thumb */
-    }
-
     @media(min-width: 1199px){
         right: 5%;
-        height: 320px;
+        width: 352px;
     }
 
     &--active{
-		top: 35%;
-        right: 10%;
+		top:15%;
+        right: 5%;
 
-        @media(min-width: 1199px){
-            right: 5%;
+        @media(min-width:414px){
+            top:40%;
         }
 	}
-
-    @media(min-width:1199px){
-        width: 352px;
-
-    } 
 
     &__top{
         @include flex-j-center;
         gap: 15px;
         background-color: #15B933;
         border-top-left-radius: 10px 10px;
-        /*border-top-right-radius: 10px 10px;*/
+        border-top-right-radius: 10px 10px;
         padding: 15px;
 
         &__logo{
@@ -66,10 +55,19 @@
     }
 
     &__agent{
+        background-color: $white;
+        height: 320px;
+        overflow-y: scroll;
         @include flex-center-center;
         flex-direction:column;
         gap: 10px;
-        padding: 15px;
+        padding: 120px 15px 15px 15px;
+
+        &::-webkit-scrollbar-thumb{
+            background-color:#2DB742;    /* color of the scroll thumb */
+            border-radius: 20px;       /* roundness of the scroll thumb *//* creates padding around scroll thumb */
+        }
+
 
         &__target{
             padding: 15px;
@@ -132,7 +130,7 @@
     }
 }
 
-  .chat_whatsApp::-webkit-scrollbar {
+  .chat_whatsApp__agent::-webkit-scrollbar {
     width: 3px;
     background-color: transparent; /* or add it to the track */
   }

@@ -277,10 +277,13 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 85%;
+  bottom: 20px;
   right: 25px;
   z-index: 100;
   gap: 10px; }
+  @media (min-width: 1199px) {
+    .layout_whatsapp {
+      bottom: 20px; } }
   .layout_whatsapp__button {
     max-width: 82px !important;
     height: auto;
@@ -457,42 +460,32 @@
       padding-top: 20px; }
 
 .chat_whatsApp {
-  width: 80%;
-  height: 300px;
-  overflow-y: scroll;
+  width: 90%;
+  margin: auto;
+  height: 320px;
   position: fixed;
   top: 200%;
-  right: 10%;
-  background-color: #FFFFFF;
+  right: 5%;
   z-index: 100;
   transition: 0.3s;
   border-radius: 10px; }
-  .chat_whatsApp::-webkit-scrollbar-thumb {
-    background-color: #2DB742;
-    /* color of the scroll thumb */
-    border-radius: 20px;
-    /* roundness of the scroll thumb */
-    /* creates padding around scroll thumb */ }
   @media (min-width: 1199px) {
     .chat_whatsApp {
       right: 5%;
-      height: 320px; } }
-  .chat_whatsApp--active {
-    top: 35%;
-    right: 10%; }
-    @media (min-width: 1199px) {
-      .chat_whatsApp--active {
-        right: 5%; } }
-  @media (min-width: 1199px) {
-    .chat_whatsApp {
       width: 352px; } }
+  .chat_whatsApp--active {
+    top: 15%;
+    right: 5%; }
+    @media (min-width: 414px) {
+      .chat_whatsApp--active {
+        top: 40%; } }
   .chat_whatsApp__top {
     display: flex;
     justify-content: center;
     gap: 15px;
     background-color: #15B933;
     border-top-left-radius: 10px 10px;
-    /*border-top-right-radius: 10px 10px;*/
+    border-top-right-radius: 10px 10px;
     padding: 15px; }
     .chat_whatsApp__top__logo {
       width: 35px; }
@@ -507,12 +500,21 @@
       padding-top: 10px;
       font-size: 13px; }
   .chat_whatsApp__agent {
+    background-color: #FFFFFF;
+    height: 320px;
+    overflow-y: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
-    padding: 15px; }
+    padding: 120px 15px 15px 15px; }
+    .chat_whatsApp__agent::-webkit-scrollbar-thumb {
+      background-color: #2DB742;
+      /* color of the scroll thumb */
+      border-radius: 20px;
+      /* roundness of the scroll thumb */
+      /* creates padding around scroll thumb */ }
     .chat_whatsApp__agent__target {
       padding: 15px;
       width: 100%;
@@ -553,7 +555,7 @@
       .chat_whatsApp__agent__target:hover {
         background-color: #CFCFCF; }
 
-.chat_whatsApp::-webkit-scrollbar {
+.chat_whatsApp__agent::-webkit-scrollbar {
   width: 3px;
   background-color: transparent;
   /* or add it to the track */ }
