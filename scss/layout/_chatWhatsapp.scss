@@ -19,7 +19,11 @@
         right: 5%;
 
         @media(min-width:414px){
-            top:40%;
+            top:25%;
+        }
+
+        @media(min-width:992px){
+            top:35%;
         }
 	}
 
