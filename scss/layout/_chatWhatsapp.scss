@@ -1,0 +1,138 @@
+.chat_whatsApp{
+    width: 80%;
+	height: 300px;
+    overflow-y: scroll;
+	position: fixed;
+	top: 200%;
+    right: 10%;
+	background-color: $white;
+	z-index: 100;
+	transition: 0.3s;
+    border-radius: 10px;
+
+    &::-webkit-scrollbar-thumb{
+        background-color:#2DB742;    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb *//* creates padding around scroll thumb */
+    }
+
+    @media(min-width: 1199px){
+        right: 5%;
+        height: 320px;
+    }
+
+    &--active{
+		top: 35%;
+        right: 10%;
+
+        @media(min-width: 1199px){
+            right: 5%;
+        }
+	}
+
+    @media(min-width:1199px){
+        width: 352px;
+
+    } 
+
+    &__top{
+        @include flex-j-center;
+        gap: 15px;
+        background-color: #15B933;
+        border-top-left-radius: 10px 10px;
+        /*border-top-right-radius: 10px 10px;*/
+        padding: 15px;
+
+        &__logo{
+            width: 35px;
+            img{
+                width: 100%;
+            }
+        }
+
+        &__text{
+            h1{
+                color: $white;
+                font-size: 15px;
+                font-weight: semibold;
+            }
+
+            p{
+                color: $white;
+                padding-top: 10px;
+                font-size: 13px;
+
+            }
+        }
+    }
+
+    &__agent{
+        @include flex-center-center;
+        flex-direction:column;
+        gap: 10px;
+        padding: 15px;
+
+        &__target{
+            padding: 15px;
+            width: 100%;
+            border: 1px solid #2DB742;
+            border-radius: 3px;
+            @include flex-center-between;
+            gap: 15px;
+
+            &__information{
+                @include flex-center-center;
+                gap: 10px;
+
+                &__imagen{
+                    width: 57px;
+    
+                    img{
+                        width: 100%;
+                    }
+    
+                }
+    
+                &__word{
+    
+                    h5{
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: $black;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+                    }
+    
+                    p{
+                        font-size: 13px;
+                        font-weight: normal;
+                        color: $black;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+                    }
+    
+                }
+            }
+
+            &__icon{
+                @include flex-center-center;
+                padding: 7px;
+                background-color: #15B633;
+                border-radius: 100%;
+                img{
+                    width: 20px;
+                }
+            }
+
+            &:hover{
+                background-color: $grey_goose;
+            }
+
+        }
+
+    }
+}
+
+  .chat_whatsApp::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent; /* or add it to the track */
+  }
