@@ -3,7 +3,7 @@
     margin: auto;
 	height: 320px;
 	position: fixed;
-	top: 200%;
+    bottom: -200%;
     right: 5%;
 	z-index: 100;
 	transition: 0.3s;
@@ -15,22 +15,15 @@
     }
 
     &--active{
-		top:15%;
         right: 5%;
-       /*bottom:230px !important;*/
+        bottom: 250px;
 
-        @media(min-width:414px){
-            top:25%;
+        @media(min-width: 1199px){
+            bottom:300px;
         }
 
-        @media(min-width:678px){
-            top:45%;
-        }
-
-        @media(min-width:992px){
-            /*bottom:300px !important;*/
-            top:35%;
-        }
+ 
+       
 	}
 
     &__top{
