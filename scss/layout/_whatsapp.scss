@@ -1,13 +1,13 @@
 .layout_whatsapp{
 	@include flex-center-center;
 	position: fixed;
-	bottom: 20px;
+	bottom: 35px;
 	right: 25px;
 	z-index: 100;
 	gap: 10px;
 
 	@media(min-width: 1199px){
-		bottom: 20px;
+		bottom: 80px;
     }
 
 	&__button{

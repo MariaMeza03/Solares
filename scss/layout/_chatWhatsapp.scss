@@ -17,12 +17,18 @@
     &--active{
 		top:15%;
         right: 5%;
+       /*bottom:230px !important;*/
 
         @media(min-width:414px){
             top:25%;
         }
 
+        @media(min-width:678px){
+            top:45%;
+        }
+
         @media(min-width:992px){
+            /*bottom:300px !important;*/
             top:35%;
         }
 	}

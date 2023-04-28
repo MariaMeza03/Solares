@@ -277,13 +277,13 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  bottom: 20px;
+  bottom: 35px;
   right: 25px;
   z-index: 100;
   gap: 10px; }
   @media (min-width: 1199px) {
     .layout_whatsapp {
-      bottom: 20px; } }
+      bottom: 80px; } }
   .layout_whatsapp__button {
     max-width: 82px !important;
     height: auto;
@@ -475,12 +475,17 @@
       width: 352px; } }
   .chat_whatsApp--active {
     top: 15%;
-    right: 5%; }
+    right: 5%;
+    /*bottom:230px !important;*/ }
     @media (min-width: 414px) {
       .chat_whatsApp--active {
         top: 25%; } }
+    @media (min-width: 678px) {
+      .chat_whatsApp--active {
+        top: 45%; } }
     @media (min-width: 992px) {
       .chat_whatsApp--active {
+        /*bottom:300px !important;*/
         top: 35%; } }
   .chat_whatsApp__top {
     display: flex;
