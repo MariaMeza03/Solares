@@ -1,7 +1,7 @@
 .chat_whatsApp{
     width: 90%;
     margin: auto;
-	height: 320px;
+	height: 230px;
 	position: fixed;
     bottom: -200%;
     right: 5%;
@@ -59,12 +59,12 @@
 
     &__agent{
         background-color: $white;
-        height: 320px;
-        overflow-y: scroll;
+        height: 230px;
+        /*overflow-y: scroll;*/
         @include flex-center-center;
         flex-direction:column;
         gap: 10px;
-        padding: 120px 15px 15px 15px;
+        padding: 15px 15px 15px 15px;
 
         &::-webkit-scrollbar-thumb{
             background-color:#2DB742;    /* color of the scroll thumb */
