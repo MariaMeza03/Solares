@@ -2,12 +2,13 @@
     width: 100%;
     height:auto;
     background-color: white;
-   @include flex-center-center;
+    display: none;
     margin: auto;
     flex-direction: column;
     padding: 20px 0;
 
     @media(min-width:1199px){
+        @include flex-center-center;
         height:auto;
         position: relative;
 	    overflow: hidden;
@@ -92,4 +93,149 @@
 
 
     }
+}
+
+.clients_movil{
+    width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 350px;
+    @include flex-center-center;
+
+    @media(min-width: 768px){
+        height: 600px;
+    }
+
+    @media(min-width: 1199px){
+        display: none;
+    }
+
+	&--prev{
+		position: absolute;
+        left: 15px;
+		top: 50%;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		z-index: 2;
+
+
+		svg{
+			width: 40px;
+			fill: black;
+            opacity: 0.5;
+		}
+
+	}
+
+	&--next{
+		position: absolute;
+        right: 15px;
+		top: 50%;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		z-index: 2;
+
+
+		svg{
+			width: 40px;
+			fill: black;
+            opacity: 0.5;
+		}
+
+	}
+
+    h1{
+        font-size: 23px;
+        color: black;
+        letter-spacing: normal;
+        line-height: normal;
+        padding: 20px 0;
+        text-align: center;
+
+        @media(min-width: 768px){
+            font-size: 40px;
+        }
+    }
+
+
+    hr{
+        width: 98px;
+        margin: auto;
+        border: 5px solid $mikado_yellow;
+        animation-name: line;
+        animation-duration: 4s;
+        animation-iteration-count:initial;
+
+        @media(min-width:1199px){
+            @keyframes line {
+                0%{
+                    width: 0%
+                }
+    
+                100%{
+                    width: 98px;
+                }
+                
+            }
+        }
+    }
+
+    &__form{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        @include flex-center-center;
+        
+        &--img{
+            width: 50%;
+            margin: auto;
+
+            img{
+                width: 100%;
+            }
+
+            
+        }
+
+    }
+}
+
+.swiper_movil {
+    padding-top: 20px;
+	width: 100%;
+	height: 100%;
+
+		.swiper-slide{
+			width: 100% !important;
+			height: 100%;
+			@include flex-center-center;
+			
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+
+
+		}
+
+        .swiper-pagination-bullet{
+            background-color: $white;
+            opacity: 0.6;
+            
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: transparent;
+            border: 1px solid white;
+            
+        }
+
 }
