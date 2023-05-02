@@ -304,21 +304,17 @@
       display: none; }
     .layout_whatsapp__button--active .layout_whatsapp__button__close {
       display: block; }
-  .layout_whatsapp:hover .layout_whatsapp__information {
-    display: block; }
   .layout_whatsapp__information {
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
+    display: block;
     background-color: #19E53C;
     border-radius: 6px;
     width: 100%;
     padding: 10px;
     font-size: 17px;
     color: #FFFFFF; }
-    .layout_whatsapp__information--active {
-      display: none; }
 
 .menu {
   width: 100%;

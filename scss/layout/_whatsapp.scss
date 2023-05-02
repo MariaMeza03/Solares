@@ -53,25 +53,16 @@
 		
 	}
 
-	&:hover{
-		.layout_whatsapp__information{
-			display: block;
-		}
-	}
 
 	&__information{
 		@include flex-center-center;
-		display: none;
+		display: block;
 		background-color: #19E53C;
 		border-radius: 6px;
 		width: 100%;
 		padding: 10px;
 		font-size: 17px;
 		color: $white;
-
-		&--active{
-			display: none;
-		}
 
 	}
 	
