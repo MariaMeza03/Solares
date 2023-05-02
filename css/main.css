@@ -795,10 +795,8 @@
     align-items: center;
     justify-content: center; }
     .clients_movil__form--img {
-      width: 50%;
+      width: 175px;
       margin: auto; }
-      .clients_movil__form--img img {
-        width: 100%; }
 
 .swiper_movil {
   padding-top: 20px;
