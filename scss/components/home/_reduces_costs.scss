@@ -7,6 +7,7 @@
     .container-sm{
         @include flex-center-center;
         flex-direction: column;
+        padding: 0 0 60px 0;
 
     }
 
@@ -14,11 +15,15 @@
         width: 100%;
         position: relative;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 70px;
-        padding: 0 200px;
-        bottom: 40px;
+        bottom: 60px;
         z-index: 999999 ;
+
+        @media(min-width:1199px){
+            grid-template-columns: repeat(3, 1fr);
+            padding: 0 200px;
+        }
 
 
         &__item{
@@ -38,6 +43,24 @@
                 font-weight: 700;
                 text-align: center;
             }
+        }
+    }
+
+    &__text{
+
+        h1{
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            color: $saffron_mango;
+        }
+
+        p{
+            padding-top: 20px;
+            text-align: center;
+            font-size: 20px;
+            width: 100%;
+            color: $white;
         }
     }
 }

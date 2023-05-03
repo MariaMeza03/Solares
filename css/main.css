@@ -523,16 +523,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 0 0 60px 0; }
   .reduce_costs__grid {
     width: 100%;
     position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 70px;
-    padding: 0 200px;
-    bottom: 40px;
+    bottom: 60px;
     z-index: 999999; }
+    @media (min-width: 1199px) {
+      .reduce_costs__grid {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 200px; } }
     .reduce_costs__grid__item {
       width: 100%;
       background-color: #ffc600;
@@ -548,6 +552,17 @@
         font-size: 16px;
         font-weight: 700;
         text-align: center; }
+  .reduce_costs__text h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffc600; }
+  .reduce_costs__text p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    color: #FFFFFF; }
 
 * {
   margin: 0;
