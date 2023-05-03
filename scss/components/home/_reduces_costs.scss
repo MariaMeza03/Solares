@@ -1,0 +1,40 @@
+.reduce_costs{
+    width: 100%;
+    overflow: hidden;
+	position: relative;
+    background-color: $black;
+
+    .container-sm{
+        @include flex-center-center;
+        flex-direction: column;
+    }
+
+    &__grid{
+        width: 100%;
+        position: relative;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 0 70px;
+
+
+        &__item{
+            width: 100%;
+            background-color: $saffron_mango;
+            @include flex-center-center;
+            flex-direction: column;
+
+            &__icon{
+                width: 100px;
+            }
+
+            p{
+                padding-top: 10px;
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+    }
+}
