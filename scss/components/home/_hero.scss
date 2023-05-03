@@ -1,0 +1,218 @@
+.hero{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 500px;
+
+    @media(min-width: 1199px){
+        height: 800px;
+    }
+
+	&--prev{
+		position: absolute;
+        left: 15px;
+		top: 50%;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		z-index: 2;
+
+
+		svg{
+			width: 40px;
+			fill: white;
+            opacity: 0.5;
+		}
+
+	}
+
+	&--next{
+		position: absolute;
+        right: 15px;
+		top: 50%;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		z-index: 2;
+
+
+		svg{
+			width: 40px;
+			fill: white;
+            opacity: 0.5;
+		}
+
+	}
+
+    &__form{
+        width: 100%;
+        height: 100%;
+
+        &--one{
+            background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../../../img/Banner.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            .container-sm{
+                @include flex-center-center ;
+                flex-direction: column;
+                padding: 200px 0;
+
+                @media(min-width: 1199px){
+                    @include flex-end-start ; 
+                }
+            }
+
+            &__text{   
+                @include flex-center-center; 
+                flex-direction: column;
+
+                @media(min-width: 1199px){
+                    @include flex-end-start ; 
+                }
+
+                h1{
+                    width: 100%;
+                    font-size: 25px;
+                    color: $mikado_yellow;
+    
+                    @media(min-width: 1199px){
+                        font-size: 70px;
+                        line-height: 56px;
+                    }
+                }
+    
+                p{
+                    font-size: 20px;
+                    color: $white;
+                    padding-bottom: 60px;
+                    padding-top: 10px;
+
+                    @media(min-width: 1199px){
+                        font-size: 40px;
+                        line-height: 56px;
+                    }
+                }
+
+                &__button{               
+                    background-color: $la_salle_green;
+                    font-size: 14px;
+                    color: $white;
+                    font-weight: normal;
+                    padding: 15px;
+                    width: auto;
+
+                    /*Animation*/
+                    
+                    animation-name: butt;
+                    animation-duration: 2s;
+                    animation-iteration-count: initial;
+        
+                    @media(min-width:1199px){
+                        padding: 20px 40px;
+                    }
+                }
+            }
+
+
+        }
+
+        &--two{
+            background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../../../img/Hotel.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            .container-sm{
+                @include flex-center-center ; 
+                flex-direction: column;
+                padding: 200px 0;
+
+                @media(min-width: 1199px){
+                    @include flex-start-start ;
+                }
+            }
+
+            &__text{   
+                @include flex-center-center ; 
+                flex-direction: column;
+
+                @media(min-width: 1199px){
+                    @include flex-start-start ; 
+                }
+
+                h1{
+                    width: 100%;
+                    font-size: 25px;
+                    color: $mikado_yellow;
+                    text-align: center;
+    
+                    @media(min-width: 1199px){
+                        text-align: start;
+                        font-size: 70px;
+                        line-height: 56px;
+                    }
+                }
+    
+                p{
+                    font-size: 20px;
+                    color: $white;
+                    padding-bottom: 60px;
+                    padding-top: 10px;
+                    text-align: center;
+
+                    @media(min-width: 1199px){
+                        text-align: start;
+                        font-size: 40px;
+                        line-height: 56px;
+                    }
+                }
+
+                &__button{               
+                    background-color: $la_salle_green;
+                    font-size: 14px;
+                    color: $white;
+                    font-weight: normal;
+                    padding: 15px;
+                    width: auto;
+
+                    /*Animation*/
+                    
+                    animation-name: butt;
+                    animation-duration: 2s;
+                    animation-iteration-count: initial;
+        
+                    @media(min-width:1199px){
+                        padding: 20px 40px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+
+		.swiper-slide{
+			width: 100% !important;
+			height: 100%;
+
+		}
+
+        .swiper-pagination-bullet{
+            background-color: $white;
+            opacity: 0.6;
+            
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: transparent;
+            border: 1px solid white;
+            
+        }
+
+}
