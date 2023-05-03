@@ -1,22 +1,24 @@
 .reduce_costs{
     width: 100%;
-    overflow: hidden;
-	position: relative;
+	position: absolute;
     background-color: $black;
+    z-index: 99;
 
     .container-sm{
         @include flex-center-center;
         flex-direction: column;
+
     }
 
     &__grid{
         width: 100%;
         position: relative;
-
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        padding: 0 70px;
+        gap: 70px;
+        padding: 0 200px;
+        bottom: 40px;
+        z-index: 999999 ;
 
 
         &__item{
@@ -24,6 +26,7 @@
             background-color: $saffron_mango;
             @include flex-center-center;
             flex-direction: column;
+            padding: 20px;
 
             &__icon{
                 width: 100px;

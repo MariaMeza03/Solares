@@ -351,8 +351,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  height: 500px;
-  z-index: -2; }
+  height: 500px; }
   @media (min-width: 1199px) {
     .hero {
       height: 800px; } }
@@ -517,9 +516,9 @@
 
 .reduce_costs {
   width: 100%;
-  overflow: hidden;
-  position: relative;
-  background-color: #000000; }
+  position: absolute;
+  background-color: #000000;
+  z-index: 99; }
   .reduce_costs .container-sm {
     display: flex;
     align-items: center;
@@ -530,15 +529,18 @@
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 0 70px; }
+    gap: 70px;
+    padding: 0 200px;
+    bottom: 40px;
+    z-index: 999999; }
     .reduce_costs__grid__item {
       width: 100%;
       background-color: #ffc600;
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-direction: column; }
+      flex-direction: column;
+      padding: 20px; }
       .reduce_costs__grid__item__icon {
         width: 100px; }
       .reduce_costs__grid__item p {
