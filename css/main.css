@@ -311,117 +311,22 @@
 
 .footer {
   width: 100%;
-  /*background-color: $heavy_metal;*/
-  padding: 30px 0;
+  background-color: #1f1f1f;
+  padding: 10px 0;
   position: absolute; }
   @media (min-width: 1199px) {
     .footer {
-      padding: 60px 0; } }
-  .footer__contact h1 {
+      padding: 15px 0; } }
+  .footer h1 {
     letter-spacing: -0.05em;
-    color: #FFDA1F;
+    color: #F7C50A;
     line-height: 0.8em;
     text-align: center;
-    font-size: 34px; }
+    font-size: 15px;
+    font-weight: normal; }
     @media (min-width: 1199px) {
-      .footer__contact h1 {
-        font-size: 92px; } }
-  .footer__contact h2 {
-    line-height: 1em;
-    text-align: center;
-    font-size: 12px;
-    color: #FFFFFF;
-    font-weight: normal;
-    padding-top: 10px;
-    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; }
-    @media (min-width: 1199px) {
-      .footer__contact h2 {
-        font-size: 22px;
-        padding-top: 46px; } }
-  .footer__contact__phone {
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    padding: 20px 0; }
-    @media (min-width: 1199px) {
-      .footer__contact__phone {
-        grid-template-columns: repeat(3, 1fr);
-        width: 60%;
-        padding: 40px 0;
-        gap: 10px; } }
-    .footer__contact__phone__item {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      color: #FFFFFF;
-      font-size: 15px;
-      text-decoration: underline; }
-      @media (min-width: 1199px) {
-        .footer__contact__phone__item {
-          font-size: 16px;
-          gap: 10px; } }
-      .footer__contact__phone__item__icon {
-        width: 25px; }
-        .footer__contact__phone__item__icon svg {
-          width: 100%; }
-  .footer__contact__email_location {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 20px;
-    padding-bottom: 60px; }
-    @media (min-width: 1199px) {
-      .footer__contact__email_location {
-        width: 60%;
-        flex-direction: row;
-        gap: 30px; } }
-    .footer__contact__email_location__item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: #FFFFFF;
-      text-decoration: underline;
-      font-size: 15px; }
-      @media (min-width: 1199px) {
-        .footer__contact__email_location__item {
-          font-size: 21px; } }
-      .footer__contact__email_location__item__icon {
-        width: 25px; }
-        .footer__contact__email_location__item__icon svg {
-          width: 100%; }
-  .footer hr {
-    border: 1px solid #605E5E; }
-  .footer__information {
-    width: 100%;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    padding-top: 46px; }
-    @media (min-width: 1199px) {
-      .footer__information {
-        gap: 20px; } }
-    .footer__information__legal {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      gap: 10px;
-      color: #fff;
-      font-size: 18px; }
-      @media (min-width: 1199px) {
-        .footer__information__legal {
-          gap: 20px;
-          flex-direction: row; } }
-      .footer__information__legal a {
-        color: #fff;
-        text-decoration: underline; }
-    .footer__information p.text {
-      color: #fff;
-      font-size: 9px;
-      padding-top: 20px; }
+      .footer h1 {
+        font-size: 17px; } }
 
 .media {
   position: fixed;
