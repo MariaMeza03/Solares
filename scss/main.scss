@@ -14,36 +14,6 @@
 @import 'layout/footer';
 @import 'layout/chatWhatsapp';
 
-//*Components home
-@import 'components/home/service';
-@import 'components/home/information';
-@import 'components/home/clients';
-@import 'components/home/we_ensure';
-@import 'components/home/price';
-@import 'components/home/experts';
-@import 'components/home/quote';
-@import 'components/home/why_we';
-@import 'components/home/urgent';
-@import 'components/home/imagen';
-@import 'components/home/aviso_de_privacidad';
-
-
-//*Components Units
-@import 'components/units/hero_units';
-@import 'components/units/catalog';
-
-//*Components services
-@import 'components/services/hero_services';
-@import 'components/services/we_services';
-@import 'components/services/contact';
-@import 'components/services/image_services';
-
-
-//*Components cobertura
-@import 'components/cobertura/hero_cobertura';
-@import 'components/cobertura/contact_cobertura';
-@import 'components/cobertura/location';
-
 
 *{
 	margin: 0;
