@@ -294,6 +294,20 @@
     margin: 10px 0;
     width: 100%;
     border: 0.09px solid #605E5E; }
+  .menu__link--one:hover {
+    color: #F7C50A; }
+  .menu__link--two:hover {
+    color: #F7C50A; }
+  .menu__link--three:hover {
+    color: #F7C50A; }
+  .menu__link--four:hover {
+    color: #F7C50A; }
+  .menu__link--five:hover {
+    color: #F7C50A; }
+  .menu__link--six:hover {
+    color: #F7C50A; }
+  .menu__link--seven:hover {
+    color: #F7C50A; }
 
 .footer {
   width: 100%;
