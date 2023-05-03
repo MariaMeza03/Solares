@@ -8,5 +8,9 @@ function toggleMenu() {
 	menu.classList.toggle('menu--active')
 	toggle.classList.toggle('header__mobile__top__toggle--active')
 }
+function DeleteMenu() {
+	menu.classList.remove('menu--active')
+}
 
 toggle.addEventListener('click', toggleMenu)
+menu.addEventListener('click', DeleteMenu)
