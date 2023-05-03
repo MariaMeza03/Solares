@@ -130,7 +130,6 @@
   .header__desktop {
     width: 100%;
     height: 100%;
-    background-color: black;
     display: none; }
     @media (min-width: 1200px) {
       .header__desktop {
@@ -144,11 +143,116 @@
       height: 117px; }
     .header__desktop__pages {
       display: flex;
-      gap: 40px; }
-      .header__desktop__pages a {
-        font-weight: 700;
-        font-size: 12px;
-        color: #FFFFFF; }
+      gap: 40px;
+      font-size: 14px;
+      font-weight: 700; }
+      .header__desktop__pages--active {
+        color: #F7C50A; }
+        .header__desktop__pages--active hr {
+          width: 50%;
+          margin: auto;
+          margin-top: 10px;
+          height: 1px;
+          background-color: #F7C50A;
+          border: none; }
+      .header__desktop__pages--one {
+        color: #000000; }
+        .header__desktop__pages--one hr {
+          display: none; }
+        .header__desktop__pages--one:hover {
+          color: #F7C50A; }
+          .header__desktop__pages--one:hover hr {
+            display: block;
+            border: none;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+            height: 1px;
+            background-color: #F7C50A; }
+      .header__desktop__pages--two {
+        color: #000000; }
+        .header__desktop__pages--two hr {
+          display: none; }
+        .header__desktop__pages--two:hover {
+          color: #F7C50A; }
+          .header__desktop__pages--two:hover hr {
+            display: block;
+            border: none;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+            height: 1px;
+            background-color: #F7C50A; }
+      .header__desktop__pages--three {
+        color: #000000; }
+        .header__desktop__pages--three hr {
+          display: none; }
+        .header__desktop__pages--three:hover {
+          color: #F7C50A; }
+          .header__desktop__pages--three:hover hr {
+            display: block;
+            border: none;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+            height: 1px;
+            background-color: #F7C50A; }
+      .header__desktop__pages--four {
+        color: #000000; }
+        .header__desktop__pages--four hr {
+          display: none; }
+        .header__desktop__pages--four:hover {
+          color: #F7C50A; }
+          .header__desktop__pages--four:hover hr {
+            display: block;
+            border: none;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+            height: 1px;
+            background-color: #F7C50A; }
+      .header__desktop__pages--five {
+        color: #000000; }
+        .header__desktop__pages--five hr {
+          display: none; }
+        .header__desktop__pages--five:hover {
+          color: #F7C50A; }
+          .header__desktop__pages--five:hover hr {
+            display: block;
+            border: none;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+            height: 1px;
+            background-color: #F7C50A; }
+      .header__desktop__pages--six {
+        color: #000000; }
+        .header__desktop__pages--six hr {
+          display: none; }
+        .header__desktop__pages--six:hover {
+          color: #F7C50A; }
+          .header__desktop__pages--six:hover hr {
+            display: block;
+            border: none;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+            height: 1px;
+            background-color: #F7C50A; }
+      .header__desktop__pages--seven {
+        color: #000000; }
+        .header__desktop__pages--seven hr {
+          display: none; }
+        .header__desktop__pages--seven:hover {
+          color: #F7C50A; }
+          .header__desktop__pages--seven:hover hr {
+            display: block;
+            border: none;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+            height: 1px;
+            background-color: #F7C50A; }
 
 .menu {
   width: 65%;

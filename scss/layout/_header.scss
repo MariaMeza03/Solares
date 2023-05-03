@@ -101,7 +101,6 @@
 	&__desktop {
 		width: 100%;
 		height: 100%;
-		background-color: black;
 		display: none; 
 	
 
@@ -122,12 +121,170 @@
 		&__pages{
 			display: flex;
 			gap: 40px;
+			font-size: 14px;
+			font-weight: 700;
 
-			a{
-				font-weight: 700;
-				font-size: 12px;
-				color: $white;
+			&--active{
+				color: $mikado_yellow;
+
+				hr{
+					width: 50%;
+					margin: auto;
+					margin-top: 10px;
+					height: 1px;
+					background-color: $mikado_yellow;
+					border: none;
+					
+				}
 			}
+
+			&--one{		
+				color:$black;
+				hr{
+					display: none;
+				}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						display: block;
+						border: none;
+						width: 50%;
+						margin: auto;
+						margin-top: 10px;
+						height: 1px;
+						background-color: $mikado_yellow;
+					}
+				}
+			}
+
+			&--two{
+				color:$black;
+				hr{
+					display: none;
+				}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						display: block;
+						border: none;
+						width: 50%;
+						margin: auto;
+						margin-top: 10px;
+						height: 1px;
+						background-color: $mikado_yellow;
+					}
+				}
+			}
+
+			&--three{
+				color:$black;
+				hr{
+					display: none;
+				}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						display: block;
+						border: none;
+						width: 50%;
+						margin: auto;
+						margin-top: 10px;
+						height: 1px;
+						background-color: $mikado_yellow;
+					}
+				}
+			}
+
+			&--four{
+				color:$black;
+				hr{
+					display: none;
+				}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						display: block;
+						border: none;
+						width: 50%;
+						margin: auto;
+						margin-top: 10px;
+						height: 1px;
+						background-color: $mikado_yellow;
+					}
+				}
+			}
+
+			&--five{
+				color:$black;
+				hr{
+					display: none;
+				}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						display: block;
+						border: none;
+						width: 50%;
+						margin: auto;
+						margin-top: 10px;
+						height: 1px;
+						background-color: $mikado_yellow;
+					}
+				}
+			}
+
+			&--six{
+				color:$black;
+				hr{
+					display: none;
+				}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						display: block;
+						border: none;
+						width: 50%;
+						margin: auto;
+						margin-top: 10px;
+						height: 1px;
+						background-color: $mikado_yellow;
+					}
+				}
+			}
+
+			&--seven{
+				color:$black;
+				hr{
+					display: none;
+				}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						display: block;
+						border: none;
+						width: 50%;
+						margin: auto;
+						margin-top: 10px;
+						height: 1px;
+						background-color: $mikado_yellow;
+					}
+				}
+			}
+
 		}
 
 
