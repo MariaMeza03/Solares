@@ -156,7 +156,7 @@
           background-color: #F7C50A;
           border: none; }
       .header__desktop__pages--one {
-        color: #000000; }
+        color: #FFFFFF; }
         .header__desktop__pages--one hr {
           display: none; }
         .header__desktop__pages--one:hover {
@@ -170,7 +170,7 @@
             height: 1px;
             background-color: #F7C50A; }
       .header__desktop__pages--two {
-        color: #000000; }
+        color: #FFFFFF; }
         .header__desktop__pages--two hr {
           display: none; }
         .header__desktop__pages--two:hover {
@@ -184,7 +184,7 @@
             height: 1px;
             background-color: #F7C50A; }
       .header__desktop__pages--three {
-        color: #000000; }
+        color: #FFFFFF; }
         .header__desktop__pages--three hr {
           display: none; }
         .header__desktop__pages--three:hover {
@@ -198,7 +198,7 @@
             height: 1px;
             background-color: #F7C50A; }
       .header__desktop__pages--four {
-        color: #000000; }
+        color: #FFFFFF; }
         .header__desktop__pages--four hr {
           display: none; }
         .header__desktop__pages--four:hover {
@@ -212,7 +212,7 @@
             height: 1px;
             background-color: #F7C50A; }
       .header__desktop__pages--five {
-        color: #000000; }
+        color: #FFFFFF; }
         .header__desktop__pages--five hr {
           display: none; }
         .header__desktop__pages--five:hover {
@@ -226,7 +226,7 @@
             height: 1px;
             background-color: #F7C50A; }
       .header__desktop__pages--six {
-        color: #000000; }
+        color: #FFFFFF; }
         .header__desktop__pages--six hr {
           display: none; }
         .header__desktop__pages--six:hover {
@@ -240,7 +240,7 @@
             height: 1px;
             background-color: #F7C50A; }
       .header__desktop__pages--seven {
-        color: #000000; }
+        color: #FFFFFF; }
         .header__desktop__pages--seven hr {
           display: none; }
         .header__desktop__pages--seven:hover {
@@ -346,6 +346,122 @@
     font-weight: 700;
     font-size: 12px;
     color: #000000; }
+
+.experts {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 500px; }
+  @media (min-width: 1199px) {
+    .experts {
+      height: 800px; } }
+  .experts--prev {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    z-index: 2; }
+    .experts--prev svg {
+      width: 40px;
+      fill: white;
+      opacity: 0.5; }
+  .experts--next {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    z-index: 2; }
+    .experts--next svg {
+      width: 40px;
+      fill: white;
+      opacity: 0.5; }
+  .experts__form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .experts__form--video {
+      flex-direction: column; }
+      .experts__form--video video {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        filter: brightness(60%);
+        z-index: -1;
+        object-fit: cover; }
+      .experts__form--video h1 {
+        width: 70%;
+        position: absolute;
+        font-size: 15px;
+        color: #FFFFFF;
+        text-align: center; }
+        @media (min-width: 1199px) {
+          .experts__form--video h1 {
+            font-size: 44px;
+            margin: auto;
+            line-height: 56px;
+            text-shadow: 2px 2px 2px #000; } }
+      .experts__form--video span {
+        color: #F7C50A; }
+    .experts__form__button {
+      position: absolute;
+      bottom: 26%;
+      margin-top: 60px;
+      background-color: #F7C50A;
+      font-size: 23px;
+      color: #000;
+      font-weight: 700;
+      padding: 13px 81px;
+      border-radius: 12px;
+      animation-name: butt;
+      width: 308px;
+      animation-duration: 2s;
+      animation-iteration-count: initial; }
+      @media (min-width: 1199px) {
+        @keyframes butt {
+          0% {
+            opacity: 0;
+            width: 0%;
+            color: transparent; }
+          90% {
+            opacity: 1;
+            width: 6%; }
+          100% {
+            color: #000000; } } }
+      .experts__form__button:hover {
+        background-color: #FFFFFF;
+        border: 1px solid black; }
+
+.swiper {
+  width: 100%;
+  height: 100%; }
+  .swiper .swiper-slide {
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center; }
+  .swiper .swiper-pagination-bullet {
+    background-color: #FFFFFF;
+    opacity: 0.6; }
+  .swiper .swiper-pagination-bullet-active {
+    background-color: transparent;
+    border: 1px solid white; }
 
 * {
   margin: 0;
