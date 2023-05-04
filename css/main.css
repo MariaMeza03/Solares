@@ -737,6 +737,48 @@
       .win_win__imagen {
         bottom: 39px; } }
 
+.idea {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/paneles.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px; }
+  @media (min-width: 1199px) {
+    .idea {
+      background-image: none;
+      height: 100%; } }
+  .idea .container-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 0; }
+    @media (min-width: 1199px) {
+      .idea .container-sm {
+        padding: 20px 0 60px 0; } }
+  .idea__imagen {
+    background-color: #F7C50A;
+    width: 100%;
+    display: none; }
+    @media (min-width: 1199px) {
+      .idea__imagen {
+        display: block; } }
+  .idea__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .idea__text h1 {
+      color: #F7C50A;
+      text-align: center;
+      padding-bottom: 15px; }
+    .idea__text p {
+      color: #F7C50A;
+      text-align: center; }
+
 .our_products {
   width: 100%;
   position: relative;
