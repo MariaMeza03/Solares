@@ -11,7 +11,7 @@
     .container-sm{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding: 90px 0;
+        padding: 50px 10px;
         gap: 30px;
 
 
@@ -110,11 +110,15 @@
 
         &__imagen{
             width: 100%;
-            height: 100%;
-            padding: 0 18px;
+            padding: 0 5px;
+
+            @media(min-width:768px){
+                padding: 0 18px;
+            }
 
             img{
                 border-radius: 15px;
+
             }
 
         }
@@ -124,8 +128,12 @@
 
 .swiper_products{
 	width: 100%;
-	height: 100%;
+	height: 80%;
     overflow: hidden;
+
+        @media(min-width:768px){
+            height: 100%;
+        }
 
 		.swiper-slide{
 			width: 100% !important;
