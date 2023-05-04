@@ -583,6 +583,42 @@
         .reduce_costs__text p {
           font-size: 20px; } }
 
+.promotion {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../../img/para3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px; }
+  .promotion .container-sm {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .promotion h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .promotion h1 {
+        font-size: 48px; } }
+  .promotion p {
+    opacity: 0.8;
+    margin: 2em 0;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-size: 12px; }
+    @media (min-width: 768px) {
+      .promotion p {
+        font-size: 16px; } }
+
 * {
   margin: 0;
   padding: 0;
