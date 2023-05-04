@@ -112,6 +112,11 @@
                     @media(min-width:1199px){
                         padding: 20px 40px;
                     }
+
+                    &:hover{
+                        background-color: $mikado_yellow;
+                        border: 2px solid $white;
+                    }
                 }
             }
 
@@ -185,6 +190,11 @@
         
                     @media(min-width:1199px){
                         padding: 20px 40px;
+                    }
+
+                    &:hover{
+                        background-color: $mikado_yellow;
+                        border: 2px solid $white;
                     }
                 }
             }

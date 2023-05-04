@@ -143,9 +143,12 @@
       height: 117px; }
     .header__desktop__pages {
       display: flex;
-      gap: 40px;
+      gap: 10px;
       font-size: 14px;
       font-weight: 700; }
+      @media (min-width: 1440px) {
+        .header__desktop__pages {
+          gap: 40px; } }
       .header__desktop__pages--active {
         color: #F7C50A; }
         .header__desktop__pages--active hr {
@@ -439,6 +442,9 @@
           @media (min-width: 1199px) {
             .hero__form--one__text__button {
               padding: 20px 40px; } }
+          .hero__form--one__text__button:hover {
+            background-color: #F7C50A;
+            border: 2px solid #FFFFFF; }
     .hero__form--two {
       background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Hotel.jpg");
       background-position: center;
@@ -500,6 +506,9 @@
           @media (min-width: 1199px) {
             .hero__form--two__text__button {
               padding: 20px 40px; } }
+          .hero__form--two__text__button:hover {
+            background-color: #F7C50A;
+            border: 2px solid #FFFFFF; }
 
 .swiper {
   width: 100%;

@@ -120,9 +120,13 @@
 
 		&__pages{
 			display: flex;
-			gap: 40px;
+			gap: 10px;
 			font-size: 14px;
 			font-weight: 700;
+
+			@media(min-width:1440px){
+				gap: 40px;
+			}
 
 			&--active{
 				color: $mikado_yellow;
