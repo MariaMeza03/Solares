@@ -9,7 +9,7 @@
         gap: 40px;
 
         @media(min-width: 1199px){
-            padding: 64px 0;
+            padding: 0;
             grid-template-columns: repeat(2, 1fr);
         }
     }
@@ -21,15 +21,15 @@
 
         @media(min-width: 1199px){
             position: relative;
-            bottom: 48px;
+            bottom: 15px;
         }
 
         @media(min-width: 1399px){
-            bottom: 36px;
+            bottom: 18px;
         }
 
         @media(min-width: 1677px){
-            bottom: 39px;
+            bottom: 22px;
         }
 
     }
@@ -37,6 +37,10 @@
     &__text{
         @include flex-center-start;
         flex-direction: column;
+
+        @media(min-width: 1199px){
+          padding-top: 64px;
+        }
 
         h1{
             color: #1b8233;

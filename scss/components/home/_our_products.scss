@@ -11,12 +11,13 @@
     .container-sm{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding: 150px 0;
+        padding: 90px 0;
         gap: 30px;
 
 
         @media(min-width: 768px){
             grid-template-columns: repeat(2, 1fr);
+            padding: 150px 0;
 
         }
     }
@@ -26,11 +27,16 @@
         flex-direction: column;
 
         h1{
-            width: 50%;
+            width: 100%;
             text-align: center;
             color: #fff;
-            font-size: 35px;
+            font-size: 25px;
             font-weight: 600;
+
+            @media(min-width:768px){
+                width: 50%;
+                font-size: 35px;
+            }
         }
 
         &__button{
@@ -39,14 +45,19 @@
 
 
             /*text*/
-            font-size: 20px;
+            font-size: 14px;
             font-weight: 800;
             margin-top: 16px;
             letter-spacing: 0.5px;
             padding: 12px 23px;
             text-transform: uppercase;
             color: $white;
-            margin-top: 62px;
+            margin-top: 30px;
+
+            @media(min-width:768px){
+                font-size: 20px;
+                margin-top: 62px;
+            }
         }
 
     }
@@ -127,10 +138,6 @@
 		.swiper-slide{
 			width: 100% !important;
 			height: 100%;
-
-            @media(min-width:992px ){
-                width: 50% !important;
-            }
 
             @media(min-width:1199px ){
                 width: 33% !important;
