@@ -1,0 +1,116 @@
+.win_win{
+    width: 100%;
+    position: relative;
+
+    .container-sm{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15px;
+        gap: 40px;
+
+        @media(min-width: 1199px){
+            padding: 15px 0;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &__text{
+        @include flex-center-center;
+        flex-direction: column;
+
+        h1{
+            color: #1b8233;
+            text-align: center;
+            font-weight: 900;
+            font-size: 25px;
+            font-family: poppins;
+            margin-bottom: 15px;
+
+            @media(min-width:768px){
+                font-size: 30px;
+                margin-bottom: 30px;
+            }
+        }
+
+        h2{
+            text-align: center;
+            font-weight: 800;
+            font-size: 20px;
+            font-family: poppins;
+            color: #272727;
+            margin-bottom: 15px;
+
+            @media(min-width:768px){
+                font-size: 24px;
+                margin-bottom: 30px;
+            }
+        }
+
+        p{
+            font-family: hind;
+            color: #000000;
+            line-height: 26px;
+            letter-spacing: 0.3px;
+            text-align: center;
+            font-size: 15px;
+            margin-bottom: 10px;
+
+            @media(min-width:768px){
+                font-size: 17px;
+                margin-bottom: 20px;
+            }
+        }
+
+        h4{
+            color: #1b8233;
+            font-size: 15px;
+            font-weight: 700;
+            text-align: center;
+            font-family: poppins;
+            margin: 8px 0;
+
+            @media(min-width:768px){
+                font-size: 21px;
+                margin: 10px 0;
+            }
+        }
+
+        &__button{
+            @include flex-center-center;
+            background-color:$mikado_yellow ;
+
+            /*Text*/
+            font-size: 14px;
+            font-weight: 800;
+            margin-top: 16px;
+            letter-spacing: 0.5px;
+            padding: 12px 23px;
+            text-transform: uppercase;
+            color: $white;
+
+            @media(min-width:768px){
+                font-size: 20px;
+            }
+        }
+    }
+
+    &__imagen{
+        width: 100%;
+        position: static;
+        margin: auto;
+
+        @media(min-width: 1199px){
+            position: relative;
+            bottom: 48px;
+        }
+
+        @media(min-width: 1399px){
+            bottom: 36px;
+        }
+
+        @media(min-width: 1677px){
+            bottom: 39px;
+        }
+
+    }
+}
