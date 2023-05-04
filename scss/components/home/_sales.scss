@@ -81,11 +81,16 @@
             margin-top: 16px;
             letter-spacing: 0.5px;
             padding: 12px 23px;
-            text-transform: uppercase;
             color: $white;
 
             @media(min-width:768px){
                 font-size: 20px;
+            }
+
+            &:hover{
+                color: $white;
+                background-color:$black ;
+                border: 1px solid $mikado_yellow;
             }
         }
     }

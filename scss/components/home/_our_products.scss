@@ -34,31 +34,11 @@
             font-weight: 600;
 
             @media(min-width:768px){
-                width: 50%;
-                font-size: 35px;
+                width: 70%;
+                font-size: 40px;
             }
         }
 
-        &__button{
-            @include flex-center-center;
-            background-color: $mikado_yellow;
-
-
-            /*text*/
-            font-size: 14px;
-            font-weight: 800;
-            margin-top: 16px;
-            letter-spacing: 0.5px;
-            padding: 12px 23px;
-            text-transform: uppercase;
-            color: $white;
-            margin-top: 30px;
-
-            @media(min-width:768px){
-                font-size: 20px;
-                margin-top: 62px;
-            }
-        }
 
     }
 
@@ -87,6 +67,12 @@
                         fill: $white;
                         padding: 5px;
                     }
+
+                    &:hover{
+                        background-color: $black;
+                        border: 1px solid $mikado_yellow;
+                        cursor: pointer;
+                    }
             
                 }
             
@@ -103,6 +89,12 @@
                         width: 35px;
                         fill: $white;
                         padding: 5px;
+                    }
+
+                    &:hover{
+                        background-color: $black;
+                        border: 1px solid $mikado_yellow;
+                        cursor: pointer;
                     }
             
                 }
