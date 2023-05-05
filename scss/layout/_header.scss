@@ -146,46 +146,55 @@
 			&--one{		
 				color:$white;
 
-					hr{
-						opacity: 0;
-						border: none;
-						width: 50%;
-						margin: auto;
-						margin-top: 10px;
-						height: 1px;
+				&__form{
+					@include flex-center-center;
+					gap: 5px;
+					padding-top: 5px;
+					opacity: 0;
+
+					&__circle{
+						width: 5px;
+						height: 5px;
+						border-radius: 100%;
 						background-color: $mikado_yellow;
 					}
+				}
 
 				&:hover{
 					color: $la_salle_green;
 
-					hr{
+					.header__desktop__pages--one__form{
 						opacity: 1;
 					}
 				}
 			}
 
 			&--two{
-				@include flex-j-start;
+				@include flex-center-start;
 				flex-direction: column;
 				font-size: 14px;
 				font-weight: 700;
 				color: $white;
 				cursor: pointer;
 
-				hr{
+				&__form{
+					@include flex-center-center;
+					gap: 5px;
+					padding-top: 5px;
 					opacity: 0;
-					border: none;
-					width: 50%;
-					margin: auto;
-					margin-top: 10px;
-					height: 1px;
-					background-color: $mikado_yellow;
+
+					&__circle{
+						width: 5px;
+						height: 5px;
+						border-radius: 100%;
+						background-color: $mikado_yellow;
+					}
 				}
 
 				&:hover{
 					color: $la_salle_green;
-					hr{
+
+					.header__desktop__pages--two__form{
 						opacity: 1;
 					}
 				}
@@ -193,7 +202,7 @@
 				&--active{
 					color: $la_salle_green;
 
-					hr{
+					.header__desktop__pages--two__form{
 						opacity: 1;
 					}
 				}
@@ -202,20 +211,24 @@
 			&--three{
 				color:$white;
 
-					hr{
-						opacity: 0;
-						border: none;
-						width: 50%;
-						margin: auto;
-						margin-top: 10px;
-						height: 1px;
+				&__form{
+					@include flex-center-center;
+					gap: 5px;
+					padding-top: 5px;
+					opacity: 0;
+
+					&__circle{
+						width: 5px;
+						height: 5px;
+						border-radius: 100%;
 						background-color: $mikado_yellow;
 					}
+				}
 
 				&:hover{
 					color: $la_salle_green;
 
-					hr{
+					.header__desktop__pages--three__form{
 						opacity: 1;
 					}
 				}
@@ -224,20 +237,24 @@
 			&--four{
 				color:$white;
 
-					hr{
-						opacity: 0;
-						border: none;
-						width: 50%;
-						margin: auto;
-						margin-top: 10px;
-						height: 1px;
+				&__form{
+					@include flex-center-center;
+					gap: 5px;
+					padding-top: 5px;
+					opacity: 0;
+
+					&__circle{
+						width: 5px;
+						height: 5px;
+						border-radius: 100%;
 						background-color: $mikado_yellow;
 					}
+				}
 
 				&:hover{
 					color: $la_salle_green;
 
-					hr{
+					.header__desktop__pages--four__form{
 						opacity: 1;
 					}
 				}
@@ -246,42 +263,51 @@
 			&--five{
 				color:$white;
 
-					hr{
-						opacity: 0;
-						border: none;
-						width: 50%;
-						margin: auto;
-						margin-top: 10px;
-						height: 1px;
+				&__form{
+					@include flex-center-center;
+					gap: 5px;
+					padding-top: 5px;
+					opacity: 0;
+
+					&__circle{
+						width: 5px;
+						height: 5px;
+						border-radius: 100%;
 						background-color: $mikado_yellow;
 					}
+				}
 
 				&:hover{
 					color: $la_salle_green;
 
-					hr{
+					.header__desktop__pages--four__form{
 						opacity: 1;
 					}
 				}
+
 			}
 
 			&--six{
 				color:$white;
 
-					hr{
-						opacity: 0;
-						border: none;
-						width: 50%;
-						margin: auto;
-						margin-top: 10px;
-						height: 1px;
+				&__form{
+					@include flex-center-center;
+					gap: 5px;
+					padding-top: 5px;
+					opacity: 0;
+
+					&__circle{
+						width: 5px;
+						height: 5px;
+						border-radius: 100%;
 						background-color: $mikado_yellow;
 					}
+				}
 
 				&:hover{
 					color: $la_salle_green;
 
-					hr{
+					.header__desktop__pages--six__form{
 						opacity: 1;
 					}
 				}
@@ -290,20 +316,24 @@
 			&--seven{
 				color:$white;
 
-					hr{
-						opacity: 0;
-						border: none;
-						width: 50%;
-						margin: auto;
-						margin-top: 10px;
-						height: 1px;
+				&__form{
+					@include flex-center-center;
+					gap: 5px;
+					padding-top: 5px;
+					opacity: 0;
+
+					&__circle{
+						width: 5px;
+						height: 5px;
+						border-radius: 100%;
 						background-color: $mikado_yellow;
 					}
+				}
 
 				&:hover{
 					color: $la_salle_green;
 
-					hr{
+					.header__desktop__pages--seven__form{
 						opacity: 1;
 					}
 				}
