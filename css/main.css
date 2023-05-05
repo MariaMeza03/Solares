@@ -151,13 +151,18 @@
           gap: 40px; } }
       .header__desktop__pages--active {
         color: #1B8233; }
-        .header__desktop__pages--active hr {
-          width: 50%;
-          margin: auto;
-          margin-top: 10px;
-          height: 1px;
-          background-color: #F7C50A;
-          border: none; }
+        .header__desktop__pages--active__form {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          padding-top: 5px;
+          opacity: 0; }
+          .header__desktop__pages--active__form__circle {
+            width: 5px;
+            height: 5px;
+            border-radius: 100%;
+            background-color: #F7C50A; }
       .header__desktop__pages--one {
         color: #FFFFFF; }
         .header__desktop__pages--one__form {
@@ -1354,6 +1359,131 @@
       .products p {
         font-size: 17px;
         margin-bottom: 20px; } }
+
+.catalog {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  background-image: url("../img/Bangal.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 30px 0; }
+  .catalog .container-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .catalog h1 {
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+    color: #F7C50A;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px; }
+    @media (min-width: 768px) {
+      .catalog h1 {
+        font-size: 48px;
+        width: 80%; } }
+  .catalog__buttons {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; }
+    .catalog__buttons__fotovoltaico, .catalog__buttons__termico, .catalog__buttons__ilumination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #FFFFFF;
+      font-size: 20px;
+      font-weight: regular; }
+      .catalog__buttons__fotovoltaico__form, .catalog__buttons__termico__form, .catalog__buttons__ilumination__form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding-top: 5px;
+        opacity: 0; }
+        .catalog__buttons__fotovoltaico__form__circle, .catalog__buttons__termico__form__circle, .catalog__buttons__ilumination__form__circle {
+          width: 5px;
+          height: 5px;
+          border-radius: 100%;
+          background-color: #F7C50A; }
+      .catalog__buttons__fotovoltaico--active, .catalog__buttons__termico--active, .catalog__buttons__ilumination--active {
+        color: #1B8233; }
+        .catalog__buttons__fotovoltaico--active .catalog__buttons__fotovoltaico__form, .catalog__buttons__termico--active .catalog__buttons__fotovoltaico__form, .catalog__buttons__ilumination--active .catalog__buttons__fotovoltaico__form {
+          opacity: 1; }
+    .catalog__buttons__fotovoltaico:hover {
+      color: #1B8233; }
+      .catalog__buttons__fotovoltaico:hover .catalog__buttons__fotovoltaico__form {
+        opacity: 1; }
+    .catalog__buttons__termico:hover {
+      color: #1B8233; }
+      .catalog__buttons__termico:hover .catalog__buttons__termico__form {
+        opacity: 1; }
+    .catalog__buttons__ilumination:hover {
+      color: #1B8233; }
+      .catalog__buttons__ilumination:hover .catalog__buttons__ilumination__form {
+        opacity: 1; }
+  .catalog__carousel_fotovoltaico {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%; }
+    .catalog__carousel_fotovoltaico--active {
+      display: none; }
+  .catalog__carousel_termico {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%; }
+    .catalog__carousel_termico--active {
+      display: block; }
+  .catalog__carousel_ilumination {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%; }
+    .catalog__carousel_ilumination--active {
+      display: block; }
+
+.carousel .carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 430px !important;
+  height: 256px !important;
+  top: 0;
+  left: 0; }
+  .carousel .carousel-item img {
+    border-radius: 24px; }
 
 * {
   margin: 0;
