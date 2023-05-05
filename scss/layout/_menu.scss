@@ -47,7 +47,7 @@
 
 	&__link{
 
-		a{
+		a,button{
 			font-size: 12px;
 			color: $white;
 			text-transform: uppercase;
@@ -58,6 +58,10 @@
 			margin: 10px 0;
 			width: 100%;
 			border: 0.09px solid $carbon_grey;
+		}
+
+		&__submenu{
+			padding: 10px;
 		}
 
 		&--one{

@@ -164,12 +164,18 @@
 			}
 
 			&--two{
-				color:$white;
+				@include flex-j-start;
+				flex-direction: column;
+				font-size: 14px;
+				font-weight: 700;
+				color: $white;
+				cursor: pointer;
+
 				hr{
 					display: none;
 				}
 
-				&:hover{
+				&--active{
 					color: $mikado_yellow;
 
 					hr{
