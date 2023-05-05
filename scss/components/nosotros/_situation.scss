@@ -1,0 +1,79 @@
+.situation{
+    width: 100%;
+    width: 100%;
+	overflow: hidden;
+	position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)), url("../img/banfin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+
+    .container-sm{
+        @include flex-center-center;
+        flex-direction: column;
+        padding: 120px 0;
+    }
+
+    h1{
+        font-weight: 600;
+        font-size: 30px;
+        color: $mikado_yellow;
+        text-shadow: 2px 2px 5px black;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+
+        @media(min-width:768px){
+            font-size: 48px;
+        }
+    }
+
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 60px;
+        gap: 90px;
+
+        @media(min-width: 1199px){
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media(min-width: 1400px){
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        &__item{
+            @include flex-center-center;
+            flex-direction: column;
+
+            &:hover{
+                transform: scale(1.2);
+            }
+
+            &__logo{
+                height: 105px;
+            }
+
+            h2{     
+                font-size: 21px;
+                font-weight: bold;
+                color:$mikado_yellow;
+                padding: 20px 0;
+            }
+
+            p{
+                width: 50%;
+                font-size: 12px;
+                font-weight: normal;
+                color: $white;
+                text-align: center;
+
+                @media(min-width: 1400px){
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

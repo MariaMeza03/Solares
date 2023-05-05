@@ -1201,6 +1201,69 @@
         background-color: #000000;
         border: 1px solid #F7C50A; }
 
+.situation {
+  width: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/banfin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%; }
+  .situation .container-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 120px 0; }
+  .situation h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #F7C50A;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px; }
+    @media (min-width: 768px) {
+      .situation h1 {
+        font-size: 48px; } }
+  .situation__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 60px;
+    gap: 90px; }
+    @media (min-width: 1199px) {
+      .situation__grid {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1400px) {
+      .situation__grid {
+        grid-template-columns: repeat(4, 1fr); } }
+    .situation__grid__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      .situation__grid__item:hover {
+        transform: scale(1.2); }
+      .situation__grid__item__logo {
+        height: 105px; }
+      .situation__grid__item h2 {
+        font-size: 21px;
+        font-weight: bold;
+        color: #F7C50A;
+        padding: 20px 0; }
+      .situation__grid__item p {
+        width: 50%;
+        font-size: 12px;
+        font-weight: normal;
+        color: #FFFFFF;
+        text-align: center; }
+        @media (min-width: 1400px) {
+          .situation__grid__item p {
+            width: 100%; } }
+
 * {
   margin: 0;
   padding: 0;
