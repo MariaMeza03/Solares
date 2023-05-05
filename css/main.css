@@ -1155,7 +1155,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 60px; }
+    gap: 30px; }
+    @media (min-width: 1199px) {
+      .goal__text {
+        gap: 60px; } }
     .goal__text__one h1 {
       color: #1b8233;
       text-align: center;

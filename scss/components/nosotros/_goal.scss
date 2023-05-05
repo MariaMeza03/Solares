@@ -31,7 +31,11 @@
     &__text{
         @include flex-center-center;
         flex-direction: column;
-        gap: 60px;
+        gap: 30px;
+
+        @media(min-width:1199px){
+            gap: 60px;
+        }
 
         &__one{
             h1{
