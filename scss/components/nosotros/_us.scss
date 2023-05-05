@@ -1,0 +1,57 @@
+.us{
+    position: relative;
+    width: 100%;
+    width: 100%;
+    background-color: $black;
+
+    .container-sm{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        @media(min-width: 1199px){
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    &__text{
+        h1{
+            font-weight: 600;
+            font-size: 30px;
+            color: $mikado_yellow;
+            text-shadow: 2px 2px 5px black;
+            text-align: center;
+            text-transform: uppercase;
+    
+            @media(min-width:768px){
+                font-size: 48px;
+            }
+        }
+
+        p{
+            font-family: hind;
+            color: $white;
+            line-height: 26px;
+            letter-spacing: 0.3px;
+            text-align: center;
+            font-size: 15px;
+            margin-bottom: 10px;
+
+            @media(min-width:768px){
+                font-size: 17px;
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    &__imagen{
+        margin: auto;
+        width: 80%;
+
+        @media(min-width: 1199px){
+            position: relative;
+            bottom: 120px;
+            width: 500px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.goal{
+    width: 100%;
+    width: 100%;
+	overflow: hidden;
+	position: relative;
+
+    .container-sm{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__imagen{
+
+    }
+
+    &__text{
+        
+    }
+}
