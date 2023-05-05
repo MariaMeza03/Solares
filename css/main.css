@@ -150,7 +150,7 @@
         .header__desktop__pages {
           gap: 40px; } }
       .header__desktop__pages--active {
-        color: #F7C50A; }
+        color: #1B8233; }
         .header__desktop__pages--active hr {
           width: 50%;
           margin: auto;
@@ -169,7 +169,7 @@
           height: 1px;
           background-color: #F7C50A; }
         .header__desktop__pages--one:hover {
-          color: #F7C50A; }
+          color: #1B8233; }
           .header__desktop__pages--one:hover hr {
             opacity: 1; }
       .header__desktop__pages--two {
@@ -189,11 +189,11 @@
           height: 1px;
           background-color: #F7C50A; }
         .header__desktop__pages--two:hover {
-          color: #F7C50A; }
+          color: #1B8233; }
           .header__desktop__pages--two:hover hr {
             opacity: 1; }
         .header__desktop__pages--two--active {
-          color: #F7C50A; }
+          color: #1B8233; }
           .header__desktop__pages--two--active hr {
             opacity: 1; }
       .header__desktop__pages--three {
@@ -207,7 +207,7 @@
           height: 1px;
           background-color: #F7C50A; }
         .header__desktop__pages--three:hover {
-          color: #F7C50A; }
+          color: #1B8233; }
           .header__desktop__pages--three:hover hr {
             opacity: 1; }
       .header__desktop__pages--four {
@@ -221,7 +221,7 @@
           height: 1px;
           background-color: #F7C50A; }
         .header__desktop__pages--four:hover {
-          color: #F7C50A; }
+          color: #1B8233; }
           .header__desktop__pages--four:hover hr {
             opacity: 1; }
       .header__desktop__pages--five {
@@ -235,7 +235,7 @@
           height: 1px;
           background-color: #F7C50A; }
         .header__desktop__pages--five:hover {
-          color: #F7C50A; }
+          color: #1B8233; }
           .header__desktop__pages--five:hover hr {
             opacity: 1; }
       .header__desktop__pages--six {
@@ -249,7 +249,7 @@
           height: 1px;
           background-color: #F7C50A; }
         .header__desktop__pages--six:hover {
-          color: #F7C50A; }
+          color: #1B8233; }
           .header__desktop__pages--six:hover hr {
             opacity: 1; }
       .header__desktop__pages--seven {
@@ -263,7 +263,7 @@
           height: 1px;
           background-color: #F7C50A; }
         .header__desktop__pages--seven:hover {
-          color: #F7C50A; }
+          color: #1B8233; }
           .header__desktop__pages--seven:hover hr {
             opacity: 1; }
 
