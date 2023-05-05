@@ -62,6 +62,13 @@
 
 		&__submenu{
 			padding: 10px;
+			display: none;
+			z-index: 200;
+
+			&--active{
+				@include flex-j-center;
+				flex-direction: column;
+			}
 		}
 
 		&--one{

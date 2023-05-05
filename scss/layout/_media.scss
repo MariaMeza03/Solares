@@ -6,7 +6,7 @@
 	transform: rotate(270deg);
 	z-index: 110;
 	
-	@media(min-width: 992px){
+	@media(min-width: 1199px){
 		@include flex-a-start;
         gap: 30px;
 	}

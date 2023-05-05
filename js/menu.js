@@ -3,6 +3,7 @@ const header = document.querySelector('.header')
 //*Menu
 const toggle = document.querySelector('.header__mobile__top__toggle')
 const menu = document.querySelector('.menu')
+const main = document.querySelector('.main')
 
 //*submenu Desktop
 const submenuButton = document.querySelector('.header__desktop__pages--two')
@@ -25,7 +26,11 @@ function SubmenuDesktop(){
 	submenuButton.classList.toggle('header__desktop__pages--two--active')
 }
 
+function SubmenuMovil(){
+	submenuMovil.classList.toggle('menu__link__submenu--active')
+}
 
 toggle.addEventListener('click', toggleMenu)
-menu.addEventListener('click', DeleteMenu)
+main.addEventListener('click', DeleteMenu)
 submenuButton.addEventListener('click', SubmenuDesktop)
+submenuButtonMovil.addEventListener('click',SubmenuMovil )
