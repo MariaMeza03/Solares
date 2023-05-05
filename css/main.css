@@ -106,7 +106,7 @@
         .header__mobile__top__toggle__bar {
           width: 100%;
           height: 2px;
-          background-color: #000000;
+          background-color: #1B8233;
           position: relative;
           transition: 0.3s; }
           .header__mobile__top__toggle__bar::before {
@@ -116,7 +116,7 @@
             height: 100%;
             top: -8px;
             left: 0;
-            background-color: #000000;
+            background-color: #1B8233;
             transition: 0.3s; }
           .header__mobile__top__toggle__bar::after {
             content: "";
@@ -125,7 +125,7 @@
             height: 100%;
             bottom: -8px;
             left: 0;
-            background-color: #000000;
+            background-color: #1B8233;
             transition: 0.3s; }
   .header__desktop {
     width: 100%;
@@ -346,7 +346,7 @@
 .media {
   position: fixed;
   top: 250px;
-  left: 0px;
+  left: 0;
   display: none;
   transform: rotate(270deg);
   z-index: 110; }
@@ -360,7 +360,7 @@
     width: 19px;
     font-weight: 700;
     font-size: 12px;
-    color: #000000; }
+    color: #F7C50A; }
 
 .submenu {
   position: absolute;
