@@ -718,7 +718,6 @@
       text-align: center;
       font-weight: 900;
       font-size: 25px;
-      font-family: poppins;
       margin-bottom: 15px;
       text-transform: uppercase; }
       @media (min-width: 768px) {
@@ -729,7 +728,6 @@
       text-align: center;
       font-weight: 800;
       font-size: 20px;
-      font-family: poppins;
       color: #272727;
       margin-bottom: 15px; }
       @media (min-width: 768px) {
@@ -753,7 +751,6 @@
       font-size: 15px;
       font-weight: 700;
       text-align: center;
-      font-family: poppins;
       margin: 8px 0; }
       @media (min-width: 768px) {
         .win_win__text h4 {
@@ -985,7 +982,6 @@
       text-align: center;
       font-weight: 900;
       font-size: 25px;
-      font-family: poppins;
       margin-bottom: 10px;
       text-transform: uppercase; }
       @media (min-width: 768px) {
@@ -1131,7 +1127,67 @@
   position: relative; }
   .goal .container-sm {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px; }
+    @media (min-width: 1199px) {
+      .goal .container-sm {
+        padding: 60px 0;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0; } }
+  .goal__imagen {
+    width: 80%;
+    margin: auto; }
+    @media (min-width: 1199px) {
+      .goal__imagen {
+        width: 100%; } }
+  .goal__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px; }
+    .goal__text__one h1 {
+      color: #1b8233;
+      text-align: center;
+      font-weight: 900;
+      font-size: 20px;
+      margin-bottom: 15px;
+      text-transform: uppercase; }
+      @media (min-width: 768px) {
+        .goal__text__one h1 {
+          font-size: 30px;
+          margin-bottom: 30px; } }
+    .goal__text__one p {
+      font-family: hind;
+      color: #000000;
+      line-height: 26px;
+      letter-spacing: 0.3px;
+      text-align: center;
+      font-size: 15px;
+      margin-bottom: 10px; }
+      @media (min-width: 768px) {
+        .goal__text__one p {
+          font-size: 17px;
+          margin-bottom: 20px; } }
+    .goal__text__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #F7C50A;
+      /*Text*/
+      font-size: 14px;
+      font-weight: 800;
+      margin-top: 16px;
+      letter-spacing: 0.5px;
+      padding: 12px 23px;
+      color: #FFFFFF; }
+      @media (min-width: 768px) {
+        .goal__text__button {
+          font-size: 20px; } }
+      .goal__text__button:hover {
+        color: #FFFFFF;
+        background-color: #000000;
+        border: 1px solid #F7C50A; }
 
 * {
   margin: 0;
