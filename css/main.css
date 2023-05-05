@@ -455,7 +455,7 @@
             justify-content: flex-start; } }
         .hero__form--one__text h1 {
           width: 100%;
-          font-size: 25px;
+          font-size: 30px;
           color: #F7C50A;
           text-transform: uppercase; }
           @media (min-width: 992px) {
@@ -1220,7 +1220,7 @@
     padding: 120px 0; }
   .situation h1 {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
     text-align: center;
