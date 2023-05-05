@@ -46,8 +46,13 @@
         &_img{
             @include flex-center-center;
             width: 220px;
-            height: auto;
+            height: 100%;
             margin: auto;
+            padding: 20px;
+
+            &:hover{
+                background-color:$saffron_mango;
+            }
         }
     }
 }

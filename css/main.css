@@ -1117,8 +1117,11 @@
       align-items: center;
       justify-content: center;
       width: 220px;
-      height: auto;
-      margin: auto; }
+      height: 100%;
+      margin: auto;
+      padding: 20px; }
+      .certification__grid_img:hover {
+        background-color: #ffc600; }
 
 .goal {
   width: 100%;
