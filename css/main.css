@@ -161,17 +161,17 @@
       .header__desktop__pages--one {
         color: #FFFFFF; }
         .header__desktop__pages--one hr {
-          display: none; }
+          opacity: 0;
+          border: none;
+          width: 50%;
+          margin: auto;
+          margin-top: 10px;
+          height: 1px;
+          background-color: #F7C50A; }
         .header__desktop__pages--one:hover {
           color: #F7C50A; }
           .header__desktop__pages--one:hover hr {
-            display: block;
-            border: none;
-            width: 50%;
-            margin: auto;
-            margin-top: 10px;
-            height: 1px;
-            background-color: #F7C50A; }
+            opacity: 1; }
       .header__desktop__pages--two {
         display: flex;
         justify-content: flex-start;
@@ -181,87 +181,91 @@
         color: #FFFFFF;
         cursor: pointer; }
         .header__desktop__pages--two hr {
-          display: none; }
+          opacity: 0;
+          border: none;
+          width: 50%;
+          margin: auto;
+          margin-top: 10px;
+          height: 1px;
+          background-color: #F7C50A; }
+        .header__desktop__pages--two:hover {
+          color: #F7C50A; }
+          .header__desktop__pages--two:hover hr {
+            opacity: 1; }
         .header__desktop__pages--two--active {
           color: #F7C50A; }
           .header__desktop__pages--two--active hr {
-            display: block;
-            border: none;
-            width: 50%;
-            margin: auto;
-            margin-top: 10px;
-            height: 1px;
-            background-color: #F7C50A; }
+            opacity: 1; }
       .header__desktop__pages--three {
         color: #FFFFFF; }
         .header__desktop__pages--three hr {
-          display: none; }
+          opacity: 0;
+          border: none;
+          width: 50%;
+          margin: auto;
+          margin-top: 10px;
+          height: 1px;
+          background-color: #F7C50A; }
         .header__desktop__pages--three:hover {
           color: #F7C50A; }
           .header__desktop__pages--three:hover hr {
-            display: block;
-            border: none;
-            width: 50%;
-            margin: auto;
-            margin-top: 10px;
-            height: 1px;
-            background-color: #F7C50A; }
+            opacity: 1; }
       .header__desktop__pages--four {
         color: #FFFFFF; }
         .header__desktop__pages--four hr {
-          display: none; }
+          opacity: 0;
+          border: none;
+          width: 50%;
+          margin: auto;
+          margin-top: 10px;
+          height: 1px;
+          background-color: #F7C50A; }
         .header__desktop__pages--four:hover {
           color: #F7C50A; }
           .header__desktop__pages--four:hover hr {
-            display: block;
-            border: none;
-            width: 50%;
-            margin: auto;
-            margin-top: 10px;
-            height: 1px;
-            background-color: #F7C50A; }
+            opacity: 1; }
       .header__desktop__pages--five {
         color: #FFFFFF; }
         .header__desktop__pages--five hr {
-          display: none; }
+          opacity: 0;
+          border: none;
+          width: 50%;
+          margin: auto;
+          margin-top: 10px;
+          height: 1px;
+          background-color: #F7C50A; }
         .header__desktop__pages--five:hover {
           color: #F7C50A; }
           .header__desktop__pages--five:hover hr {
-            display: block;
-            border: none;
-            width: 50%;
-            margin: auto;
-            margin-top: 10px;
-            height: 1px;
-            background-color: #F7C50A; }
+            opacity: 1; }
       .header__desktop__pages--six {
         color: #FFFFFF; }
         .header__desktop__pages--six hr {
-          display: none; }
+          opacity: 0;
+          border: none;
+          width: 50%;
+          margin: auto;
+          margin-top: 10px;
+          height: 1px;
+          background-color: #F7C50A; }
         .header__desktop__pages--six:hover {
           color: #F7C50A; }
           .header__desktop__pages--six:hover hr {
-            display: block;
-            border: none;
-            width: 50%;
-            margin: auto;
-            margin-top: 10px;
-            height: 1px;
-            background-color: #F7C50A; }
+            opacity: 1; }
       .header__desktop__pages--seven {
         color: #FFFFFF; }
         .header__desktop__pages--seven hr {
-          display: none; }
+          opacity: 0;
+          border: none;
+          width: 50%;
+          margin: auto;
+          margin-top: 10px;
+          height: 1px;
+          background-color: #F7C50A; }
         .header__desktop__pages--seven:hover {
           color: #F7C50A; }
           .header__desktop__pages--seven:hover hr {
-            display: block;
-            border: none;
-            width: 50%;
-            margin: auto;
-            margin-top: 10px;
-            height: 1px;
-            background-color: #F7C50A; }
+            opacity: 1; }
 
 .menu {
   width: 65%;

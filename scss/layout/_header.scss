@@ -127,6 +127,7 @@
 			@media(min-width:1440px){
 				gap: 40px;
 			}
+			
 
 			&--active{
 				color: $mikado_yellow;
@@ -144,21 +145,22 @@
 
 			&--one{		
 				color:$white;
-				hr{
-					display: none;
-				}
-
-				&:hover{
-					color: $mikado_yellow;
 
 					hr{
-						display: block;
+						opacity: 0;
 						border: none;
 						width: 50%;
 						margin: auto;
 						margin-top: 10px;
 						height: 1px;
 						background-color: $mikado_yellow;
+					}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						opacity: 1;
 					}
 				}
 			}
@@ -172,98 +174,102 @@
 				cursor: pointer;
 
 				hr{
-					display: none;
+					opacity: 0;
+					border: none;
+					width: 50%;
+					margin: auto;
+					margin-top: 10px;
+					height: 1px;
+					background-color: $mikado_yellow;
+				}
+
+				&:hover{
+					color: $mikado_yellow;
+					hr{
+						opacity: 1;
+					}
 				}
 
 				&--active{
 					color: $mikado_yellow;
 
 					hr{
-						display: block;
-						border: none;
-						width: 50%;
-						margin: auto;
-						margin-top: 10px;
-						height: 1px;
-						background-color: $mikado_yellow;
+						opacity: 1;
 					}
 				}
 			}
 
 			&--three{
 				color:$white;
-				hr{
-					display: none;
-				}
-
-				&:hover{
-					color: $mikado_yellow;
 
 					hr{
-						display: block;
+						opacity: 0;
 						border: none;
 						width: 50%;
 						margin: auto;
 						margin-top: 10px;
 						height: 1px;
 						background-color: $mikado_yellow;
+					}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						opacity: 1;
 					}
 				}
 			}
 
 			&--four{
 				color:$white;
-				hr{
-					display: none;
-				}
-
-				&:hover{
-					color: $mikado_yellow;
 
 					hr{
-						display: block;
+						opacity: 0;
 						border: none;
 						width: 50%;
 						margin: auto;
 						margin-top: 10px;
 						height: 1px;
 						background-color: $mikado_yellow;
+					}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						opacity: 1;
 					}
 				}
 			}
 
 			&--five{
 				color:$white;
-				hr{
-					display: none;
-				}
-
-				&:hover{
-					color: $mikado_yellow;
 
 					hr{
-						display: block;
+						opacity: 0;
 						border: none;
 						width: 50%;
 						margin: auto;
 						margin-top: 10px;
 						height: 1px;
 						background-color: $mikado_yellow;
+					}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						opacity: 1;
 					}
 				}
 			}
 
 			&--six{
 				color:$white;
-				hr{
-					display: none;
-				}
-
-				&:hover{
-					color: $mikado_yellow;
 
 					hr{
-						display: block;
+						opacity: 0;
 						border: none;
 						width: 50%;
 						margin: auto;
@@ -271,26 +277,34 @@
 						height: 1px;
 						background-color: $mikado_yellow;
 					}
-				}
-			}
-
-			&--seven{
-				color:$white;
-				hr{
-					display: none;
-				}
 
 				&:hover{
 					color: $mikado_yellow;
 
 					hr{
-						display: block;
+						opacity: 1;
+					}
+				}
+			}
+
+			&--seven{
+				color:$white;
+
+					hr{
+						opacity: 0;
 						border: none;
 						width: 50%;
 						margin: auto;
 						margin-top: 10px;
 						height: 1px;
 						background-color: $mikado_yellow;
+					}
+
+				&:hover{
+					color: $mikado_yellow;
+
+					hr{
+						opacity: 1;
 					}
 				}
 			}
