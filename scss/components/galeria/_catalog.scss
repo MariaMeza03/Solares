@@ -34,14 +34,28 @@
     &__buttons{
         padding-top: 30px;
         @include flex-center-center;
-        gap: 30px;
+        gap: 10px;
+        flex-direction: column;
+
+        @media(min-width:380px){
+            gap: 15px;
+            flex-direction: row;
+        }
+
+        @media(min-width:992px){
+            gap: 30px;
+        }
         
         &__fotovoltaico, &__termico, &__ilumination{
             @include flex-center-center; 
             flex-direction: column;
             color: $white;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: regular;
+
+            @media(min-width:520px){
+                font-size: 20px;
+            }
 
             &__form{
                 @include flex-center-center;
@@ -63,29 +77,37 @@
                         opacity: 1;
                 }
             }
+
         }
-      
 
         &__fotovoltaico{
-            &:hover{
+            color: $white;
+
+            &--active{
                 color: $la_salle_green;
-                .catalog__buttons__fotovoltaico__form{
+                .catalog__buttons__ilumination__form{
                         opacity: 1;
                 }
             }
+
         }
 
         &__termico{
-            &:hover{
+            color: $white;
+
+            &--active{
                 color: $la_salle_green;
+
                 .catalog__buttons__termico__form{
                         opacity: 1;
                 }
             }
+
         }
         
         &__ilumination{
-            &:hover{
+
+            &--active{
                 color: $la_salle_green;
                 .catalog__buttons__ilumination__form{
                         opacity: 1;
@@ -153,14 +175,26 @@
 
     
 }
+.carousel{
+    height: 200px !important;
 
+    @media(min-width:350px){
+        height: 400px !important;
+    }
+
+}
 .carousel .carousel-item {
     @include flex-center-center;
     position: absolute;
-    width: 430px !important;
-    height: 256px !important;
+    width: 80% !important;
+    height: 200px !important;
     top: 0;
     left: 0;
+
+    @media(min-width:520px){
+        width: 430px !important;
+        height: 256px !important;
+    }
 
     img{
         border-radius: 24px;

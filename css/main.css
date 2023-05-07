@@ -1394,15 +1394,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px; }
+    gap: 10px;
+    flex-direction: column; }
+    @media (min-width: 380px) {
+      .catalog__buttons {
+        gap: 15px;
+        flex-direction: row; } }
+    @media (min-width: 992px) {
+      .catalog__buttons {
+        gap: 30px; } }
     .catalog__buttons__fotovoltaico, .catalog__buttons__termico, .catalog__buttons__ilumination {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       color: #FFFFFF;
-      font-size: 20px;
+      font-size: 15px;
       font-weight: regular; }
+      @media (min-width: 520px) {
+        .catalog__buttons__fotovoltaico, .catalog__buttons__termico, .catalog__buttons__ilumination {
+          font-size: 20px; } }
       .catalog__buttons__fotovoltaico__form, .catalog__buttons__termico__form, .catalog__buttons__ilumination__form {
         display: flex;
         align-items: center;
@@ -1419,17 +1430,21 @@
         color: #1B8233; }
         .catalog__buttons__fotovoltaico--active .catalog__buttons__fotovoltaico__form, .catalog__buttons__termico--active .catalog__buttons__fotovoltaico__form, .catalog__buttons__ilumination--active .catalog__buttons__fotovoltaico__form {
           opacity: 1; }
-    .catalog__buttons__fotovoltaico:hover {
+    .catalog__buttons__fotovoltaico {
+      color: #FFFFFF; }
+      .catalog__buttons__fotovoltaico--active {
+        color: #1B8233; }
+        .catalog__buttons__fotovoltaico--active .catalog__buttons__ilumination__form {
+          opacity: 1; }
+    .catalog__buttons__termico {
+      color: #FFFFFF; }
+      .catalog__buttons__termico--active {
+        color: #1B8233; }
+        .catalog__buttons__termico--active .catalog__buttons__termico__form {
+          opacity: 1; }
+    .catalog__buttons__ilumination--active {
       color: #1B8233; }
-      .catalog__buttons__fotovoltaico:hover .catalog__buttons__fotovoltaico__form {
-        opacity: 1; }
-    .catalog__buttons__termico:hover {
-      color: #1B8233; }
-      .catalog__buttons__termico:hover .catalog__buttons__termico__form {
-        opacity: 1; }
-    .catalog__buttons__ilumination:hover {
-      color: #1B8233; }
-      .catalog__buttons__ilumination:hover .catalog__buttons__ilumination__form {
+      .catalog__buttons__ilumination--active .catalog__buttons__ilumination__form {
         opacity: 1; }
   .catalog__carousel_fotovoltaico {
     overflow: hidden;
@@ -1473,15 +1488,25 @@
     .catalog__carousel_ilumination--active {
       display: block; }
 
+.carousel {
+  height: 200px !important; }
+  @media (min-width: 350px) {
+    .carousel {
+      height: 400px !important; } }
+
 .carousel .carousel-item {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 430px !important;
-  height: 256px !important;
+  width: 80% !important;
+  height: 200px !important;
   top: 0;
   left: 0; }
+  @media (min-width: 520px) {
+    .carousel .carousel-item {
+      width: 430px !important;
+      height: 256px !important; } }
   .carousel .carousel-item img {
     border-radius: 24px; }
 
