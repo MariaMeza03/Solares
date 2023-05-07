@@ -1,0 +1,16 @@
+.hero_services{
+    width: 100%;
+    width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 500px;
+    background-image: url('../img/services/serviban2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media(min-width: 1199px){
+        height: 800px;
+    }
+
+}

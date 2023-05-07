@@ -1,0 +1,62 @@
+.renewable{
+    width: 100%;
+	position: relative;
+	height: 100%;
+    background-color: $mikado_yellow;
+
+    .container-sm{
+        @include flex-center-center;
+        flex-direction: column;
+    }
+
+    &__title_subtitle{
+        h1{
+            font-weight: 600;
+            font-size: 30px;
+            color: $black;
+            text-align: center;
+            padding-bottom: 30px;
+          
+    
+            @media(min-width:768px){
+                font-size: 36px;
+            }
+        }
+
+        p{
+            color: $black;
+            line-height: 26px;
+            letter-spacing: 0.3px;
+            text-align: center;
+            font-size: 15px;
+            margin-bottom: 10px;
+            text-align: center;
+
+            @media(min-width:768px){
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        &__item{
+            @include flex-center-center;
+            flex-direction: column;
+
+            &__icon{
+
+            }
+
+            &__text{
+                p{
+
+                }
+            }
+        }
+    }
+}
