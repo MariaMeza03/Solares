@@ -1531,7 +1531,10 @@
   position: relative;
   height: 100%;
   background-color: #000000;
-  padding: 20px 0; }
+  padding: 30px 0 110px 0; }
+  @media (min-width: 1199px) {
+    .offer {
+      padding: 110px 0; } }
   .offer .container-sm {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1581,12 +1584,14 @@
   width: 100%;
   position: relative;
   height: 100%;
-  background-color: #F7C50A; }
-  .renewable .container-sm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; }
+  background-color: #F7C50A;
+  padding: 15px;
+  margin: auto;
+  bottom: 70px; }
+  @media (min-width: 1199px) {
+    .renewable {
+      bottom: 170px;
+      padding: 30px; } }
   .renewable__title_subtitle h1 {
     font-weight: 600;
     font-size: 30px;
@@ -1602,20 +1607,107 @@
     letter-spacing: 0.3px;
     text-align: center;
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center; }
     @media (min-width: 768px) {
       .renewable__title_subtitle p {
         font-size: 24px;
-        margin-bottom: 20px; } }
+        margin-bottom: 35px; } }
   .renewable__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); }
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px; }
+    @media (min-width: 768px) {
+      .renewable__grid {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1199px) {
+      .renewable__grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px; } }
     .renewable__grid__item {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column; }
+      .renewable__grid__item__icon {
+        height: 120px; }
+      .renewable__grid__item__text p {
+        color: #000000;
+        line-height: 26px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+        padding: 20px 0 0 0; }
+        @media (min-width: 768px) {
+          .renewable__grid__item__text p {
+            font-size: 24px; } }
+
+.our_services {
+  width: 100%;
+  position: relative;
+  height: auto;
+  bottom: 40px; }
+  .our_services h1.title {
+    color: #1b8233;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .our_services h1.title {
+        font-size: 30px;
+        margin-bottom: 30px; } }
+  .our_services__fotovoltaico {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px; }
+    @media (min-width: 1199px) {
+      .our_services__fotovoltaico {
+        grid-template-columns: repeat(2, 1fr); } }
+    .our_services__fotovoltaico__text {
+      width: 100%; }
+      @media (min-width: 1199px) {
+        .our_services__fotovoltaico__text {
+          width: 70%;
+          margin-right: 0; } }
+      @media (min-width: 1400px) {
+        .our_services__fotovoltaico__text {
+          width: 55%;
+          margin-right: 0; } }
+      .our_services__fotovoltaico__text h1 {
+        color: #1b8233;
+        font-weight: 900;
+        font-size: 20px;
+        margin-bottom: 15px; }
+        @media (min-width: 768px) {
+          .our_services__fotovoltaico__text h1 {
+            font-size: 30px;
+            margin-bottom: 30px; } }
+      .our_services__fotovoltaico__text p {
+        color: #000000;
+        font-weight: regular;
+        font-size: 17px;
+        line-height: 25px; }
+        @media (min-width: 768px) {
+          .our_services__fotovoltaico__text p {
+            font-size: 24px;
+            line-height: 30px; } }
+      .our_services__fotovoltaico__text h2 {
+        font-size: 17px;
+        color: #000000;
+        font-weight: bold; }
+        @media (min-width: 768px) {
+          .our_services__fotovoltaico__text h2 {
+            font-size: 24px; } }
+    .our_services__fotovoltaico__imagen {
+      width: 100%;
+      height: 100%; }
+      @media (min-width: 1999px) {
+        .our_services__fotovoltaico__imagen {
+          height: 70%; } }
 
 * {
   margin: 0;
