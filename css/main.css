@@ -1126,7 +1126,7 @@
   width: 100%;
   width: 100%;
   overflow: hidden;
-  background-image: url("../img/ban-cert.jpg");
+  background-image: url("../img/us/ban-cert.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -1310,7 +1310,7 @@
   overflow: hidden;
   position: relative;
   height: 500px;
-  background-image: url("../img/galb.jpg");
+  background-image: url("../img/gallery/galb.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -1366,7 +1366,7 @@
   overflow: hidden;
   position: relative;
   height: 100%;
-  background-image: url("../img/Bangal.jpg");
+  background-image: url("../img/gallery/Bangal.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
