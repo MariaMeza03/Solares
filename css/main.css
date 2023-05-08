@@ -1662,8 +1662,7 @@
         margin-bottom: 30px; } }
   .our_services__fotovoltaico {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 50px; }
+    grid-template-columns: repeat(1, 1fr); }
     @media (min-width: 1199px) {
       .our_services__fotovoltaico {
         grid-template-columns: repeat(2, 1fr); } }
@@ -1675,7 +1674,7 @@
           margin-right: 0; } }
       @media (min-width: 1400px) {
         .our_services__fotovoltaico__text {
-          width: 55%;
+          width: 70%;
           margin-right: 0; } }
       .our_services__fotovoltaico__text h1 {
         color: #1b8233;
@@ -1707,7 +1706,59 @@
       height: 100%; }
       @media (min-width: 1999px) {
         .our_services__fotovoltaico__imagen {
-          height: 70%; } }
+          height: 100%; } }
+  .our_services__residencial {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    bottom: 40px; }
+    @media (min-width: 1199px) {
+      .our_services__residencial {
+        grid-template-columns: repeat(2, 1fr); } }
+    .our_services__residencial__text {
+      width: 70%;
+      margin-left: 0;
+      margin-top: auto;
+      margin-bottom: auto; }
+      .our_services__residencial__text h1 {
+        color: #1b8233;
+        font-weight: 900;
+        font-size: 20px;
+        margin-bottom: 15px; }
+        @media (min-width: 768px) {
+          .our_services__residencial__text h1 {
+            font-size: 30px;
+            margin-bottom: 30px; } }
+      .our_services__residencial__text p {
+        color: #000000;
+        font-weight: regular;
+        font-size: 17px;
+        line-height: 25px; }
+        @media (min-width: 768px) {
+          .our_services__residencial__text p {
+            font-size: 24px;
+            line-height: 30px; } }
+      .our_services__residencial__text h2 {
+        font-size: 17px;
+        color: #000000;
+        font-weight: bold; }
+        @media (min-width: 768px) {
+          .our_services__residencial__text h2 {
+            font-size: 24px; } }
+    .our_services__residencial__imagen {
+      width: 100%;
+      height: 100%; }
+      @media (min-width: 1199px) {
+        .our_services__residencial__imagen {
+          width: 100%;
+          margin-right: 0; } }
+      @media (min-width: 1400px) {
+        .our_services__residencial__imagen {
+          width: 100%;
+          margin-right: 0; } }
+      @media (min-width: 1999px) {
+        .our_services__residencial__imagen {
+          height: 100%; } }
 
 * {
   margin: 0;
