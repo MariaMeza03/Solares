@@ -1,3 +1,120 @@
 .instalation{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+
+    &__grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        @media(min-width:1199px){
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        &__text{
+            @include flex-center-center;
+            flex-direction: column;
+            background-image: url('../../../img/products/ban_gale.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 30px;
+
+            @media(min-width:1199px){
+                padding: 0;
+            }
+
+            h1{
+                width: 100%;
+                text-align: center;
+                color: #fff;
+                font-size: 25px;
+                font-weight: 600;
+                text-transform: uppercase;
     
+                @media(min-width:768px){
+                    width: 80%;
+                    font-size: 40px;
+                }
+            }
+
+            &__button{
+                @include flex-center-center;
+                background-color: $mikado_yellow;
+        
+                /*text*/
+                font-size: 14px;
+                font-weight: 800;
+                margin-top: 16px;
+                letter-spacing: 0.5px;
+                padding: 12px 23px;
+                color: $white;
+        
+                @media(min-width:768px){
+                    font-size: 20px;
+                }
+        
+                &:hover{
+                    color: $white;
+                    background-color:$black ;
+                    border: 1px solid $mikado_yellow;
+                }
+            }
+
+        }
+
+        &__carousel{
+
+            &--imagen{
+
+                @media(min-width:1199px){
+                    height: 1000px !important;  
+                }
+            }
+    
+        }
+
+    }
+}
+
+
+.swiper_products_general{
+	width: 100%;
+	height: 100%;
+    overflow: hidden;
+
+		.swiper-slide{
+			width: 100% !important;
+			height: 100%;
+
+		}
+
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+            width: 100%;
+            left: auto;
+            right: 0;
+            bottom:30px;
+
+            @media(min-width:1199px){
+                width: 50%;
+            }
+        }
+
+        .swiper-pagination-bullet{
+            width: 16px;
+            height: 16px;
+            background-color: $white;
+            opacity: 1;
+            
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: $mikado_yellow;
+            border: 1px solid $mikado_yellow;
+            
+        }
+
 }

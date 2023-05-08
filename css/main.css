@@ -1969,6 +1969,89 @@
         font-size: 48px;
         width: 80%; } }
 
+.instalation {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .instalation__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    @media (min-width: 1199px) {
+      .instalation__grid {
+        grid-template-columns: repeat(2, 1fr); } }
+    .instalation__grid__text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-image: url("../../../img/products/ban_gale.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 30px; }
+      @media (min-width: 1199px) {
+        .instalation__grid__text {
+          padding: 0; } }
+      .instalation__grid__text h1 {
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: uppercase; }
+        @media (min-width: 768px) {
+          .instalation__grid__text h1 {
+            width: 80%;
+            font-size: 40px; } }
+      .instalation__grid__text__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F7C50A;
+        /*text*/
+        font-size: 14px;
+        font-weight: 800;
+        margin-top: 16px;
+        letter-spacing: 0.5px;
+        padding: 12px 23px;
+        color: #FFFFFF; }
+        @media (min-width: 768px) {
+          .instalation__grid__text__button {
+            font-size: 20px; } }
+        .instalation__grid__text__button:hover {
+          color: #FFFFFF;
+          background-color: #000000;
+          border: 1px solid #F7C50A; }
+    @media (min-width: 1199px) {
+      .instalation__grid__carousel--imagen {
+        height: 1000px !important; } }
+
+.swiper_products_general {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .swiper_products_general .swiper-slide {
+    width: 100% !important;
+    height: 100%; }
+  .swiper_products_general .swiper-horizontal > .swiper-pagination-bullets, .swiper_products_general .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper_products_general .swiper-pagination-custom, .swiper_products_general .swiper-pagination-fraction {
+    width: 100%;
+    left: auto;
+    right: 0;
+    bottom: 30px; }
+    @media (min-width: 1199px) {
+      .swiper_products_general .swiper-horizontal > .swiper-pagination-bullets, .swiper_products_general .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper_products_general .swiper-pagination-custom, .swiper_products_general .swiper-pagination-fraction {
+        width: 50%; } }
+  .swiper_products_general .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+    opacity: 1; }
+  .swiper_products_general .swiper-pagination-bullet-active {
+    background-color: #F7C50A;
+    border: 1px solid #F7C50A; }
+
 .panels {
   position: relative;
   width: 100%;
@@ -1977,23 +2060,33 @@
   padding: 15px 0; }
   @media (min-width: 1199px) {
     .panels {
-      padding: 0; } }
+      padding: 30px 0; } }
   .panels .container-sm {
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
     @media (min-width: 1199px) {
       .panels .container-sm {
         grid-template-columns: repeat(2, 1fr); } }
+  .panels__imagen {
+    width: 100%; }
+    @media (min-width: 1199px) {
+      .panels__imagen {
+        width: 621px; } }
   .panels__text {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    padding-top: 30px; }
+    @media (min-width: 1199px) {
+      .panels__text {
+        padding-top: 0; } }
     .panels__text h1 {
       color: #1b8233;
       font-weight: 900;
       font-size: 20px;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      text-transform: uppercase; }
       @media (min-width: 768px) {
         .panels__text h1 {
           font-size: 30px;
@@ -2002,11 +2095,13 @@
       color: #000000;
       font-weight: regular;
       font-size: 17px;
-      line-height: 25px; }
+      line-height: 25px;
+      text-align: center; }
       @media (min-width: 768px) {
         .panels__text p {
           font-size: 24px;
-          line-height: 30px; } }
+          line-height: 30px;
+          text-align: start; } }
 
 * {
   margin: 0;
