@@ -41,7 +41,11 @@
 @import 'components/services/our_services';
 @import 'components/services/benefit';
 
-
+//*products
+@import 'components/products/hero';
+@import 'components/products/title';
+@import 'components/products/instalation';
+@import 'components/products/panels';
 
 *{
 	margin: 0;

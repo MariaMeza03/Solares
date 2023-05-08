@@ -1928,6 +1928,86 @@
       background-color: #000000;
       border: 1px solid #F7C50A; }
 
+.hero_products {
+  width: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+  background-image: url("../../../img/products/banner_productos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  @media (min-width: 1199px) {
+    .hero_products {
+      height: 800px; } }
+
+.title_products {
+  width: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  background-color: #000000;
+  padding: 30px 0; }
+  .title_products .container-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .title_products h1 {
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+    color: #F7C50A;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0; }
+    @media (min-width: 768px) {
+      .title_products h1 {
+        font-size: 48px;
+        width: 80%; } }
+
+.panels {
+  position: relative;
+  width: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 15px 0; }
+  @media (min-width: 1199px) {
+    .panels {
+      padding: 0; } }
+  .panels .container-sm {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    @media (min-width: 1199px) {
+      .panels .container-sm {
+        grid-template-columns: repeat(2, 1fr); } }
+  .panels__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .panels__text h1 {
+      color: #1b8233;
+      font-weight: 900;
+      font-size: 20px;
+      margin-bottom: 15px; }
+      @media (min-width: 768px) {
+        .panels__text h1 {
+          font-size: 30px;
+          margin-bottom: 30px; } }
+    .panels__text p {
+      color: #000000;
+      font-weight: regular;
+      font-size: 17px;
+      line-height: 25px; }
+      @media (min-width: 768px) {
+        .panels__text p {
+          font-size: 24px;
+          line-height: 30px; } }
+
 * {
   margin: 0;
   padding: 0;
