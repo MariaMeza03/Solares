@@ -1531,10 +1531,7 @@
   position: relative;
   height: 100%;
   background-color: #000000;
-  padding: 30px 0 110px 0; }
-  @media (min-width: 1199px) {
-    .offer {
-      padding: 110px 0; } }
+  padding: 30px 0 80px 0; }
   .offer .container-sm {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1552,7 +1549,7 @@
     @media (min-width: 1199px) {
       .offer__imagen {
         position: relative;
-        bottom: 100px;
+        bottom: 130px;
         width: 565px; } }
   .offer__text h1 {
     font-weight: 600;
@@ -1667,14 +1664,16 @@
       .our_services__fotovoltaico {
         grid-template-columns: repeat(2, 1fr); } }
     .our_services__fotovoltaico__text {
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 30px; }
       @media (min-width: 1199px) {
         .our_services__fotovoltaico__text {
-          width: 70%;
-          margin-right: 0; } }
-      @media (min-width: 1400px) {
+          width: 80%;
+          margin-right: 0;
+          margin-bottom: 0px; } }
+      @media (min-width: 1900px) {
         .our_services__fotovoltaico__text {
-          width: 70%;
+          width: 56%;
           margin-right: 0; } }
       .our_services__fotovoltaico__text h1 {
         color: #1b8233;
@@ -1703,23 +1702,37 @@
             font-size: 24px; } }
     .our_services__fotovoltaico__imagen {
       width: 100%;
-      height: 100%; }
-      @media (min-width: 1999px) {
+      height: 100%;
+      padding: 0 15px; }
+      @media (min-width: 1199px) {
         .our_services__fotovoltaico__imagen {
-          height: 100%; } }
+          height: 700px;
+          padding: 0; } }
   .our_services__residencial {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    position: relative;
-    bottom: 40px; }
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    position: relative; }
+    @media (min-width: 1500px) {
+      .our_services__residencial {
+        bottom: 40px; } }
     @media (min-width: 1199px) {
       .our_services__residencial {
-        grid-template-columns: repeat(2, 1fr); } }
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 0;
+        bottom: 30px; } }
     .our_services__residencial__text {
-      width: 70%;
-      margin-left: 0;
-      margin-top: auto;
-      margin-bottom: auto; }
+      width: 100%;
+      margin-bottom: 30px; }
+      @media (min-width: 1199px) {
+        .our_services__residencial__text {
+          margin-left: 0;
+          width: 70%;
+          margin-top: auto;
+          margin-bottom: auto; } }
       .our_services__residencial__text h1 {
         color: #1b8233;
         font-weight: 900;
@@ -1747,18 +1760,171 @@
             font-size: 24px; } }
     .our_services__residencial__imagen {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      padding: 0 15px; }
       @media (min-width: 1199px) {
         .our_services__residencial__imagen {
-          width: 100%;
-          margin-right: 0; } }
+          margin-right: 0;
+          padding: 0; } }
       @media (min-width: 1400px) {
         .our_services__residencial__imagen {
-          width: 100%;
           margin-right: 0; } }
-      @media (min-width: 1999px) {
-        .our_services__residencial__imagen {
-          height: 100%; } }
+  .our_services__industria {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    padding-top: 30px; }
+    @media (min-width: 1199px) {
+      .our_services__industria {
+        grid-template-columns: repeat(2, 1fr);
+        bottom: 50px;
+        padding-top: 0; } }
+    @media (min-width: 1500px) {
+      .our_services__industria {
+        bottom: 80px; } }
+    .our_services__industria__text {
+      width: 100%;
+      margin-bottom: 30px; }
+      @media (min-width: 1199px) {
+        .our_services__industria__text {
+          width: 80%;
+          margin-right: 0;
+          margin-top: auto;
+          margin-bottom: auto; } }
+      @media (min-width: 1900px) {
+        .our_services__industria__text {
+          width: 56%;
+          margin-right: 0; } }
+      .our_services__industria__text h1 {
+        color: #1b8233;
+        font-weight: 900;
+        font-size: 20px;
+        margin-bottom: 15px; }
+        @media (min-width: 768px) {
+          .our_services__industria__text h1 {
+            font-size: 30px;
+            margin-bottom: 30px; } }
+      .our_services__industria__text p {
+        color: #000000;
+        font-weight: regular;
+        font-size: 17px;
+        line-height: 25px; }
+        @media (min-width: 768px) {
+          .our_services__industria__text p {
+            font-size: 24px;
+            line-height: 30px; } }
+      .our_services__industria__text h2 {
+        font-size: 17px;
+        color: #000000;
+        font-weight: bold; }
+        @media (min-width: 768px) {
+          .our_services__industria__text h2 {
+            font-size: 24px; } }
+    .our_services__industria__imagen {
+      width: 100%;
+      height: 100%;
+      padding: 0 15px; }
+      @media (min-width: 1199px) {
+        .our_services__industria__imagen {
+          padding: 0; } }
+
+.benefit {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  background-image: url("../../../img/services/banbeneficios.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 30px 0; }
+  .benefit .container-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .benefit h1.title {
+    font-weight: 600;
+    font-size: 30px;
+    color: #F7C50A;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    margin-bottom: 30px; }
+    @media (min-width: 1199px) {
+      .benefit h1.title {
+        font-size: 48px; } }
+  .benefit h1.subtitle {
+    font-weight: 600;
+    font-size: 24px;
+    color: #F7C50A;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    margin: 30px 0; }
+    @media (min-width: 1199px) {
+      .benefit h1.subtitle {
+        font-size: 30px; } }
+  .benefit p.subtitle {
+    font-weight: regular;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 30px; }
+    @media (min-width: 1199px) {
+      .benefit p.subtitle {
+        font-size: 24px;
+        width: 70%; } }
+  .benefit__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px; }
+    @media (min-width: 1199px) {
+      .benefit__grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 60px; } }
+    .benefit__grid__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      .benefit__grid__item__icon {
+        width: 150px; }
+      .benefit__grid__item__text h1 {
+        color: #FFFFFF;
+        font-size: 17px;
+        font-weight: regular;
+        text-align: center;
+        font-weight: bold;
+        padding: 15px 0; }
+        @media (min-width: 1199px) {
+          .benefit__grid__item__text h1 {
+            font-size: 24px; } }
+      .benefit__grid__item__text p {
+        color: #FFFFFF;
+        font-size: 17px;
+        font-weight: regular;
+        text-align: center; }
+        @media (min-width: 1199px) {
+          .benefit__grid__item__text p {
+            font-size: 24px; } }
+  .benefit__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7C50A;
+    /*text*/
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 16px;
+    letter-spacing: 0.5px;
+    padding: 12px 23px;
+    color: #FFFFFF; }
+    @media (min-width: 768px) {
+      .benefit__button {
+        font-size: 20px; } }
+    .benefit__button:hover {
+      color: #FFFFFF;
+      background-color: #000000;
+      border: 1px solid #F7C50A; }
 
 * {
   margin: 0;
