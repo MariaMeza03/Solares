@@ -1493,24 +1493,24 @@
       display: block; }
 
 .carousel {
-  height: 200px !important; }
+  height: 300px !important; }
   @media (min-width: 350px) {
     .carousel {
-      height: 400px !important; } }
+      height: 500px !important; } }
 
 .carousel .carousel-item {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 80% !important;
+  width: 90% !important;
   height: 200px !important;
   top: 0;
   left: 0; }
   @media (min-width: 520px) {
     .carousel .carousel-item {
       width: 430px !important;
-      height: 256px !important; } }
+      height: 300px !important; } }
   .carousel .carousel-item img {
     border-radius: 24px; }
 
