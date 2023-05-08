@@ -468,7 +468,7 @@
     width: 100%;
     height: 100%; }
     .hero__form--one {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Banner.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/home/Banner.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -529,7 +529,7 @@
             background-color: #F7C50A;
             border: 2px solid #FFFFFF; }
     .hero__form--two {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/Hotel.jpg");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/home/Hotel.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -681,7 +681,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/para3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/home/para3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -882,7 +882,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  background-image: url("../img/fondo.jpg");
+  background-image: url("../img/home/fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1066,7 +1066,7 @@
   overflow: hidden;
   position: relative;
   height: 500px;
-  background-image: url("../img/Nosbn.jpg");
+  background-image: url("../img/us/Nosbn.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -1246,7 +1246,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/banfin.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/us/banfin.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
