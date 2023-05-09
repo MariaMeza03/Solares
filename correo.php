@@ -1,18 +1,23 @@
 <?php
-$destino   = 'marimezamartinez@gmail.com';
-$titulo    = 'Correo de contacto';
-$nombre    = $_POST['nombre'];
-$email     = $_POST['telefono'];
-$telefono  = $_POST['telefono'];
-$direccion = $_POST['dirección'];
-$nombre_cfe= $_POST['nombre_cfe'];
-$number_cfe= $_['number_cfe'];
-$mensaje   = $_['mensaje'];
+				//Destinatario
+				$mail_destinatario = 'mmeza@licorne.mx';
+				$subject = 'Solicitud Formulario Solares Energia';
 
-$contenido = "Nombre:". $nombre . "\nCorreo:" . $email .
+				if(isset($_POST['enviar'])) {
+					$headers .= "From: ".$_POST['email']. "";
+					if ( mail ($mail_destinatario, $subject,
+						"Nombre y apellidos : ".$_POST['name']."
+						Email: ".stripcslashes ($_POST['email'])."
+						Teléfono : ".$_POST['telefono']."
+						Mensaje : ".stripcslashes ($_POST['message']),
+						$headers )) echo '
+								<h1>¡GRACIAS POR CONTACTARNOS!</h1>
+				                    <h4 class="page">En breve nos comunicamos contigo.</h4>'
+							;
 
 
-mail($destino, $titulo, $mensaje);
-
-
+					else echo '
+						Error al enviar
+					';
+				}
 ?>
