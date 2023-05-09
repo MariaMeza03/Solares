@@ -2103,6 +2103,117 @@
           line-height: 30px;
           text-align: start; } }
 
+.hero_distributor {
+  width: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+  background-image: url("../../../img/distributor/Banner-dis.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  @media (min-width: 1199px) {
+    .hero_distributor {
+      height: 800px; } }
+
+.distributor {
+  width: 100%;
+  width: 100%;
+  position: relative; }
+
+.rason {
+  width: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #000000;
+  padding: 30px 0; }
+  @media (min-width: 1199px) {
+    .rason {
+      padding: 90px 0; } }
+  .rason .container-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .rason h1.title {
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+    color: #F7C50A;
+    text-shadow: 2px 2px 5px black;
+    text-align: start;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0; }
+    @media (min-width: 768px) {
+      .rason h1.title {
+        font-size: 48px; } }
+  .rason__target {
+    width: 100%;
+    height: 300px;
+    background-color: #F7C50A;
+    padding: 15px; }
+    .rason__target h1 {
+      text-align: center; }
+    .rason__target__grid {
+      position: relative;
+      top: 50px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); }
+      .rason__target__grid__item {
+        margin: auto;
+        position: relative; }
+        .rason__target__grid__item__imagen {
+          width: 321px; }
+          @media (min-width: 1199px) {
+            .rason__target__grid__item__imagen {
+              padding-bottom: 24px; } }
+          .rason__target__grid__item__imagen img {
+            border-radius: 10px; }
+        .rason__target__grid__item p {
+          font-size: 17px;
+          color: #FFFFFF;
+          text-align: center;
+          font-weight: bold; }
+          @media (min-width: 1199px) {
+            .rason__target__grid__item p {
+              font-size: 24px; } }
+
+.start_win {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-image: url("../img/distributor/parallax-final.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .start_win .container-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .start_win__target {
+    position: absolute;
+    bottom: 50px;
+    width: 40%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 1px solid #FFFFFF;
+    padding: 15px; }
+    .start_win__target p {
+      font-size: 17px;
+      color: #FFFFFF;
+      text-align: center;
+      font-weight: normal; }
+      @media (min-width: 1199px) {
+        .start_win__target p {
+          font-size: 24px; } }
+    .start_win__target span {
+      color: #F7C50A;
+      font-weight: bold; }
+
 * {
   margin: 0;
   padding: 0;
