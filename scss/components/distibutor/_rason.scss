@@ -70,6 +70,10 @@
             flex-direction: column;
             position: relative;
 
+            &:hover{
+                transform: scale(1.2);
+            }
+
                 &__imagen{
                     width: 100%;
                     padding-bottom: 20px;
@@ -89,6 +93,7 @@
                     img{
                         border-radius: 10px;
                     }
+
                     
                 }
 

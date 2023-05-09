@@ -2322,6 +2322,8 @@
         align-items: center;
         flex-direction: column;
         position: relative; }
+        .rason__target__grid__item:hover {
+          transform: scale(1.2); }
         .rason__target__grid__item__imagen {
           width: 100%;
           padding-bottom: 20px; }
