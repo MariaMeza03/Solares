@@ -18,7 +18,7 @@
     h1.title{
         width: 100%;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 25px;
         color: $mikado_yellow;
         text-shadow: 2px 2px 5px black;
         text-align: start;
@@ -44,9 +44,11 @@
         h1{
             text-align: center;
             padding-bottom: 30px;
+            font-size: 25px;
 
             @media(min-width: 992px){
                 padding-bottom: 0;
+                font-size: 30px;
             }
         }
 

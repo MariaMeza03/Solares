@@ -2121,15 +2121,15 @@
   width: 100%;
   height: 100%;
   position: relative;
-  /*z-index: -1;*/
   background-color: #000000;
   /* background-image: url('../img/distributor/Banner-dis.jpg');*/
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding: 30px 0; }
   @media (min-width: 1199px) {
     .distributor {
-      padding: 200px 0 0 0; } }
+      padding: 200px 0 60px 0; } }
   .distributor .container {
     width: 100%;
     display: flex;
@@ -2139,7 +2139,7 @@
   .distributor__title h1 {
     width: 100%;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
     text-align: start;
@@ -2161,16 +2161,28 @@
   .distributor__carousel {
     overflow: hidden; }
     .distributor__carousel__slide {
+      padding-top: 60px;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 50px; }
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px; }
+      @media (min-width: 1199px) {
+        .distributor__carousel__slide {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 0; } }
+      .distributor__carousel__slide__imagen {
+        width: 80%;
+        margin: auto; }
+        @media (min-width: 1199px) {
+          .distributor__carousel__slide__imagen {
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0 0 0 auto; } }
       .distributor__carousel__slide__text {
         width: 70%;
         margin: auto; }
         .distributor__carousel__slide__text h1 {
           width: 100%;
           font-weight: 600;
-          font-size: 30px;
+          font-size: 25px;
           color: #FFFFFF;
           text-shadow: 2px 2px 5px black;
           text-align: start;
@@ -2181,10 +2193,7 @@
               font-size: 48px; } }
         .distributor__carousel__slide__text p {
           font-size: 17px;
-          color: #000000; }
-          @media (min-width: 1199px) {
-            .distributor__carousel__slide__text p {
-              color: #FFFFFF; } }
+          color: #FFFFFF; }
           @media (min-width: 1199px) {
             .distributor__carousel__slide__text p {
               font-size: 24px; } }
@@ -2206,16 +2215,17 @@
     /*Text*/
     font-size: 14px;
     font-weight: 800;
-    margin-top: 30px;
     letter-spacing: 0.5px;
     padding: 12px 23px;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    width: 100%;
+    margin: 30px auto 0 auto; }
+    @media (min-width: 350px) {
+      .distributor__callAction__button {
+        width: 300px; } }
     @media (min-width: 768px) {
       .distributor__callAction__button {
         font-size: 30px;
-        margin: auto; } }
-    @media (min-width: 1199px) {
-      .distributor__callAction__button {
         width: 500px; } }
     .distributor__callAction__button:hover {
       color: #FFFFFF;
@@ -2232,7 +2242,8 @@
     position: relative;
     padding: 50px 0;
     width: 100%;
-    margin: auto; }
+    margin: auto;
+    bottom: 0; }
     @media (min-width: 1199px) {
       .swiper_distribuitor .swiper-horizontal > .swiper-pagination-bullets, .swiper_distribuitor .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper_distribuitor .swiper-pagination-custom, .swiper_distribuitor .swiper-pagination-fraction {
         width: 50%; } }
@@ -2265,7 +2276,7 @@
   .rason h1.title {
     width: 100%;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
     text-align: start;
@@ -2285,10 +2296,12 @@
         height: 300px; } }
     .rason__target h1 {
       text-align: center;
-      padding-bottom: 30px; }
+      padding-bottom: 30px;
+      font-size: 25px; }
       @media (min-width: 992px) {
         .rason__target h1 {
-          padding-bottom: 0; } }
+          padding-bottom: 0;
+          font-size: 30px; } }
     .rason__target__grid {
       position: relative;
       top: 0;
