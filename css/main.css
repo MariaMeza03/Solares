@@ -2398,6 +2398,21 @@
     .hero_contact {
       height: 800px; } }
 
+.grid {
+  width: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #000000; }
+  .grid .container-sm {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+  .grid__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+
 * {
   margin: 0;
   padding: 0;
