@@ -16,11 +16,15 @@
     &__target{
         position: absolute;
         bottom: 50px;
-        width: 40%;
+        width: 70%;
         height:auto;
         background-color: rgba(0, 0, 0, 0.45);
         border: 1px solid $white;
         padding: 15px;
+
+        @media(min-width: 1199px){
+            width: 40%;
+        }
 
         p{
             font-size: 17px;

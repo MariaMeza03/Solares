@@ -2289,11 +2289,14 @@
   .start_win__target {
     position: absolute;
     bottom: 50px;
-    width: 40%;
+    width: 70%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.45);
     border: 1px solid #FFFFFF;
     padding: 15px; }
+    @media (min-width: 1199px) {
+      .start_win__target {
+        width: 40%; } }
     .start_win__target p {
       font-size: 17px;
       color: #FFFFFF;
