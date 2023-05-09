@@ -77,7 +77,6 @@
         &__button{
             @include flex-center-center;
             background-color:$mikado_yellow ;
-            width: 100%;
             /*Text*/
             font-size: 14px;
             font-weight: 800;
@@ -85,9 +84,15 @@
             letter-spacing: 0.5px;
             padding: 12px 23px;
             color: $white;
-
+            
             @media(min-width:768px){
                 font-size: 30px;
+                margin: auto;
+            }
+
+
+            @media(min-width:1199px){
+                width: 500px;
             }
 
             &:hover{

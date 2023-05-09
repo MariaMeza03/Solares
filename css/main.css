@@ -2173,7 +2173,6 @@
     align-items: center;
     justify-content: center;
     background-color: #F7C50A;
-    width: 100%;
     /*Text*/
     font-size: 14px;
     font-weight: 800;
@@ -2183,7 +2182,11 @@
     color: #FFFFFF; }
     @media (min-width: 768px) {
       .distributor__callAction__button {
-        font-size: 30px; } }
+        font-size: 30px;
+        margin: auto; } }
+    @media (min-width: 1199px) {
+      .distributor__callAction__button {
+        width: 500px; } }
     .distributor__callAction__button:hover {
       color: #FFFFFF;
       background-color: #000000;
