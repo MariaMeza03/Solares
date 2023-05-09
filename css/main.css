@@ -2440,6 +2440,50 @@
           text-align: center;
           padding-top: 20px; } }
 
+.contact {
+  width: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 30px 0;
+  background-image: url("../img/contact/ban-contactanos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  @media (min-width: 1199px) {
+    .contact {
+      padding: 60px 0; } }
+  .contact .container-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .contact__location {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    @media (min-width: 1199px) {
+      .contact__location {
+        grid-template-columns: repeat(2, 1fr); } }
+    .contact__location__map {
+      width: 100%; }
+    .contact__location__text h1 {
+      width: 100%;
+      font-weight: 600;
+      font-size: 25px;
+      color: #F7C50A;
+      text-align: start;
+      padding-bottom: 20px;
+      margin: 0; }
+      @media (min-width: 768px) {
+        .contact__location__text h1 {
+          font-size: 35px; } }
+    .contact__location__text__information {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .contact__location__text__information__icon {
+        width: 30px; }
+
 * {
   margin: 0;
   padding: 0;
