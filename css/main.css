@@ -1958,7 +1958,7 @@
   .title_products h1 {
     width: 100%;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
     text-align: center;
@@ -1998,13 +1998,13 @@
         width: 100%;
         text-align: center;
         color: #fff;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 600;
         text-transform: uppercase; }
         @media (min-width: 768px) {
           .instalation__grid__text h1 {
             width: 80%;
-            font-size: 40px; } }
+            font-size: 30px; } }
       .instalation__grid__text__button {
         display: flex;
         align-items: center;
@@ -2063,10 +2063,12 @@
       padding: 30px 0; } }
   .panels .container-sm {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px; }
     @media (min-width: 1199px) {
       .panels .container-sm {
-        grid-template-columns: repeat(2, 1fr); } }
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0; } }
   .panels__imagen {
     width: 100%; }
     @media (min-width: 1199px) {
@@ -2084,9 +2086,10 @@
     .panels__text h1 {
       color: #1b8233;
       font-weight: 900;
-      font-size: 20px;
+      font-size: 25px;
       margin-bottom: 15px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      text-align: center; }
       @media (min-width: 768px) {
         .panels__text h1 {
           font-size: 30px;
@@ -2100,8 +2103,7 @@
       @media (min-width: 768px) {
         .panels__text p {
           font-size: 24px;
-          line-height: 30px;
-          text-align: start; } }
+          line-height: 30px; } }
 
 .hero_distributor {
   width: 100%;
