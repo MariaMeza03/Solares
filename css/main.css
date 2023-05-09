@@ -2465,24 +2465,120 @@
       .contact__location {
         grid-template-columns: repeat(2, 1fr); } }
     .contact__location__map {
-      width: 100%; }
-    .contact__location__text h1 {
-      width: 100%;
+      width: 80%;
+      margin: auto; }
+      @media (min-width: 1199px) {
+        .contact__location__map {
+          width: 100%; } }
+    .contact__location__text {
+      width: 80%;
+      margin: auto;
+      padding-top: 30px; }
+      @media (min-width: 1199px) {
+        .contact__location__text {
+          width: 70%;
+          padding-top: 0; } }
+      .contact__location__text h1 {
+        width: 100%;
+        font-weight: 600;
+        font-size: 25px;
+        color: #F7C50A;
+        text-align: center;
+        margin: 0; }
+        @media (min-width: 768px) {
+          .contact__location__text h1 {
+            font-size: 35px;
+            padding-bottom: 20px;
+            text-align: start; } }
+      .contact__location__text__information {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding-top: 20px; }
+        .contact__location__text__information__icon {
+          width: 30px; }
+        .contact__location__text__information p {
+          color: #FFFFFF;
+          line-height: 26px;
+          letter-spacing: 0.3px;
+          text-align: start;
+          font-size: 15px; }
+          @media (min-width: 768px) {
+            .contact__location__text__information p {
+              font-size: 22px; } }
+  .contact h1.title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #F7C50A;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px; }
+    @media (min-width: 768px) {
+      .contact h1.title {
+        font-size: 48px;
+        padding: 90px 0; } }
+  .contact__contact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    @media (min-width: 1199px) {
+      .contact__contact {
+        grid-template-columns: repeat(2, 1fr); } }
+    .contact__contact__form h1 {
       font-weight: 600;
-      font-size: 25px;
-      color: #F7C50A;
-      text-align: start;
-      padding-bottom: 20px;
-      margin: 0; }
+      font-size: 20px;
+      color: #F7C50A; }
       @media (min-width: 768px) {
-        .contact__location__text h1 {
-          font-size: 35px; } }
-    .contact__location__text__information {
+        .contact__contact__form h1 {
+          font-size: 28px; } }
+    .contact__contact__form p {
+      color: #FFFFFF;
+      line-height: 26px;
+      letter-spacing: 0.3px;
+      text-align: start;
+      font-size: 15px; }
+      @media (min-width: 768px) {
+        .contact__contact__form p {
+          font-size: 17px;
+          padding-bottom: 30px; } }
+    .contact__contact__form input, .contact__contact__form textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #1B8233;
+      margin-bottom: 15px; }
+    .contact__contact__form textarea {
+      height: 200px; }
+    .contact__contact__form input[type=checkbox] {
+      width: auto;
+      margin-bottom: 0;
+      border: 1px solid #F7C50A; }
+    .contact__contact__form__button {
       display: flex;
       align-items: center;
-      justify-content: center; }
-      .contact__location__text__information__icon {
-        width: 30px; }
+      justify-content: center;
+      background-color: #F7C50A;
+      /*text*/
+      font-size: 14px;
+      font-weight: 800;
+      margin-top: 17px;
+      letter-spacing: 0.5px;
+      padding: 12px 23px;
+      color: #FFFFFF; }
+      @media (min-width: 768px) {
+        .contact__contact__form__button {
+          font-size: 20px; } }
+      .contact__contact__form__button:hover {
+        color: #FFFFFF;
+        background-color: #000000;
+        border: 1px solid #F7C50A; }
+    .contact__contact__form__checkbox {
+      display: flex;
+      align-items: center;
+      gap: 10px; }
+    .contact__contact__imagen {
+      width: 503px;
+      margin: auto; }
 
 * {
   margin: 0;
