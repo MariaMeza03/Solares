@@ -142,7 +142,7 @@
           justify-content: space-between; } }
     .header__desktop__logo {
       width: 192px;
-      height: 117px; }
+      height: 115px; }
     .header__desktop__pages {
       display: flex;
       gap: 10px;
@@ -383,7 +383,7 @@
     font-weight: normal; }
     @media (min-width: 1199px) {
       .footer h1 {
-        font-size: 17px; } }
+        font-size: 15px; } }
 
 .media {
   position: fixed;
@@ -652,7 +652,7 @@
         width: 100px; }
       .reduce_costs__grid__item p {
         padding-top: 10px;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 700;
         text-align: center; }
   .reduce_costs__text {
@@ -717,7 +717,7 @@
     @media (min-width: 768px) {
       .promotion p {
         width: 50%;
-        font-size: 16px; } }
+        font-size: 17px; } }
   .promotion__button {
     display: flex;
     align-items: center;
@@ -726,7 +726,7 @@
     /*text*/
     font-size: 14px;
     font-weight: 800;
-    margin-top: 16px;
+    margin-top: 17px;
     letter-spacing: 0.5px;
     padding: 12px 23px;
     color: #FFFFFF; }
@@ -769,12 +769,12 @@
     .win_win__text h2 {
       text-align: center;
       font-weight: 800;
-      font-size: 20px;
+      font-size: 17px;
       color: #272727;
       margin-bottom: 15px; }
       @media (min-width: 768px) {
         .win_win__text h2 {
-          font-size: 24px;
+          font-size: 20px;
           margin-bottom: 30px; } }
     .win_win__text p {
       font-family: hind;
@@ -806,7 +806,7 @@
       /*Text*/
       font-size: 14px;
       font-weight: 800;
-      margin-top: 16px;
+      margin-top: 17px;
       letter-spacing: 0.5px;
       padding: 12px 23px;
       color: #FFFFFF; }
@@ -1050,7 +1050,7 @@
       /*Text*/
       font-size: 14px;
       font-weight: 800;
-      margin-top: 16px;
+      margin-top: 17px;
       letter-spacing: 0.5px;
       padding: 12px 23px;
       color: #FFFFFF; }
@@ -1231,7 +1231,7 @@
       /*Text*/
       font-size: 14px;
       font-weight: 800;
-      margin-top: 16px;
+      margin-top: 17px;
       letter-spacing: 0.5px;
       padding: 12px 23px;
       color: #FFFFFF; }
@@ -1360,7 +1360,7 @@
     text-align: center; }
     @media (min-width: 768px) {
       .products p {
-        font-size: 17px;
+        font-size: 15px;
         margin-bottom: 20px; } }
 
 .catalog {
@@ -1512,7 +1512,7 @@
       width: 430px !important;
       height: 300px !important; } }
   .carousel .carousel-item img {
-    border-radius: 24px; }
+    border-radius: 17px; }
 
 .hero_services {
   width: 100%;
@@ -1573,11 +1573,11 @@
     line-height: 26px;
     letter-spacing: 0.3px;
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     text-align: justify; }
     @media (min-width: 768px) {
       .offer__text p {
-        font-size: 24px; } }
+        font-size: 15px; } }
 
 .renewable {
   width: 100%;
@@ -1605,12 +1605,12 @@
     line-height: 26px;
     letter-spacing: 0.3px;
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 20px;
     text-align: center; }
     @media (min-width: 768px) {
       .renewable__title_subtitle p {
-        font-size: 24px;
+        font-size: 17px;
         margin-bottom: 35px; } }
   .renewable__grid {
     display: grid;
@@ -1641,7 +1641,7 @@
         padding: 20px 0 0 0; }
         @media (min-width: 768px) {
           .renewable__grid__item__text p {
-            font-size: 24px; } }
+            font-size: 17px; } }
 
 .our_services {
   width: 100%;
@@ -1689,19 +1689,19 @@
       .our_services__fotovoltaico__text p {
         color: #000000;
         font-weight: regular;
-        font-size: 17px;
+        font-size: 15px;
         line-height: 25px; }
         @media (min-width: 768px) {
           .our_services__fotovoltaico__text p {
-            font-size: 24px;
+            font-size: 17px;
             line-height: 30px; } }
       .our_services__fotovoltaico__text h2 {
-        font-size: 17px;
+        font-size: 15px;
         color: #000000;
         font-weight: bold; }
         @media (min-width: 768px) {
           .our_services__fotovoltaico__text h2 {
-            font-size: 24px; } }
+            font-size: 17px; } }
     .our_services__fotovoltaico__imagen {
       width: 100%;
       height: 100%;
@@ -1747,19 +1747,19 @@
       .our_services__residencial__text p {
         color: #000000;
         font-weight: regular;
-        font-size: 17px;
+        font-size: 15px;
         line-height: 25px; }
         @media (min-width: 768px) {
           .our_services__residencial__text p {
-            font-size: 24px;
+            font-size: 17px;
             line-height: 30px; } }
       .our_services__residencial__text h2 {
-        font-size: 17px;
+        font-size: 15px;
         color: #000000;
         font-weight: bold; }
         @media (min-width: 768px) {
           .our_services__residencial__text h2 {
-            font-size: 24px; } }
+            font-size: 17px; } }
     .our_services__residencial__imagen {
       width: 100%;
       height: 100%;
@@ -1809,19 +1809,19 @@
       .our_services__industria__text p {
         color: #000000;
         font-weight: regular;
-        font-size: 17px;
+        font-size: 15px;
         line-height: 25px; }
         @media (min-width: 768px) {
           .our_services__industria__text p {
-            font-size: 24px;
+            font-size: 17px;
             line-height: 30px; } }
       .our_services__industria__text h2 {
-        font-size: 17px;
+        font-size: 15px;
         color: #000000;
         font-weight: bold; }
         @media (min-width: 768px) {
           .our_services__industria__text h2 {
-            font-size: 24px; } }
+            font-size: 17px; } }
     .our_services__industria__imagen {
       width: 100%;
       height: 100%;
@@ -1857,7 +1857,7 @@
         font-size: 48px; } }
   .benefit h1.subtitle {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 17px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
     text-align: center;
@@ -1867,13 +1867,13 @@
         font-size: 30px; } }
   .benefit p.subtitle {
     font-weight: regular;
-    font-size: 17px;
+    font-size: 15px;
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 30px; }
     @media (min-width: 1199px) {
       .benefit p.subtitle {
-        font-size: 24px;
+        font-size: 17px;
         width: 70%; } }
   .benefit__grid {
     display: grid;
@@ -1892,22 +1892,22 @@
         width: 150px; }
       .benefit__grid__item__text h1 {
         color: #FFFFFF;
-        font-size: 17px;
+        font-size: 15px;
         font-weight: regular;
         text-align: center;
         font-weight: bold;
         padding: 15px 0; }
         @media (min-width: 1199px) {
           .benefit__grid__item__text h1 {
-            font-size: 24px; } }
+            font-size: 17px; } }
       .benefit__grid__item__text p {
         color: #FFFFFF;
-        font-size: 17px;
+        font-size: 15px;
         font-weight: regular;
         text-align: center; }
         @media (min-width: 1199px) {
           .benefit__grid__item__text p {
-            font-size: 24px; } }
+            font-size: 17px; } }
   .benefit__button {
     display: flex;
     align-items: center;
@@ -1916,7 +1916,7 @@
     /*text*/
     font-size: 14px;
     font-weight: 800;
-    margin-top: 16px;
+    margin-top: 17px;
     letter-spacing: 0.5px;
     padding: 12px 23px;
     color: #FFFFFF; }
@@ -2013,7 +2013,7 @@
         /*text*/
         font-size: 14px;
         font-weight: 800;
-        margin-top: 16px;
+        margin-top: 17px;
         letter-spacing: 0.5px;
         padding: 12px 23px;
         color: #FFFFFF; }
@@ -2044,8 +2044,8 @@
       .swiper_products_general .swiper-horizontal > .swiper-pagination-bullets, .swiper_products_general .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper_products_general .swiper-pagination-custom, .swiper_products_general .swiper-pagination-fraction {
         width: 50%; } }
   .swiper_products_general .swiper-pagination-bullet {
-    width: 16px;
-    height: 16px;
+    width: 17px;
+    height: 17px;
     background-color: #FFFFFF;
     opacity: 1; }
   .swiper_products_general .swiper-pagination-bullet-active {
@@ -2097,12 +2097,12 @@
     .panels__text p {
       color: #000000;
       font-weight: regular;
-      font-size: 17px;
+      font-size: 15px;
       line-height: 25px;
       text-align: center; }
       @media (min-width: 768px) {
         .panels__text p {
-          font-size: 24px;
+          font-size: 17px;
           line-height: 30px; } }
 
 .hero_distributor {
@@ -2153,7 +2153,7 @@
       .distributor__title h1 {
         font-size: 48px; } }
   .distributor__title p {
-    font-size: 17px;
+    font-size: 20px;
     color: #FFFFFF;
     text-align: center;
     font-weight: bold; }
@@ -2192,15 +2192,15 @@
           margin: 0; }
           @media (min-width: 768px) {
             .distributor__carousel__slide__text h1 {
-              font-size: 48px; } }
+              font-size: 35px; } }
         .distributor__carousel__slide__text p {
-          font-size: 17px;
+          font-size: 15px;
           color: #FFFFFF; }
           @media (min-width: 1199px) {
             .distributor__carousel__slide__text p {
-              font-size: 24px; } }
+              font-size: 17px; } }
   .distributor__callAction h2 {
-    font-size: 17px;
+    font-size: 15px;
     color: #FFFFFF;
     text-align: center;
     font-weight: bold; }
@@ -2227,8 +2227,8 @@
         width: 300px; } }
     @media (min-width: 768px) {
       .distributor__callAction__button {
-        font-size: 30px;
-        width: 500px; } }
+        font-size: 20px;
+        width: 350px; } }
     .distributor__callAction__button:hover {
       color: #FFFFFF;
       background-color: #000000;
@@ -2335,7 +2335,7 @@
           .rason__target__grid__item__imagen img {
             border-radius: 10px; }
         .rason__target__grid__item p {
-          font-size: 17px;
+          font-size: 15px;
           color: #000000;
           text-align: center;
           font-weight: bold; }
@@ -2344,7 +2344,7 @@
               color: #FFFFFF; } }
           @media (min-width: 1199px) {
             .rason__target__grid__item p {
-              font-size: 24px; } }
+              font-size: 17px; } }
 
 .start_win {
   width: 100%;
@@ -2372,13 +2372,13 @@
       .start_win__target {
         width: 40%; } }
     .start_win__target p {
-      font-size: 17px;
+      font-size: 15px;
       color: #FFFFFF;
       text-align: center;
       font-weight: normal; }
       @media (min-width: 1199px) {
         .start_win__target p {
-          font-size: 24px; } }
+          font-size: 17px; } }
     .start_win__target span {
       color: #F7C50A;
       font-weight: bold; }
