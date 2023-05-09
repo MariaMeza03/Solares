@@ -2119,8 +2119,75 @@
 
 .distributor {
   width: 100%;
-  width: 100%;
-  position: relative; }
+  height: 100%;
+  z-index: -1;
+  position: relative;
+  background-color: #000000;
+  /* background-image: url('../img/distributor/Banner-dis.jpg');*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media (min-width: 1199px) {
+    .distributor {
+      padding: 200px 0 0 0; } }
+  .distributor .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .distributor__title h1 {
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+    color: #F7C50A;
+    text-shadow: 2px 2px 5px black;
+    text-align: start;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .distributor__title h1 {
+        font-size: 48px; } }
+  .distributor__title p {
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold; }
+    @media (min-width: 1199px) {
+      .distributor__title p {
+        font-size: 24px; } }
+  .distributor__callAction h2 {
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold; }
+    @media (min-width: 1199px) {
+      .distributor__callAction h2 {
+        font-size: 24px; } }
+  .distributor__callAction span {
+    color: #F7C50A; }
+  .distributor__callAction__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7C50A;
+    width: 100%;
+    /*Text*/
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+    padding: 12px 23px;
+    color: #FFFFFF; }
+    @media (min-width: 768px) {
+      .distributor__callAction__button {
+        font-size: 30px; } }
+    .distributor__callAction__button:hover {
+      color: #FFFFFF;
+      background-color: #000000;
+      border: 1px solid #F7C50A; }
 
 .rason {
   width: 100%;
@@ -2151,31 +2218,56 @@
         font-size: 48px; } }
   .rason__target {
     width: 100%;
-    height: 300px;
+    height: 100%;
     background-color: #F7C50A;
     padding: 15px; }
+    @media (min-width: 1199px) {
+      .rason__target {
+        height: 300px; } }
     .rason__target h1 {
-      text-align: center; }
+      text-align: center;
+      padding-bottom: 30px; }
+      @media (min-width: 992px) {
+        .rason__target h1 {
+          padding-bottom: 0; } }
     .rason__target__grid {
       position: relative;
-      top: 50px;
+      top: 0;
       display: grid;
-      grid-template-columns: repeat(3, 1fr); }
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px; }
+      @media (min-width: 1199px) {
+        .rason__target__grid {
+          grid-template-columns: repeat(3, 1fr);
+          top: 50px;
+          gap: 50px; } }
       .rason__target__grid__item {
-        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         position: relative; }
         .rason__target__grid__item__imagen {
-          width: 321px; }
+          width: 100%;
+          padding-bottom: 20px; }
+          @media (min-width: 400px) {
+            .rason__target__grid__item__imagen {
+              width: 321px; } }
           @media (min-width: 1199px) {
             .rason__target__grid__item__imagen {
-              padding-bottom: 24px; } }
+              width: 100%; } }
+          @media (min-width: 1400px) {
+            .rason__target__grid__item__imagen {
+              width: 321px; } }
           .rason__target__grid__item__imagen img {
             border-radius: 10px; }
         .rason__target__grid__item p {
           font-size: 17px;
-          color: #FFFFFF;
+          color: #000000;
           text-align: center;
           font-weight: bold; }
+          @media (min-width: 1199px) {
+            .rason__target__grid__item p {
+              color: #FFFFFF; } }
           @media (min-width: 1199px) {
             .rason__target__grid__item p {
               font-size: 24px; } }
