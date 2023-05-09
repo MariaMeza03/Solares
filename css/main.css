@@ -1339,7 +1339,7 @@
   .products h1 {
     width: 100%;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
     text-align: center;
@@ -1382,7 +1382,7 @@
   .catalog h1 {
     width: 100%;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
     text-align: center;
@@ -1494,9 +1494,9 @@
 
 .carousel {
   height: 300px !important; }
-  @media (min-width: 350px) {
+  @media (min-width: 600px) {
     .carousel {
-      height: 500px !important; } }
+      height: 400px !important; } }
 
 .carousel .carousel-item {
   display: flex;
