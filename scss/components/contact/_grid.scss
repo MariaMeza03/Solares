@@ -1,3 +1,21 @@
 .grid{
-    
+    width: 100%;
+    width: 100%;
+	overflow: hidden;
+	position: relative;
+    background-color: $black;
+
+    .container-sm{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__item{
+         @include flex-center-center;
+         flex-direction: column;
+
+        &__imagen{
+
+        }
+    }
 }
