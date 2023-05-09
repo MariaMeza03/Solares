@@ -1834,7 +1834,7 @@
   width: 100%;
   position: relative;
   height: 100%;
-  background-image: url("../../../img/services/banbeneficios.jpg");
+  background-image: url("../img/services/banbeneficios.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1934,7 +1934,7 @@
   overflow: hidden;
   position: relative;
   height: 500px;
-  background-image: url("../../../img/products/banner_productos.jpg");
+  background-image: url("../img/products/banner_productos.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -1986,7 +1986,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      background-image: url("../../../img/products/ban_gale.jpg");
+      background-image: url("../img/products/ban_gale.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -2111,7 +2111,7 @@
   overflow: hidden;
   position: relative;
   height: 500px;
-  background-image: url("../../../img/distributor/Banner-dis.jpg");
+  background-image: url("../img/distributor/Banner-dis.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
