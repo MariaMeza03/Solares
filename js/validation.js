@@ -10,6 +10,7 @@ function Validation(e) {
     e.preventDefault()
     const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
 
+
     //*Reset Error
     //*Name
     NameErrors.classList.remove('contact__contact__form__input_name__error--active')
@@ -24,8 +25,20 @@ function Validation(e) {
 
     if(nombre.value !== "" ){
 
+        let datos = new FormData(form);
+
+        peticion = {
+            method:'POST',
+            body:datos,
+        }
+    
+        fetch('./correo.php', peticion)
+        .then(respuesta => respuesta.json)
+        .then(respuesta =>{
+            
+        }).catch(error => console.log('error' , error));
+
     }  
 }
-
 
 form.addEventListener("submit", Validation)
