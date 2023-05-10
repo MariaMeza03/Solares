@@ -24,12 +24,6 @@ function Validation(e) {
 
     if(nombre.value !== "" ){
 
-        $.ajax({
-            method: "post",
-            url: 'correo.php',
-            data: { nombre: nombre.value } 
-
-        })
     }  
 }
 
