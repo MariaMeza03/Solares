@@ -122,6 +122,8 @@ function Validation(e) {
             
         }).catch(error => console.log('error' , error));
 
+        location.replace('./thanks.html');
+
     }  
 }
 
