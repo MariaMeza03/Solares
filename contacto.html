@@ -303,15 +303,39 @@
 								<p class="contact__contact__form__input_name__error">Coloca un nombre</p>
 							</div>
 
-							<input id="email" name="email" type="text" placeholder="Email"/>
-							<input id="telefono" name="telefono" type="text" placeholder="Telefono"/>
-							<input id="direccion" name ="direccion" type="text" placeholder="Dirección"/>
+							<div class="contact__contact__form__input_email">
+								<input id="email" name="email" type="text" placeholder="Email"/>
+								<p class="contact__contact__form__input_email__error">Coloca un correo electronico</p>
+							</div>
+
+							<div class="contact__contact__form__input_phone">
+								<input id="telefono" name="telefono" type="text" placeholder="Telefono"/>
+								<p class="contact__contact__form__input_phone__error">Coloca un telefono </p>
+							</div>
+
+							<div class="contact__contact__form__input_direction">
+								<input id="direccion" name ="direccion" type="text" placeholder="Dirección"/>
+								<p class="contact__contact__form__input_direction__error">Coloca una dirección</p>
+							</div>
 
 							<h1 style="padding-bottom: 30px;">Formulario de contacto</h1>
-							<input id="nombre_cfe" name="nombre_cfe" type="text" placeholder="Coloque el nombre tal cual viene en el recibo CFE (1)"/>
-							<input id="number_cfe" name="number_cfe" type="text" placeholder="Favor de ingresar el número completo que viene en su recibo CFE (2)"/>
-							<textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>		
 
+							<div class="contact__contact__form__input_nombre_cfe">
+								<input id="nombre_cfe" name="nombre_cfe" type="text" placeholder="Coloque el nombre tal cual viene en el recibo CFE (1)"/>
+								<p class="contact__contact__form__input_nombre_cfe__error">Coloca un nombre de CFE</p>
+							</div>
+
+							<div class="contact__contact__form__input_number_cfe">
+								<input id="number_cfe" name="nombre_cfe" type="text" placeholder="Favor de ingresar el número completo que viene en su recibo CFE (2)"/>
+								<p class="contact__contact__form__input_number_cfe__error">Coloca el numero de CFE</p>
+							</div>
+							
+							<div class="contact__contact__form__textarea">
+								<textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>		
+								<p class="contact__contact__form__textarea__error">Coloca un mensaje</p>
+							</div>
+							
+							
 							<div class="contact__contact__form__checkbox">
 								<input type="checkbox"/> 
 								<p style="padding-bottom: 0; color: #F7C50A;">Acepto las Políticas de privacidad</p>	
