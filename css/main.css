@@ -2513,7 +2513,7 @@
     text-shadow: 2px 2px 5px black;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 30px; }
+    padding: 30px 0; }
     @media (min-width: 768px) {
       .contact h1.title {
         font-size: 48px;
@@ -2527,20 +2527,22 @@
     .contact__contact__form h1 {
       font-weight: 600;
       font-size: 20px;
-      color: #F7C50A; }
+      color: #F7C50A;
+      text-align: center; }
       @media (min-width: 768px) {
         .contact__contact__form h1 {
-          font-size: 28px; } }
+          font-size: 28px;
+          text-align: start; } }
     .contact__contact__form p {
       color: #FFFFFF;
-      line-height: 26px;
       letter-spacing: 0.3px;
-      text-align: start;
-      font-size: 15px; }
+      text-align: center;
+      font-size: 12px;
+      padding-bottom: 30px; }
       @media (min-width: 768px) {
         .contact__contact__form p {
           font-size: 17px;
-          padding-bottom: 30px; } }
+          text-align: start; } }
     .contact__contact__form input, .contact__contact__form textarea {
       width: 100%;
       padding: 10px;
@@ -2564,10 +2566,12 @@
       margin-top: 17px;
       letter-spacing: 0.5px;
       padding: 12px 23px;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      margin: auto; }
       @media (min-width: 768px) {
         .contact__contact__form__button {
-          font-size: 20px; } }
+          font-size: 20px;
+          margin: 0; } }
       .contact__contact__form__button:hover {
         color: #FFFFFF;
         background-color: #000000;
@@ -2575,10 +2579,16 @@
     .contact__contact__form__checkbox {
       display: flex;
       align-items: center;
-      gap: 10px; }
+      gap: 10px;
+      padding-bottom: 10px; }
     .contact__contact__imagen {
-      width: 503px;
-      margin: auto; }
+      width: 80%;
+      margin: auto;
+      padding-top: 30px; }
+      @media (min-width: 1199px) {
+        .contact__contact__imagen {
+          width: 503px;
+          padding: 0; } }
 
 * {
   margin: 0;
