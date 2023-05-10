@@ -2533,14 +2533,14 @@
         .contact__contact__form h1 {
           font-size: 28px;
           text-align: start; } }
-    .contact__contact__form p {
+    .contact__contact__form p.subtitle {
       color: #FFFFFF;
       letter-spacing: 0.3px;
       text-align: center;
       font-size: 12px;
       padding-bottom: 30px; }
       @media (min-width: 768px) {
-        .contact__contact__form p {
+        .contact__contact__form p.subtitle {
           font-size: 17px;
           text-align: start; } }
     .contact__contact__form input, .contact__contact__form textarea {
@@ -2555,6 +2555,20 @@
       width: auto;
       margin-bottom: 0;
       border: 1px solid #F7C50A; }
+    .contact__contact__form__input_name--active input {
+      border: 1px solid red;
+      margin-bottom: 0; }
+    .contact__contact__form__input_name__error {
+      width: 100%;
+      max-width: 471px;
+      display: none;
+      justify-content: flex-start;
+      padding: 5px 0 25px 0;
+      text-align: start;
+      font-size: 12px;
+      color: red; }
+      .contact__contact__form__input_name__error--active {
+        display: flex; }
     .contact__contact__form__button {
       display: flex;
       align-items: center;

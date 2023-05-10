@@ -294,19 +294,23 @@
 					<h1 class="title">Contáctanos</h1>
 					<div class="contact__contact">
 
-						<form class="contact__contact__form" action="correo.php" method="post" >
+						<form class="contact__contact__form" id="form">
 							<h1>Formulario de contacto</h1>
-							<p>Tu contratación incluye soporte, monitoreo web y reportes mensuales.</p>
+							<p class="subtitle">Tu contratación incluye soporte, monitoreo web y reportes mensuales.</p>
 
-							<input name="nombre" type="text" placeholder="Nombre"/>
-							<input name="email" type="text" placeholder="Email"/>
-							<input name="telefono" type="text" placeholder="Telefono"/>
-							<input name ="direccion" type="text" placeholder="Dirección"/>
+							<div class="contact__contact__form__input_name">
+								<input id="nombre" name="nombre" type="text" placeholder="Nombre"/>
+								<p class="contact__contact__form__input_name__error">Coloca un nombre</p>
+							</div>
+
+							<input id="email" name="email" type="text" placeholder="Email"/>
+							<input id="telefono" name="telefono" type="text" placeholder="Telefono"/>
+							<input id="direccion" name ="direccion" type="text" placeholder="Dirección"/>
 
 							<h1 style="padding-bottom: 30px;">Formulario de contacto</h1>
-							<input name="nombre_cfe" type="text" placeholder="Coloque el nombre tal cual viene en el recibo CFE (1)"/>
-							<input name="number_cfe" type="text" placeholder="Favor de ingresar el número completo que viene en su recibo CFE (2)"/>
-							<textarea name="mensaje" placeholder="Mensaje"></textarea>		
+							<input id="nombre_cfe" name="nombre_cfe" type="text" placeholder="Coloque el nombre tal cual viene en el recibo CFE (1)"/>
+							<input id="number_cfe" name="number_cfe" type="text" placeholder="Favor de ingresar el número completo que viene en su recibo CFE (2)"/>
+							<textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>		
 
 							<div class="contact__contact__form__checkbox">
 								<input type="checkbox"/> 
@@ -333,10 +337,11 @@
 		<h1>2023 Ya no pago luz. Todos los derechos reservados. | Por Licorne Marketing Digital</h1>
 	</footer>
 
-	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 	<script src="./js/menu.js"></script>
 	<script src="./js/distribuitor.js"></script>
+	<script src="./js/validation.js"></script>
 
 </body>
 
