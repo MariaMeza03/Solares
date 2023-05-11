@@ -15,7 +15,7 @@
     h1{
         width: 100%;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 30px;
         color: $mikado_yellow;
         text-shadow: 2px 2px 5px black;
         text-align: center;
@@ -23,8 +23,15 @@
         margin: 0;
 
         @media(min-width:768px){
-            font-size: 48px;
             width: 80%;
+        }
+
+        @media(min-width:1400px){
+            font-size: 40px;
+        }
+
+        @media(min-width:1700px){
+            font-size: 48px;
         }
     }
 }
