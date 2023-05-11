@@ -613,7 +613,11 @@
   width: 100%;
   position: relative;
   background-color: #000000;
-  z-index: 1; }
+  z-index: 1;
+  padding: 30px 0; }
+  @media (min-width: 1199px) {
+    .reduce_costs {
+      padding: 50px 0; } }
   .reduce_costs .container-sm {
     display: flex;
     align-items: center;
@@ -693,7 +697,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
     padding: 60px 0; }
   .promotion h1 {
@@ -744,35 +748,41 @@
   .win_win .container-sm {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 15px;
     gap: 40px; }
     @media (min-width: 1199px) {
       .win_win .container-sm {
-        padding: 15px 0;
         grid-template-columns: repeat(2, 1fr); } }
   .win_win__text {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 30px 0; }
+    @media (min-width: 1199px) {
+      .win_win__text {
+        padding: 50px 0;
+        grid-template-columns: repeat(2, 1fr); } }
     .win_win__text h1 {
       color: #1b8233;
       text-align: center;
       font-weight: 900;
-      font-size: 25px;
+      font-size: 20px;
       margin-bottom: 15px;
       text-transform: uppercase; }
-      @media (min-width: 768px) {
+      @media (min-width: 1199px) {
         .win_win__text h1 {
-          font-size: 30px;
+          font-size: 25px;
           margin-bottom: 30px; } }
+      @media (min-width: 1400px) {
+        .win_win__text h1 {
+          font-size: 30px; } }
     .win_win__text h2 {
       text-align: center;
       font-weight: 800;
       font-size: 17px;
       color: #272727;
       margin-bottom: 15px; }
-      @media (min-width: 768px) {
+      @media (min-width: 1199px) {
         .win_win__text h2 {
           font-size: 20px;
           margin-bottom: 30px; } }
@@ -783,7 +793,7 @@
       text-align: center;
       font-size: 15px;
       margin-bottom: 10px; }
-      @media (min-width: 768px) {
+      @media (min-width: 1199px) {
         .win_win__text p {
           font-size: 17px;
           margin-bottom: 20px; } }
@@ -793,7 +803,7 @@
       font-weight: 700;
       text-align: center;
       margin: 8px 0; }
-      @media (min-width: 768px) {
+      @media (min-width: 1199px) {
         .win_win__text h4 {
           font-size: 21px;
           margin: 10px 0; } }
@@ -823,10 +833,10 @@
     @media (min-width: 1199px) {
       .win_win__imagen {
         position: relative;
-        bottom: 48px; } }
+        bottom: 120px; } }
     @media (min-width: 1399px) {
       .win_win__imagen {
-        bottom: 36px; } }
+        bottom: 70px; } }
     @media (min-width: 1677px) {
       .win_win__imagen {
         bottom: 39px; } }

@@ -11,7 +11,7 @@
 
     .container-sm{
         height: 100%;
-        @include flex-center-end;
+        @include flex-center-center;
         flex-direction: column;
         padding: 60px 0;
     }
