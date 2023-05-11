@@ -14,7 +14,7 @@
     }
 
     .container-sm{
-        @include flex-center-center;
+        @include flex-j-center;
         flex-direction: column;
     }
 
@@ -57,7 +57,7 @@
                 margin: 0;
         
                 @media(min-width:768px){
-                    font-size: 35px;
+                    font-size: 30px;
                     padding-bottom: 20px;
                     text-align: start;
                 }
@@ -80,7 +80,7 @@
                     font-size: 15px;
         
                     @media(min-width:768px){
-                        font-size: 22px;
+                        font-size: 17px;
                     }
                 }
             }
@@ -98,8 +98,8 @@
         padding: 30px 0;
 
         @media(min-width:768px){
-            font-size: 48px;
-            padding: 90px 0;
+            font-size: 30px;
+            padding: 60px 0;
         }
     } 
 
@@ -112,6 +112,7 @@
          }
 
          &__form{
+            width: 100%;
 
             h1{
                 font-weight: 600;
@@ -120,7 +121,7 @@
                 text-align: center;
         
                 @media(min-width:768px){
-                    font-size: 28px;
+                    font-size: 25px;
                     text-align: start;
                 }
             }
@@ -373,6 +374,7 @@
                 @include flex-a-center;
                 gap: 10px;
                 padding-bottom: 10px;
+                font-size: 17px;
             }
 
          }
