@@ -35,7 +35,7 @@
 
         h1{
             font-weight: 600;
-            font-size: 30px;
+            font-size: 25px;
             color: $mikado_yellow;
             text-shadow: 2px 2px 5px black;
             text-align: center;
@@ -48,7 +48,7 @@
             }
 
             @media(min-width:1199px){
-                font-size: 48px;
+                font-size: 30px;
             }
     
         }
@@ -62,7 +62,7 @@
             text-align: justify;
 
             @media(min-width:768px){
-                font-size: 15px;
+                font-size: 17px;
             }
         }
     }

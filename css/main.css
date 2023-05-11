@@ -1595,9 +1595,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-  @media (min-width: 1199px) {
-    .hero_services {
-      height: 800px; } }
 
 .offer {
   width: 100%;
@@ -1626,7 +1623,7 @@
         width: 565px; } }
   .offer__text h1 {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
     text-align: center;
@@ -1638,7 +1635,7 @@
         margin-bottom: 30px; } }
     @media (min-width: 1199px) {
       .offer__text h1 {
-        font-size: 48px; } }
+        font-size: 30px; } }
   .offer__text p {
     color: #FFFFFF;
     line-height: 26px;
@@ -1648,29 +1645,30 @@
     text-align: justify; }
     @media (min-width: 768px) {
       .offer__text p {
-        font-size: 15px; } }
+        font-size: 17px; } }
 
 .renewable {
   width: 100%;
   position: relative;
   height: 100%;
   background-color: #F7C50A;
-  padding: 15px;
+  padding: 30px 15px;
   margin: auto;
-  bottom: 70px; }
+  bottom: 50px; }
   @media (min-width: 1199px) {
     .renewable {
+      bottom: 70px;
       bottom: 170px;
-      padding: 30px; } }
+      padding: 50px 30px; } }
   .renewable__title_subtitle h1 {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #000000;
     text-align: center;
-    padding-bottom: 30px; }
+    padding-bottom: 20px; }
     @media (min-width: 768px) {
       .renewable__title_subtitle h1 {
-        font-size: 36px; } }
+        font-size: 30px; } }
   .renewable__title_subtitle p {
     color: #000000;
     line-height: 26px;
@@ -1681,26 +1679,27 @@
     text-align: center; }
     @media (min-width: 768px) {
       .renewable__title_subtitle p {
-        font-size: 17px;
-        margin-bottom: 35px; } }
+        font-size: 17px; } }
   .renewable__grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px; }
+    gap: 20px; }
     @media (min-width: 768px) {
       .renewable__grid {
         grid-template-columns: repeat(2, 1fr); } }
     @media (min-width: 1199px) {
       .renewable__grid {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 50px; } }
+        grid-template-columns: repeat(4, 1fr); } }
     .renewable__grid__item {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column; }
       .renewable__grid__item__icon {
-        height: 120px; }
+        height: 90px; }
+        @media (min-width: 1199px) {
+          .renewable__grid__item__icon {
+            height: 120px; } }
       .renewable__grid__item__text p {
         color: #000000;
         line-height: 26px;
@@ -1709,27 +1708,31 @@
         font-size: 15px;
         text-align: center;
         font-weight: bold;
-        padding: 20px 0 0 0; }
+        padding: 10px 0 0 0; }
         @media (min-width: 768px) {
           .renewable__grid__item__text p {
-            font-size: 17px; } }
+            font-size: 17px;
+            padding: 20px 0 0 0; } }
 
 .our_services {
   width: 100%;
   position: relative;
   height: auto;
-  bottom: 40px; }
+  bottom: 20px; }
+  @media (min-width: 1199px) {
+    .our_services {
+      bottom: 120px; } }
   .our_services h1.title {
     color: #1b8233;
     text-align: center;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 15px;
     text-transform: uppercase; }
     @media (min-width: 768px) {
       .our_services h1.title {
         font-size: 30px;
-        margin-bottom: 30px; } }
+        margin-bottom: 50px; } }
   .our_services__fotovoltaico {
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
@@ -1755,8 +1758,7 @@
         margin-bottom: 15px; }
         @media (min-width: 768px) {
           .our_services__fotovoltaico__text h1 {
-            font-size: 30px;
-            margin-bottom: 30px; } }
+            font-size: 30px; } }
       .our_services__fotovoltaico__text p {
         color: #000000;
         font-weight: regular;
@@ -1813,8 +1815,7 @@
         margin-bottom: 15px; }
         @media (min-width: 768px) {
           .our_services__residencial__text h1 {
-            font-size: 30px;
-            margin-bottom: 30px; } }
+            font-size: 30px; } }
       .our_services__residencial__text p {
         color: #000000;
         font-weight: regular;
@@ -1875,8 +1876,7 @@
         margin-bottom: 15px; }
         @media (min-width: 768px) {
           .our_services__industria__text h1 {
-            font-size: 30px;
-            margin-bottom: 30px; } }
+            font-size: 30px; } }
       .our_services__industria__text p {
         color: #000000;
         font-weight: regular;
@@ -1918,14 +1918,14 @@
     flex-direction: column; }
   .benefit h1.title {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
     text-align: center;
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
     @media (min-width: 1199px) {
       .benefit h1.title {
-        font-size: 48px; } }
+        font-size: 30px; } }
   .benefit h1.subtitle {
     font-weight: 600;
     font-size: 17px;
@@ -1935,7 +1935,8 @@
     margin: 30px 0; }
     @media (min-width: 1199px) {
       .benefit h1.subtitle {
-        font-size: 30px; } }
+        font-size: 30px;
+        margin: 40px 0; } }
   .benefit p.subtitle {
     font-weight: regular;
     font-size: 15px;
@@ -1952,8 +1953,7 @@
     gap: 30px; }
     @media (min-width: 1199px) {
       .benefit__grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 60px; } }
+        grid-template-columns: repeat(3, 1fr); } }
     .benefit__grid__item {
       display: flex;
       align-items: center;
@@ -1987,7 +1987,6 @@
     /*text*/
     font-size: 14px;
     font-weight: 800;
-    margin-top: 17px;
     letter-spacing: 0.5px;
     padding: 12px 23px;
     color: #FFFFFF; }

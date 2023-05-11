@@ -16,14 +16,14 @@
 
     h1.title{
         font-weight: 600;
-        font-size: 30px;
+        font-size: 25px;
         color: $mikado_yellow;
         text-shadow: 2px 2px 5px black;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
 
         @media(min-width:1199px){
-            font-size: 48px;
+            font-size: 30px;
         }
 
     }
@@ -38,12 +38,12 @@
 
         @media(min-width:1199px){
             font-size: 30px;
+            margin: 40px 0;
         }
 
     }
 
     p.subtitle{
-        
         font-weight: regular;
         font-size: 15px;
         color: $white;
@@ -64,7 +64,6 @@
 
         @media(min-width:1199px){
             grid-template-columns: repeat(3, 1fr);
-            gap: 60px;
         }
 
         &__item{
@@ -112,7 +111,6 @@
         /*text*/
         font-size: 14px;
         font-weight: 800;
-        margin-top: 17px;
         letter-spacing: 0.5px;
         padding: 12px 23px;
         color: $white;
