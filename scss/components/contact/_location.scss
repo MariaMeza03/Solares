@@ -125,7 +125,7 @@
                 }
             }
 
-            p{
+            p.subtitle{
                 color: $white;
                 letter-spacing: 0.3px;
                 text-align: center;
@@ -154,6 +154,195 @@
                 width: auto;
                 margin-bottom: 0;
                 border: 1px solid $mikado_yellow;
+            }
+
+            &__input_name{
+                
+                &--active{
+                    input{
+                        border: 1px solid red;
+                        margin-bottom: 0;
+                    }
+                    
+                }
+
+                &__error{
+                    width: 100%;
+                    max-width: 471px;
+                    display: none;
+                    justify-content: flex-start;
+                    padding: 5px 0;
+                    text-align: start;
+                    font-size: 12px;                      
+                    color: red;
+            
+                    &--active{
+                        display: flex;
+                        
+                    }
+                }
+            }
+
+            &__input_email{
+                
+                &--active{
+                    input{
+                        border: 1px solid red;
+                        margin-bottom: 0;
+                    }
+                    
+                }
+
+                &__error{
+                    width: 100%;
+                    max-width: 471px;
+                    display: none;
+                    justify-content: flex-start;
+                    padding: 5px 0;
+                    text-align: start;
+                    font-size: 12px;                      
+                    color: red;
+            
+                    &--active{
+                        display: flex;
+                        
+                    }
+                }
+            }
+
+            &__input_phone{
+                
+                &--active{
+                    input{
+                        border: 1px solid red;
+                        margin-bottom: 0;
+                    }
+                    
+                }
+
+                &__error{
+                    width: 100%;
+                    max-width: 471px;
+                    display: none;
+                    justify-content: flex-start;
+                    padding: 5px 0;
+                    text-align: start;
+                    font-size: 12px;                      
+                    color: red;
+            
+                    &--active{
+                        display: flex;
+                        
+                    }
+                }
+            }
+
+            &__input_direction{
+                
+                &--active{
+                    input{
+                        border: 1px solid red;
+                        margin-bottom: 0;
+                    }
+                    
+                }
+
+                &__error{
+                    width: 100%;
+                    max-width: 471px;
+                    display: none;
+                    justify-content: flex-start;
+                    padding: 5px 0;
+                    text-align: start;
+                    font-size: 12px;                      
+                    color: red;
+            
+                    &--active{
+                        display: flex;
+                        
+                    }
+                }
+            }
+
+            &__input_nombre_cfe{
+                
+                &--active{
+                    input{
+                        border: 1px solid red;
+                        margin-bottom: 0;
+                    }
+                    
+                }
+
+                &__error{
+                    width: 100%;
+                    max-width: 471px;
+                    display: none;
+                    justify-content: flex-start;
+                    padding: 5px 0;
+                    text-align: start;
+                    font-size: 12px;                      
+                    color: red;
+            
+                    &--active{
+                        display: flex;
+                        
+                    }
+                }
+            }
+
+            &__input_number_cfe{
+                
+                &--active{
+                    input{
+                        border: 1px solid red;
+                        margin-bottom: 0;
+                    }
+                    
+                }
+
+                &__error{
+                    width: 100%;
+                    max-width: 471px;
+                    display: none;
+                    justify-content: flex-start;
+                    padding: 5px 0;
+                    text-align: start;
+                    font-size: 12px;                      
+                    color: red;
+            
+                    &--active{
+                        display: flex;
+                        
+                    }
+                }
+            }
+
+            &__textarea{
+                
+                &--active{
+                    textarea{
+                        border: 1px solid red;
+                        margin-bottom: 0;
+                    }
+                    
+                }
+
+                &__error{
+                    width: 100%;
+                    max-width: 471px;
+                    display: none;
+                    justify-content: flex-start;
+                    padding: 5px 0;
+                    text-align: start;
+                    font-size: 12px;                      
+                    color: red;
+            
+                    &--active{
+                        display: flex;
+                        
+                    }
+                }
             }
 
             &__button{
