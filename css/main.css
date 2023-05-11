@@ -2486,9 +2486,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-  @media (min-width: 1199px) {
-    .hero_contact {
-      height: 800px; } }
 
 .grid {
   width: 100%;
