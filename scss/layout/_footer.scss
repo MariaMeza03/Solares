@@ -1,19 +1,19 @@
 .footer{
 	width: 100%;
 	background-color:#1f1f1f ;
-	padding: 10px 0;
+	padding: 10px ;
 	position: absolute;
 
 
 	@media(min-width:1199px){
-		padding: 15px 0;
+		padding: 20px 0px ;
 		
 	}
 
 	h1{
 		letter-spacing: -0.05em;
 		color: $mikado_yellow;
-		line-height: 0.8em;
+		line-height: 30px;
 		text-align: center;
 		font-size: 15px;
 		font-weight: normal;

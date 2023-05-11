@@ -369,15 +369,15 @@
 .footer {
   width: 100%;
   background-color: #1f1f1f;
-  padding: 10px 0;
+  padding: 10px;
   position: absolute; }
   @media (min-width: 1199px) {
     .footer {
-      padding: 15px 0; } }
+      padding: 20px 0px; } }
   .footer h1 {
     letter-spacing: -0.05em;
     color: #F7C50A;
-    line-height: 0.8em;
+    line-height: 30px;
     text-align: center;
     font-size: 15px;
     font-weight: normal; }
@@ -694,7 +694,7 @@
       color: #FFFFFF; }
       @media (min-width: 992px) {
         .reduce_costs__text p {
-          font-size: 20px; } }
+          font-size: 17px; } }
 
 .promotion {
   width: 100%;
@@ -876,7 +876,6 @@
         align-items: center;
         justify-content: center; } }
     .idea__content__imagen {
-      background-color: #F7C50A;
       width: 100%;
       display: none; }
       @media (min-width: 1199px) {
