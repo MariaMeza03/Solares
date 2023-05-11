@@ -77,8 +77,13 @@
                     text-transform: uppercase;
     
                     @media(min-width: 992px){
-                        font-size: 70px;
+                        text-align: start;
+                        font-size: 50px;
                         line-height: 56px;
+                    }
+    
+                    @media(min-width: 1199px){
+                        font-size: 70px;
                     }
                 }
     
@@ -157,11 +162,15 @@
                     text-align: center;
                     text-transform: uppercase;
                     text-shadow: 2px 2px 5px black;
-    
+
                     @media(min-width: 992px){
                         text-align: start;
-                        font-size: 70px;
+                        font-size: 50px;
                         line-height: 56px;
+                    }
+    
+                    @media(min-width: 1199px){
+                        font-size: 70px;
                     }
                 }
     

@@ -23,7 +23,8 @@
 
         &__imagen{
             background-color: $mikado_yellow;
-            width: 70%;
+            width: 100%;
+
             display: none;
     
             @media(min-width: 1199px){

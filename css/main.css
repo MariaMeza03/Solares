@@ -502,8 +502,12 @@
         text-transform: uppercase; }
         @media (min-width: 992px) {
           .hero__form--one__text h1 {
-            font-size: 70px;
+            text-align: start;
+            font-size: 50px;
             line-height: 56px; } }
+        @media (min-width: 1199px) {
+          .hero__form--one__text h1 {
+            font-size: 70px; } }
       .hero__form--one__text p {
         font-size: 20px;
         color: #FFFFFF;
@@ -571,8 +575,11 @@
         @media (min-width: 992px) {
           .hero__form--two__text h1 {
             text-align: start;
-            font-size: 70px;
+            font-size: 50px;
             line-height: 56px; } }
+        @media (min-width: 1199px) {
+          .hero__form--two__text h1 {
+            font-size: 70px; } }
       .hero__form--two__text p {
         font-size: 20px;
         color: #FFFFFF;
@@ -779,7 +786,7 @@
       font-size: 20px;
       margin-bottom: 15px;
       text-transform: uppercase; }
-      @media (min-width: 1199px) {
+      @media (min-width: 768px) {
         .win_win__text h1 {
           font-size: 25px; } }
       @media (min-width: 1400px) {
@@ -791,7 +798,7 @@
       font-size: 17px;
       color: #272727;
       margin-bottom: 15px; }
-      @media (min-width: 1199px) {
+      @media (min-width: 768px) {
         .win_win__text h2 {
           font-size: 20px; } }
     .win_win__text p {
@@ -801,7 +808,7 @@
       text-align: center;
       font-size: 15px;
       margin-bottom: 10px; }
-      @media (min-width: 1199px) {
+      @media (min-width: 768px) {
         .win_win__text p {
           font-size: 17px; } }
     .win_win__text h4 {
@@ -809,7 +816,7 @@
       font-size: 17px;
       font-weight: 700;
       text-align: center; }
-      @media (min-width: 1199px) {
+      @media (min-width: 768px) {
         .win_win__text h4 {
           font-size: 20px; } }
     .win_win__text__button {
@@ -870,7 +877,7 @@
         justify-content: center; } }
     .idea__content__imagen {
       background-color: #F7C50A;
-      width: 70%;
+      width: 100%;
       display: none; }
       @media (min-width: 1199px) {
         .idea__content__imagen {
