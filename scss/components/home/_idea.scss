@@ -4,56 +4,64 @@
     overflow: hidden;
     background-color:$black;
     height: 100%;
+    padding: 30px 15px;
 
     @media(min-width: 1199px){
-       background-color: $white;
-       height: 100%;
+        padding: 20px 0 50px 0;
+        background-color: $white;
+        height: 100%;
     }
 
-    .container-sm{
+    &__content{
         @include flex-center-center;
-        gap: 15px;
-        padding: 15px 0;
+        gap: 20px;
 
         @media(min-width: 1199px){
-            padding: 20px 0 60px 0;
+            @include flex-center-center;
         }
-    }
 
-    &__imagen{
-        background-color: $mikado_yellow;
-        width: 100%;
-        display: none;
 
-        @media(min-width: 1199px){
-            display: block;
-        }
-    }
-
-    &__text{
-        @include flex-center-center;
-        flex-direction: column;
-        
-        h1{
-            font-size: 25px;
-            color: $mikado_yellow;
-            text-align: center;
-            padding-bottom: 15px;
-            text-transform: uppercase;
-
+        &__imagen{
+            background-color: $mikado_yellow;
+            width: 70%;
+            display: none;
+    
             @media(min-width: 1199px){
-                font-size: 30px;
+                display: block;
             }
         }
-
-        p{
-            font-size: 15px;
-            color: $mikado_yellow;
-            text-align: center;
-
-            @media(min-width: 1199px){
-                font-size: 17px;
+    
+        &__text{
+            @include flex-j-center;
+            flex-direction: column;
+            
+            h1{
+                font-size: 20px;
+                color: $mikado_yellow;
+                text-align: center;
+                padding-bottom: 15px;
+                text-transform: uppercase;
+    
+                @media(min-width: 1199px){
+                    font-size: 30px;
+                    text-align: start;
+                    color: $la_salle_green;
+                }
+            }
+    
+            p{
+                font-size: 15px;
+                color: $white;
+                text-align: center;
+    
+                @media(min-width: 1199px){
+                    font-size: 17px;
+                    text-align: start;
+                    color: $black;
+                }
             }
         }
     }
+
+
 }
