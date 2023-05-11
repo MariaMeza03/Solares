@@ -12,19 +12,15 @@
         padding-bottom: 30px;
 
           @media(min-width: 1199px){
-            padding: 60px 0;
+            padding: 50px 0;
             grid-template-columns: repeat(2, 1fr);
             gap: 60px;
         }
     }
 
     &__imagen{
-        width: 80%;
+        width: 75%;
         margin: auto;
-    
-        @media(min-width: 1199px){
-            width: 100%;
-        }
 
     }
 
@@ -33,22 +29,18 @@
         flex-direction: column;
         gap: 30px;
 
-        @media(min-width:1199px){
-            gap: 60px;
-        }
 
         &__one{
             h1{
                 color: #1b8233;
                 text-align: center;
                 font-weight: 900;
-                font-size: 20px;
+                font-size: 25px;
                 margin-bottom: 15px;
                 text-transform: uppercase;
     
                 @media(min-width:768px){
                     font-size: 30px;
-                    margin-bottom: 30px;
                 }
             }
     
@@ -58,31 +50,28 @@
                 letter-spacing: 0.3px;
                 text-align: center;
                 font-size: 15px;
-                margin-bottom: 10px;
     
                 @media(min-width:768px){
                     font-size: 17px;
-                    margin-bottom: 20px;
                 }
             }
         }
 
         &__button{
             @include flex-center-center;
-            background-color:$mikado_yellow ;
-
-            /*Text*/
+            background-color: $mikado_yellow;
+    
+            /*text*/
             font-size: 14px;
             font-weight: 800;
-            margin-top: 17px;
             letter-spacing: 0.5px;
             padding: 12px 23px;
             color: $white;
-
+    
             @media(min-width:768px){
-                font-size: 30px;
+                font-size: 20px;
             }
-
+    
             &:hover{
                 color: $white;
                 background-color:$black ;

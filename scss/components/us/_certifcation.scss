@@ -24,11 +24,6 @@
         @media(min-width:768px){
             font-size: 30px;
         }
-
-        @media(min-width:1199px){
-            font-size: 48px;
-        }
-
       
     }
 
@@ -40,18 +35,20 @@
 
         @media(min-width:1199px){
             grid-template-columns: repeat(3, 1fr);
-            gap: 0;
         }
         
         &_img{
             @include flex-center-center;
-            width: 220px;
-            height: 100%;
+            width: 60%;
             margin: auto;
-            padding: 20px;
+
+            @media(min-width:1199px){
+                width: 100%;
+            }
 
             &:hover{
-                background-color:$saffron_mango;
+                background-color:rgba(247, 197, 10, 0.30);
+                backdrop-filter: blur(10px);
             }
         }
     }
