@@ -2056,10 +2056,11 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
-    @media (min-width: 1199px) {
+    @media (min-width: 768px) {
       .instalation__grid {
         grid-template-columns: repeat(2, 1fr); } }
     .instalation__grid__text {
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -2068,6 +2069,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      background-attachment: fixed;
       padding: 30px; }
       @media (min-width: 1199px) {
         .instalation__grid__text {
@@ -2102,9 +2104,14 @@
           color: #FFFFFF;
           background-color: #000000;
           border: 1px solid #F7C50A; }
-    @media (min-width: 1199px) {
-      .instalation__grid__carousel--imagen {
-        height: 1000px !important; } }
+    .instalation__grid__carousel--imagen {
+      height: 300px !important; }
+      @media (min-width: 1199px) {
+        .instalation__grid__carousel--imagen {
+          height: 400px !important; } }
+      @media (min-width: 1400px) {
+        .instalation__grid__carousel--imagen {
+          height: 700px !important; } }
 
 .swiper_products_general {
   width: 100%;
@@ -2117,15 +2124,20 @@
     width: 100%;
     left: auto;
     right: 0;
-    bottom: 30px; }
-    @media (min-width: 1199px) {
+    bottom: 20px; }
+    @media (min-width: 768px) {
       .swiper_products_general .swiper-horizontal > .swiper-pagination-bullets, .swiper_products_general .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper_products_general .swiper-pagination-custom, .swiper_products_general .swiper-pagination-fraction {
-        width: 50%; } }
+        width: 50%;
+        bottom: 30px; } }
   .swiper_products_general .swiper-pagination-bullet {
-    width: 17px;
-    height: 17px;
+    width: 10px;
+    height: 10px;
     background-color: #FFFFFF;
     opacity: 1; }
+    @media (min-width: 1199px) {
+      .swiper_products_general .swiper-pagination-bullet {
+        width: 17px;
+        height: 17px; } }
   .swiper_products_general .swiper-pagination-bullet-active {
     background-color: #F7C50A;
     border: 1px solid #F7C50A; }
@@ -2145,8 +2157,7 @@
     gap: 15px; }
     @media (min-width: 1199px) {
       .panels .container-sm {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0; } }
+        grid-template-columns: repeat(2, 1fr); } }
   .panels__imagen {
     width: 100%; }
     @media (min-width: 1199px) {
@@ -2165,7 +2176,7 @@
       color: #1b8233;
       font-weight: 900;
       font-size: 25px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       text-transform: uppercase;
       text-align: center; }
       @media (min-width: 768px) {

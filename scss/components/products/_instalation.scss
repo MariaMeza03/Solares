@@ -10,17 +10,19 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
 
-        @media(min-width:1199px){
+        @media(min-width:768px){
             grid-template-columns: repeat(2, 1fr);
         }
 
         &__text{
+            width: 100%;
             @include flex-center-center;
             flex-direction: column;
             background-image: url('../img/products/ban_gale.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+            background-attachment:fixed;
             padding: 30px;
 
             @media(min-width:1199px){
@@ -70,9 +72,14 @@
         &__carousel{
 
             &--imagen{
+                height: 300px !important;
 
                 @media(min-width:1199px){
-                    height: 1000px !important;  
+                    height: 400px !important;  
+                }
+
+                @media(min-width:1400px){
+                    height: 700px !important;  
                 }
             }
     
@@ -97,18 +104,24 @@
             width: 100%;
             left: auto;
             right: 0;
-            bottom:30px;
+            bottom:20px;
 
-            @media(min-width:1199px){
+            @media(min-width:768px){
                 width: 50%;
+                bottom:30px;
             }
         }
 
         .swiper-pagination-bullet{
-            width: 17px;
-            height: 17px;
+            width: 10px;
+            height: 10px;
             background-color: $white;
             opacity: 1;
+
+            @media(min-width:1199px){
+                width: 17px ;
+                height: 17px;
+            }
             
         }
 
