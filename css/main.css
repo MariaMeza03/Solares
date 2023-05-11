@@ -1389,9 +1389,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-  @media (min-width: 1199px) {
-    .hero_galeria {
-      height: 800px; } }
 
 .products {
   width: 100%;
@@ -1403,7 +1400,7 @@
   padding: 30px 0; }
   @media (min-width: 1199px) {
     .products {
-      padding: 90px 0; } }
+      padding: 50px 0; } }
   .products .container-sm {
     display: flex;
     align-items: center;
@@ -1417,11 +1414,11 @@
     text-shadow: 2px 2px 5px black;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 20px;
-    margin: 0; }
+    margin: 0;
+    margin-bottom: 15px; }
     @media (min-width: 768px) {
       .products h1 {
-        font-size: 48px;
+        font-size: 30px;
         width: 80%; } }
   .products p {
     color: #FFFFFF;
@@ -1433,8 +1430,7 @@
     text-align: center; }
     @media (min-width: 768px) {
       .products p {
-        font-size: 15px;
-        margin-bottom: 20px; } }
+        font-size: 17px; } }
 
 .catalog {
   width: 100%;
@@ -1447,6 +1443,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 30px 0; }
+  @media (min-width: 1199px) {
+    .catalog {
+      padding: 50px 0; } }
   .catalog .container-sm {
     display: flex;
     align-items: center;
@@ -1460,11 +1459,10 @@
     text-shadow: 2px 2px 5px black;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 20px;
     margin: 0; }
     @media (min-width: 768px) {
       .catalog h1 {
-        font-size: 48px;
+        font-size: 30px;
         width: 80%; } }
   .catalog__buttons {
     padding-top: 30px;
