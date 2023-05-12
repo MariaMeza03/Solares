@@ -439,6 +439,9 @@
   overflow: hidden;
   position: relative;
   height: 500px; }
+  @media (min-width: 1199px) {
+    .hero {
+      height: 800px; } }
   .hero--prev {
     position: absolute;
     left: 15px;
