@@ -1128,7 +1128,7 @@
   overflow: hidden;
   position: relative;
   height: 500px;
-  background-image: url("../img/us/Nosbn.jpg");
+  background-image: url("../img/us/nosbn.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -1191,7 +1191,7 @@
   width: 100%;
   width: 100%;
   overflow: hidden;
-  background-image: url("../img/us/ban-cert.jpg");
+  background-image: url("../img/us/ban-cert.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -1299,7 +1299,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/us/banfin.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/us/banfin.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
