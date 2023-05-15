@@ -1,15 +1,14 @@
 .renewable{
     width: 100%;
 	position: relative;
-	height: 100%;
+	height: auto;
     background-color: $mikado_yellow;
     padding: 30px 15px;
     margin: auto;
     bottom: 50px;
 
     @media(min-width:1199px){
-        bottom: 70px;
-        bottom: 170px;
+        bottom: 90px;
         padding: 50px 30px;
     }
 

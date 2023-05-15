@@ -104,27 +104,26 @@
                     }
                 }
 
-                &__button{               
+                &__button{
+                    @include flex-center-center;
                     background-color: $la_salle_green;
+            
+                    /*text*/
                     font-size: 14px;
+                    font-weight: 800;
+                    margin-top: 17px;
+                    letter-spacing: 0.5px;
+                    padding: 12px 23px;
                     color: $white;
-                    font-weight: normal;
-                    padding: 15px;
-                    width: auto;
-
-                    /*Animation*/
-                    
-                    animation-name: butt;
-                    animation-duration: 2s;
-                    animation-iteration-count: initial;
-        
-                    @media(min-width:1199px){
-                        padding: 20px 40px;
+            
+                    @media(min-width:768px){
+                        font-size: 20px;
                     }
-
+            
                     &:hover{
-                        background-color: $mikado_yellow;
-                        border: 2px solid $white;
+                        color: $white;
+                        background-color:$black ;
+                        border: 1px solid $mikado_yellow;
                     }
                 }
             }
@@ -193,27 +192,26 @@
                     }
                 }
 
-                &__button{               
+                &__button{
+                    @include flex-center-center;
                     background-color: $la_salle_green;
+            
+                    /*text*/
                     font-size: 14px;
+                    font-weight: 800;
+                    margin-top: 17px;
+                    letter-spacing: 0.5px;
+                    padding: 12px 23px;
                     color: $white;
-                    font-weight: normal;
-                    padding: 15px;
-                    width: auto;
-
-                    /*Animation*/
-                    
-                    animation-name: butt;
-                    animation-duration: 2s;
-                    animation-iteration-count: initial;
-        
-                    @media(min-width:1199px){
-                        padding: 20px 40px;
+            
+                    @media(min-width:768px){
+                        font-size: 20px;
                     }
-
+            
                     &:hover{
-                        background-color: $mikado_yellow;
-                        border: 2px solid $white;
+                        color: $white;
+                        background-color:$black ;
+                        border: 1px solid $mikado_yellow;
                     }
                 }
             }

@@ -522,22 +522,24 @@
             font-size: 40px;
             line-height: 56px; } }
       .hero__form--one__text__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #1B8233;
+        /*text*/
         font-size: 14px;
-        color: #FFFFFF;
-        font-weight: normal;
-        padding: 15px;
-        width: auto;
-        /*Animation*/
-        animation-name: butt;
-        animation-duration: 2s;
-        animation-iteration-count: initial; }
-        @media (min-width: 1199px) {
+        font-weight: 800;
+        margin-top: 17px;
+        letter-spacing: 0.5px;
+        padding: 12px 23px;
+        color: #FFFFFF; }
+        @media (min-width: 768px) {
           .hero__form--one__text__button {
-            padding: 20px 40px; } }
+            font-size: 20px; } }
         .hero__form--one__text__button:hover {
-          background-color: #F7C50A;
-          border: 2px solid #FFFFFF; }
+          color: #FFFFFF;
+          background-color: #000000;
+          border: 1px solid #F7C50A; }
   .hero__form--two {
     width: 100%;
     height: 100%;
@@ -596,22 +598,24 @@
             font-size: 40px;
             line-height: 56px; } }
       .hero__form--two__text__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #1B8233;
+        /*text*/
         font-size: 14px;
-        color: #FFFFFF;
-        font-weight: normal;
-        padding: 15px;
-        width: auto;
-        /*Animation*/
-        animation-name: butt;
-        animation-duration: 2s;
-        animation-iteration-count: initial; }
-        @media (min-width: 1199px) {
+        font-weight: 800;
+        margin-top: 17px;
+        letter-spacing: 0.5px;
+        padding: 12px 23px;
+        color: #FFFFFF; }
+        @media (min-width: 768px) {
           .hero__form--two__text__button {
-            padding: 20px 40px; } }
+            font-size: 20px; } }
         .hero__form--two__text__button:hover {
-          background-color: #F7C50A;
-          border: 2px solid #FFFFFF; }
+          color: #FFFFFF;
+          background-color: #000000;
+          border: 1px solid #F7C50A; }
 
 .swiper {
   width: 100%;
@@ -753,7 +757,7 @@
     margin-top: 17px;
     letter-spacing: 0.5px;
     padding: 12px 23px;
-    color: #FFFFFF; }
+    color: #000000; }
     @media (min-width: 768px) {
       .promotion__button {
         font-size: 20px; } }
@@ -834,7 +838,7 @@
       margin-top: 17px;
       letter-spacing: 0.5px;
       padding: 12px 23px;
-      color: #FFFFFF; }
+      color: #000000; }
       @media (min-width: 768px) {
         .win_win__text__button {
           font-size: 20px; } }
@@ -1109,7 +1113,7 @@
       margin-top: 17px;
       letter-spacing: 0.5px;
       padding: 12px 23px;
-      color: #FFFFFF; }
+      color: #000000; }
       @media (min-width: 768px) {
         .sale__text__button {
           font-size: 20px; } }
@@ -1250,7 +1254,7 @@
       margin: auto; }
       @media (min-width: 1199px) {
         .certification__grid_img {
-          width: 100%; } }
+          width: 60%; } }
       .certification__grid_img:hover {
         background-color: rgba(247, 197, 10, 0.3);
         backdrop-filter: blur(10px); }
@@ -1309,7 +1313,7 @@
       font-weight: 800;
       letter-spacing: 0.5px;
       padding: 12px 23px;
-      color: #FFFFFF; }
+      color: #000000; }
       @media (min-width: 768px) {
         .goal__text__button {
           font-size: 20px; } }
@@ -1660,15 +1664,14 @@
 .renewable {
   width: 100%;
   position: relative;
-  height: 100%;
+  height: auto;
   background-color: #F7C50A;
   padding: 30px 15px;
   margin: auto;
   bottom: 50px; }
   @media (min-width: 1199px) {
     .renewable {
-      bottom: 70px;
-      bottom: 170px;
+      bottom: 90px;
       padding: 50px 30px; } }
   .renewable__title_subtitle h1 {
     font-weight: 600;
@@ -1727,11 +1730,7 @@
 .our_services {
   width: 100%;
   position: relative;
-  height: auto;
-  bottom: 20px; }
-  @media (min-width: 1199px) {
-    .our_services {
-      bottom: 120px; } }
+  height: auto; }
   .our_services h1.title {
     color: #1b8233;
     text-align: center;
@@ -1921,6 +1920,9 @@
   background-position: center;
   background-attachment: fixed;
   padding: 30px 0; }
+  @media (min-width: 1199px) {
+    .benefit {
+      padding: 50px 0; } }
   .benefit .container-sm {
     display: flex;
     align-items: center;
@@ -1941,12 +1943,10 @@
     font-size: 17px;
     color: #F7C50A;
     text-shadow: 2px 2px 5px black;
-    text-align: center;
-    margin: 30px 0; }
+    text-align: center; }
     @media (min-width: 1199px) {
       .benefit h1.subtitle {
-        font-size: 30px;
-        margin: 40px 0; } }
+        font-size: 30px; } }
   .benefit p.subtitle {
     font-weight: regular;
     font-size: 15px;
@@ -1999,7 +1999,7 @@
     font-weight: 800;
     letter-spacing: 0.5px;
     padding: 12px 23px;
-    color: #FFFFFF; }
+    color: #000000; }
     @media (min-width: 768px) {
       .benefit__button {
         font-size: 20px; } }
@@ -2269,10 +2269,10 @@
             grid-template-columns: repeat(2, 1fr);
             margin: 0 0 0 auto;
             width: 100%;
-            height: 570px; } }
+            height: 400px; } }
         @media (min-width: 1700px) {
           .distributor__carousel__slide__imagen {
-            height: 800px; } }
+            height: 550px; } }
       .distributor__carousel__slide__text {
         width: 70%;
         margin: auto; }
@@ -2313,7 +2313,7 @@
     font-weight: 800;
     letter-spacing: 0.5px;
     padding: 12px 23px;
-    color: #FFFFFF;
+    color: #000000;
     width: 100%;
     margin: 30px auto 0 auto; }
     @media (min-width: 350px) {
@@ -2758,7 +2758,7 @@
         margin-top: 17px;
         letter-spacing: 0.5px;
         padding: 12px 23px;
-        color: #FFFFFF;
+        color: #000000;
         margin: auto; }
         @media (min-width: 768px) {
           .contact__contact__form__button {
