@@ -441,7 +441,7 @@
   .hero__form--one {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/home/Banner.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/home/Banner.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -515,7 +515,7 @@
   .hero__form--two {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/home/Hotel.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/home/Hotel.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -680,7 +680,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/home/para3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/home/para3.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -896,7 +896,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  background-image: url("../img/home/fondo.jpg");
+  background-image: url("../img/home/fondo.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
