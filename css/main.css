@@ -1368,7 +1368,7 @@
   overflow: hidden;
   position: relative;
   height: 500px;
-  background-image: url("../img/gallery/galb.jpg");
+  background-image: url("../img/gallery/galb.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -1420,7 +1420,7 @@
   overflow: hidden;
   position: relative;
   height: 100%;
-  background-image: url("../img/gallery/Bangal.jpg");
+  background-image: url("../img/gallery/bangal.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
