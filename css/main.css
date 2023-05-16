@@ -1986,7 +1986,7 @@
   overflow: hidden;
   position: relative;
   height: 500px;
-  background-image: url("../img/products/banner_productos.jpg");
+  background-image: url("../img/products/banner_productos.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -2041,7 +2041,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      background-image: url("../img/products/ban_gale.jpg");
+      background-image: url("../img/products/ban_gale.webp");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
