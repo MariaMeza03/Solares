@@ -2176,7 +2176,7 @@
   overflow: hidden;
   position: relative;
   height: 500px;
-  background-image: url("../img/distributor/Banner-dis.jpg");
+  background-image: url("../img/distributor/Banner-dis.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -2186,7 +2186,7 @@
   height: 100%;
   position: relative;
   background-color: #000000;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/distributor/Fondo-slide.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/distributor/Fondo-slide.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2422,7 +2422,7 @@
   width: 100%;
   height: 400px;
   position: relative;
-  background-image: url("../img/distributor/parallax-final.jpg");
+  background-image: url("../img/distributor/parallax-final.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
