@@ -1,7 +1,7 @@
 <?php   		
                 var_dump($_POST);
 				//Destinatario
-				$mail_destinatario = 'mmeza@licorne.mx';
+				$mail_destinatario = 'contacto@yanopagoluz.mx';
 				$subject = 'Solicitud Formulario Solares Energia';
 				$headers .= "From: ".$_POST['email']. "\r\n";
                 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
